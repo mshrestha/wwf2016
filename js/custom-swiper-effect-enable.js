@@ -20,7 +20,7 @@ var swiper = new Swiper('.swiper-container', {
       slideShadows : false,
     },
   touchEventsTarget: 'container',
-  /*onSlideChangeStart(swiper) {
+  onSlideChangeStart(swiper) {
     // console.log('changed');
     $('.swiper-pagination-bullet').removeClass('swiper-pagination-bullet-active');
 
@@ -33,7 +33,7 @@ var swiper = new Swiper('.swiper-container', {
     make_custom_pagination_active('water');
     make_custom_pagination_active('communications');
     make_custom_pagination_active('financial');
-  }*/
+  }
 });
 
 function make_custom_pagination_active(swiper_slide_class) {
