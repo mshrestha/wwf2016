@@ -35,3 +35,9 @@ var swiper = new Swiper('.swiper-container', {
     make_custom_pagination_active('financial');
   }*/
 });
+
+function make_custom_pagination_active(swiper_slide_class) {
+  if( $('.swiper-slide-active').hasClass('slide-'+swiper_slide_class) ) {
+    $('.swiper-pagination-bullet.menu-icon-'+swiper_slide_class).addClass('swiper-pagination-bullet-active');
+  }
+}
