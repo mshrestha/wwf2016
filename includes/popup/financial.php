@@ -1,5 +1,5 @@
 
-    	<div id="financial-popup" class="popup-wrap " style="background-color: rgb(6, 35, 43) /*#b2d4dd*/; height: 100%; width: 100%; position: fixed;top: 0; left: 0; z-index: 999;">
+    	<div id="financial-popup" class="popup-wrap " style="background-color: #b2d4dd; height: 100%; width: 100%; position: fixed;top: 0; left: 0; z-index: 999;">
             <?php
             popup_navigation();
             ?>
