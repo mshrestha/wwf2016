@@ -22,17 +22,7 @@ var swiper = new Swiper('.swiper-container', {
   touchEventsTarget: 'container',
   onSlideChangeStart(swiper) {
     // console.log('changed');
-    $('.swiper-pagination-bullet').removeClass('swiper-pagination-bullet-active');
-
-    if( $('.swiper-slide-active').hasClass('slide-wildlife') ) {
-      $('.swiper-pagination-bullet.menu-icon-wildlife').addClass('swiper-pagination-bullet-active');
-    }
-    make_custom_pagination_active('wildlife');
-    make_custom_pagination_active('forests');
-    make_custom_pagination_active('climate-change');
-    make_custom_pagination_active('water');
-    make_custom_pagination_active('communications');
-    make_custom_pagination_active('financial');
+    //trigger_make_custom_pagination_active();//doesn't need this now - added in swiper.modified.js
   }
 });
 

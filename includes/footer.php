@@ -1,7 +1,27 @@
     <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js'></script> -->
     <script src='js/vendor/TweenMax.min.js'></script>
     <!-- Swiper JS -->
-    <script src="vendor/Swiper-master/dist/js/swiper.min.js"></script>
+    <script type="text/javascript">
+    	function make_custom_pagination_active(swiper_slide_class) {
+		  if( $('.swiper-slide-active').hasClass('slide-'+swiper_slide_class) ) {
+		    $('.swiper-pagination-bullet.menu-icon-'+swiper_slide_class).addClass('swiper-pagination-bullet-active');
+		  }
+		}
+
+		function trigger_make_custom_pagination_active() {
+			$('.swiper-pagination-bullet').removeClass('swiper-pagination-bullet-active');
+		    // if( $('.swiper-slide-active').hasClass('slide-wildlife') ) {
+		    //   $('.swiper-pagination-bullet.menu-icon-wildlife').addClass('swiper-pagination-bullet-active');
+		    // }
+		    make_custom_pagination_active('wildlife');
+		    make_custom_pagination_active('forests');
+		    make_custom_pagination_active('climate-change');
+		    make_custom_pagination_active('water');
+		    make_custom_pagination_active('communications');
+		    make_custom_pagination_active('financial');
+	    }
+    </script>
+    <script src="vendor/Swiper-master/dist/js/swiper.modified.js"></script>
     <!-- <script src="../dist/js/swiper.min.js"></script> -->
 
     <!-- custom scrollbar plugin -->
