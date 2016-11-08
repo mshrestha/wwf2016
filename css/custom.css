@@ -334,6 +334,30 @@ body.popupAcitve .swiper-slide-active{
 	.left-padding{
 		padding-left: 0;
 	}
+	ul.menu-share-this {
+	    position: absolute;
+	    top: 19px;
+	    right: 80px;
+	    height: 30px;
+	}
+
+	ul.menu-share-this li ul {
+	    top: 1px;
+	    bottom: auto;
+	    right: 27px;
+	    width: 155px;
+	}
+
+	ul.menu-share-this li ul li {
+	    float: left;
+	    margin-left: 10px;
+	}
+	span.swiper-pagination-bullet, span.swiper-pagination-bullet a{
+		color: #FFF;
+		font-weight: normal;
+		font-size: 15px;
+		font-family: 'Open Sans', sans-serif;
+	}
 }
 @media(min-width:768px){}
 @media(min-width:992px){}

@@ -66,50 +66,59 @@
 
 			<div class="visible-sm visible-xs sm-menu-toggle"><span class="line1"></span> <span class="line2"></span> <span class="line3"></span></div>
 			<div class="hidden-lg hidden-md sm-pagination swiper-pagination custom-pagination">
-	        	<span class="swiper-pagination-bullet menu-icon-message">	        		
+	        	<span class="swiper-pagination-bullet menu-icon-message">
 			      		<img src="img/icons/icon-message.png" alt="" />
+			      		Message
 			      		<span class="icon-border"></span>		      		
 		      	</span>
 	        	<span class="swiper-pagination-bullet menu-icon-wwf-nepal">	        			        		
 			      		<img src="img/icons/icon-nepal.png" alt="" />
+			      		WWF Nepal
 			      		<span class="icon-border"></span>		      		
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-wildlife">
 		        	<a href="#slide-wildlife">
 			      		<img src="img/icons/icon-wildlife.png" alt="" />
+			      		Wildlife
 			      		<span class="icon-border"></span>
 			      	</a>
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-forests">
 		        	<a href="#slide-forests">
 			      		<img src="img/icons/icon-forest.png" alt="" />
+			      		Forest
 			      		<span class="icon-border"></span>
 			      	</a>
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-climate-change">
 		        	<a href="#slide-climate-change">
 			      		<img src="img/icons/icon-climate-change.png" alt="" />
+			      		Climate Change
 			      		<span class="icon-border"></span>
 			      	</a>
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-water">
 		        	<a href="#slide-water">
 			      		<img src="img/icons/icon-water.png" alt="" />
+			      		Water
 			      		<span class="icon-border"></span>
 			      	</a>
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-policy">		        	
 			      		<img src="img/icons/icon-policy.png" alt="" />
+			      		Policy
 			      		<span class="icon-border"></span>			      	
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-communications">
 		        	<a href="#slide-communications">
 			      		<img src="img/icons/icon-communication.png" alt="" />
+			      		Communications
 			      		<span class="icon-border"></span>
 			      	</a>
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-financial">		        	
 			      		<img src="img/icons/icon-financials.png" alt="" />
+			      		Financial
 			      		<span class="icon-border"></span>			      	
 		      	</span>
 	      	</div>
