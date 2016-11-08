@@ -106,13 +106,15 @@ a:hover {
 .inner-title.v-middle{
 	text-align: left;
 }
-.box.curve-bg{
+.box.curve-bg,
+#wildlife-main-popup .section-intro {
 	background: url('../img/curve-line-pattern.png') repeat;
 }
 .box.green-box{
 	background-color: #007931;
 }
-.box.light-green-box{
+.box.light-green-box,
+#wildlife-main-popup .section-intro {
 	background-color: #93c789;
 }
 .box.blue-box{
@@ -285,8 +287,8 @@ a:hover {
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
-	padding-top: 114px;
-	padding-bottom: 114px;
+	padding: 20px;
+	position: relative;
 }
 .popup-wrap p{
 	font-family: Georgia, serif;
@@ -321,8 +323,8 @@ a:hover {
 .popup-navigation {
     line-height: 27px;
 
-    top: 40px;
-    right: 16px;
+    top: 30px;
+    right: 30px;
 
     position: fixed;
     z-index: 9999;
@@ -496,10 +498,10 @@ body.popupAcitve .swiper-slide-active{
 
 /* Infographics */
 .infographics {
-  width: 45%;
+  width: 50%;
   position: absolute;
   right: 16px;
-  background: #8dc63f;
+  /*background: #8dc63f;*/
 }
 .infographics-widget {
   padding: 10px 10px 0 20px;
@@ -507,14 +509,21 @@ body.popupAcitve .swiper-slide-active{
 .infographics-widget p {
   font-size: 12px;
 }
+
 .infographics-widget .widget-box {
   margin-bottom: 20px;
   margin-right: 10px;
   margin-top: 20px;
 }
+.infographics-widget .widget-icon {
+    width: 110px;
+    display: inline-block;
+    float: left;
+}
 .infographics-widget .widget-title {
   font-size: 40px;
   line-height: 40px;
+  margin-left: 110px;
 }
 .infographics-widget .widget-title span {
 }
@@ -523,11 +532,13 @@ body.popupAcitve .swiper-slide-active{
   display: block;
   line-height: 20px;
   text-transform: uppercase;
-  min-height: 60px; /* for 3 line */
+  min-height: 40px; /* for 2 line */
 }
 .infographics .infographics-widget .widget-icon img {
-	/* width: 64px; */
-	height: 64px;
+	/* width: 64px;
+	height: 64px; */
+	max-width: 90px;
+	max-height: 64px;
 }
 .icon-txt h2 {
     font-size: 27px;
@@ -615,4 +626,26 @@ g.circle-arrow circle{
 	-ms-transform-origin: center;
 	-o-transform-origin: center;
 	transform-origin: center;
+}
+
+/* Article design absolute */
+.section-intro {
+	background: #000;
+	padding: 20px 20px 10px;
+}
+.section-intro h1 {
+	margin-top: 0;
+}
+.section-absolute {
+	position: absolute;
+	left: 30px;
+	top: 70px;
+}
+.section-right {
+	left: auto;
+	right: 30px;
+}
+.section-bottom {
+	top: auto;
+	bottom: 30px;
 }

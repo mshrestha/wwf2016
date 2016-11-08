@@ -23,7 +23,7 @@ $(window).resize(function() {
 // }
 $(document).ready(function() {		
 	//initialize all number animate with 0
-	$('.numbAni').text('0');
+	//$('.numbAni').text('0');
 
 	$('.window-height').height($(window).height());
 
@@ -151,7 +151,7 @@ function animateNumber() {
 	if( $('.popup-wrap#wildlife-zero-poaching-popup').hasClass('popup-active') ) {
     zeroPoachingnumbers();
   } else {
-    $('.numbAni').text('0');
+    //$('.numbAni').text('0');
   }	
 }
 
