@@ -51,9 +51,13 @@ $(document).ready(function() {
 		// tgg-popup popup-wrap popup-close
 		// tl.to($('#'+currentId+'-popup'), 1, {display: 'block', top: 0, opacity:1});
 
-		tl.to($('#wildlife-main-popup'), 0, {scrollTo:{y: "#wildlife-snow-leopard-collaring-popup"}, ease:Power2.easeOut});
 		tl.to($('.swiper-container .swiper-slide-active'), 2, {ease: Power4.easeOut, y: '-200px', opacity:0});//y = -200px
+		// tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
+		tl.to($('#wildlife-rhino-translocation-popup'), 0, {opacity:0}, '0');
 		tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
+		
+		tl.to($('#wildlife-main-popup'), 0, {scrollTo:{y: "#wildlife-snow-leopard-collaring-popup"}, ease:Power2.easeOut});
+		tl.to($('#wildlife-rhino-translocation-popup'), 0, {opacity:1}, '4.5');
 		// tl.to(window, 2, {scrollTo:{y:"#someID", offsetY:50}});
 
 		// tl.fromTo(introContent, 1, {css: {top: "50px", opacity: 0}}, {css:{top: "0px", opacity: 1}});
