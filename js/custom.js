@@ -53,11 +53,15 @@ $(document).ready(function() {
 
 		tl.to($('.swiper-container .swiper-slide-active'), 2, {ease: Power4.easeOut, y: '-200px', opacity:0});//y = -200px
 		// tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
-		tl.to($('#wildlife-rhino-translocation-popup'), 0, {opacity:0}, '0');
+		tl.to($('.article-section').not('#'+article_location), 0, {opacity:0}, '0');
 		tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
 		
-		tl.to($('#wildlife-main-popup'), 0, {scrollTo:{y: "#wildlife-snow-leopard-collaring-popup"}, ease:Power2.easeOut});
-		tl.to($('#wildlife-rhino-translocation-popup'), 0, {opacity:1}, '4.5');
+		//view particular section of same popup
+		var article_location = $(this).attr('href');
+		console.log(article_location);
+
+		tl.to($('#'+currentId+'-popup'), 0, {scrollTo:{y: "#"+article_location}, ease:Power2.easeOut});
+		tl.to($('.article-section'), 0, {opacity:1}, '4.5');
 		// tl.to(window, 2, {scrollTo:{y:"#someID", offsetY:50}});
 
 		// tl.fromTo(introContent, 1, {css: {top: "50px", opacity: 0}}, {css:{top: "0px", opacity: 1}});
@@ -72,14 +76,6 @@ $(document).ready(function() {
 		setTimeout(function() {
 			animateNumber();
 		}, 2000);
-
-		//view particular section of same popup
-		var article_location = $(this).attr('href');
-		setTimeout(function() {
-			//goToByScroll(article_location);
-		}, 500);
-		
-		console.log(article_location);
     
 	});
 
