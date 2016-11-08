@@ -3,13 +3,31 @@ $(window).resize(function() {
 	// var slideWidth = winWidth - 30;
 	// $('.swiper-slide').width(slideWidth);
 });
+function goToByScroll(id){
+	console.log(id);
+    // Remove "link" from the ID
+    //id = id.replace("link", "");
+    
+    // Scroll
+    var scrollTop = 0;
+    console.log(scrollTop);
+    scrollTop = $("#"+id).offset().top;
+    console.log(scrollTop);
+    scrollTop = scrollTop - 99;//dont know why it is showing little upwards
+    console.log(scrollTop);
+
+    $('.popup-wrap#wildlife-main-popup').animate({//
+        //scrollTop: $("#"+id).offset().top
+        scrollTop: scrollTop
+    }, 0);
+}
 $(document).ready(function() {		
 	//initialize all number animate with 0
 	$('.numbAni').text('0');
 
 	$('.window-height').height($(window).height());
 
-	var tl = new TimelineMax();
+	//var tl = new TimelineMax();
 	// var introContent = $('.section-intro');
 	var animateGroup = $('.animate-visible');
 	// tl.to(animateGroup, 0, {ease: Power4.easeInOut, y: '50px', opacity:0}, '0');
@@ -32,7 +50,7 @@ $(document).ready(function() {
 
 		// tgg-popup popup-wrap popup-close
 		// tl.to($('#'+currentId+'-popup'), 1, {display: 'block', top: 0, opacity:1});
-		tl.to($('.swiper-container .swiper-slide-active'), 2, {ease: Power4.easeOut, y: '-200px', opacity:0});
+		tl.to($('.swiper-container .swiper-slide-active'), 2, {ease: Power4.easeOut, y: '-200px', opacity:0});//y = -200px
 		tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
 		// tl.fromTo(introContent, 1, {css: {top: "50px", opacity: 0}}, {css:{top: "0px", opacity: 1}});
 		// tl.to(introContent, 2, {ease: Expo.easeOut, y: '0px', opacity:1}, '1.6');
@@ -46,6 +64,14 @@ $(document).ready(function() {
 		setTimeout(function() {
 			animateNumber();
 		}, 2000);
+
+		//view particular section of same popup
+		var article_location = $(this).attr('href');
+		setTimeout(function() {
+			//goToByScroll(article_location);
+		}, 500);
+		
+		console.log(article_location);
     
 	});
 
@@ -65,7 +91,7 @@ $(document).ready(function() {
 		// tl.to(popup, 1, {display: 'none', opacity: 0});
 		// tl.to($('.swiper-container .swiper-slide-active'), 1, {top: 0, opacity:1}, '0');
 		tl.to($('.swiper-container .swiper-slide-active'), 2, {ease: Power4.easeOut, y: '0', opacity:1}, '1.5');
-		// tl.to(closeBtn, 1, {ease: Power4.easeInOut, y: '-10px', opacity:0, display: 'none'}, '0.2');
+		tl.to(closeBtn, 1, {ease: Power4.easeInOut, y: '-10px', opacity:0, display: 'none'}, '0.2');
 		// tl.to(popupNav, 1, {ease: Power4.easeInOut, y: '-10px', opacity:0, display: 'none'}, '0.2');
 		// tl.to($('.animate-visible'), 0, {ease: Power4.easeInOut, y: '0px', opacity:0, display: 'none'}, '3');
 	});

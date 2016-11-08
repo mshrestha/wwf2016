@@ -186,17 +186,23 @@
 
   	<!-- popup slides -->
   	<div class="popup-close"><span class="icon-cross"></span></div>
+	  	<?php
+	    popup_navigation();
+	    ?>
 
 		<?php include('includes/popup/wwf-nepal.php');?>
 		<?php include('includes/popup/message.php');?>
 		<?php include('includes/popup/policy.php');?>
 		<?php include('includes/popup/financial.php');?>
 
-		<?php include('includes/popup/wildlife-rhino-translocation.php');?>
-		<?php include('includes/popup/wildlife-snow-leopard-collaring.php');?>
-		<?php include('includes/popup/wildlife-zero-poaching.php');?>
-		<?php include('includes/popup/wildlife-swamp-deer-translocation.php');?>
-		<?php include('includes/popup/wildlife-reducing-human-wildlife-conflict.php');?>
+		<?php 
+		include('includes/popup/wildlife-main.php');
+		/*include('includes/popup/wildlife-rhino-translocation.php');
+		include('includes/popup/wildlife-snow-leopard-collaring.php');
+		include('includes/popup/wildlife-zero-poaching.php');
+		include('includes/popup/wildlife-swamp-deer-translocation.php');
+		include('includes/popup/wildlife-reducing-human-wildlife-conflict.php');*/
+		?>
 
 		<?php include('includes/popup/forests-habitat-management.php');?>
 		<?php include('includes/popup/forests-corridors-management.php');?>

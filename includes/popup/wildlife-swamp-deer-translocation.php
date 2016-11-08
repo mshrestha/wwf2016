@@ -1,10 +1,5 @@
 
-    	<div id="wildlife-swamp-deer-translocation-popup" class="popup-wrap " style="background-image: url('img/wildlife/swamp-deer-translocation.jpg'); height: 100%; width: 100%; position: fixed;top: 0; left: 0; z-index: 999;">
-            <?php
-            $popup_wildlife_section_current = 3;
-            
-            popup_navigation($popup_wildlife_section[$popup_wildlife_section_current-1], $popup_wildlife_section[$popup_wildlife_section_current+1]);
-            ?>
+    	<div id="wildlife-swamp-deer-translocation-popup" class="article-section" style="background-image: url('img/wildlife/swamp-deer-translocation.jpg'); height: 100%; width: 100%;top: 0; left: 0; z-index: 999;">            
     		<div class="container-fluid fluid-fixed">
     			<div class="col-sm-6 col-md-5 col-sm-offset-1">
     				<div class="section-intro content-txt">

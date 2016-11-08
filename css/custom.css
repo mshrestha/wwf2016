@@ -161,7 +161,8 @@ a:hover {
 }
 .box-wrap a{
 	color: #FFF;
-	display: block;
+	display: inline-block;
+	width: 100%;
 }
 .rm-col-padding .box-g{
 	padding-right: 6px;
@@ -266,17 +267,26 @@ a:hover {
 .popup-wrap{
 	background-size: cover;
 	background-position: center center;
+	/*
 	padding-top: 114px;
-	padding-bottom: 114px;
-	color: #FFF;
-	height: 100%;
+	padding-bottom: 114px;*/
 	overflow: auto;
+	color: #FFF;
+	height: 100%;	
 	display: none;
 	-webkit-transform: translateY(100px);
 	-ms-transform: translateY(100px);
 	-o-transform: translateY(100px);
 	transform: translateY(100px);
 	opacity: 0;
+}
+.article-section {
+	background-color: #000;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 114px;
+	padding-bottom: 114px;
 }
 .popup-wrap p{
 	font-family: Georgia, serif;
