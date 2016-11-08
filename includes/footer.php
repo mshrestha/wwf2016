@@ -43,12 +43,26 @@
 
     <!-- Initialize Swiper -->
     <?php 
+
+    	if (isset($_SERVER['HTTP_USER_AGENT'])) {
+		    $agent = $_SERVER['HTTP_USER_AGENT'];
+		}
+		if (strlen(strstr($agent, 'Firefox')) > 0) {
+		    $browser = 'firefox';
+		}
+
     	$isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad');
     	if ($isiPad) {
     ?>
     	<!-- for ipad and fixefox -->
     	<script src="js/custom-swiper-effect-disable.js"></script>
-    <?php } else { ?>
+    <?php }
+    elseif ($browser == 'firefox') {
+    ?>
+    	<!-- for ipad and fixefox -->
+    	<script src="js/custom-swiper-effect-disable.js"></script>
+    <?php }
+     else { ?>
 	    <!-- for other browser -->
 	    <script src="js/custom-swiper-effect-enable.js"></script>
     <?php } ?>
