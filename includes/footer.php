@@ -1,5 +1,6 @@
     <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js'></script> -->
-    <script src='js/vendor/TweenMax.min.js'></script>
+    <script src='js/vendor/greensock-js/src/minified/TweenMax.min.js'></script>
+    <script src='js/vendor/greensock-js/src/minified/plugins/ScrollToPlugin.min.js'></script>
     <!-- Swiper JS -->
     <script type="text/javascript">
     	function make_custom_pagination_active(swiper_slide_class) {
