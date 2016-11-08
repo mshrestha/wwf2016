@@ -3,24 +3,24 @@ $(window).resize(function() {
 	// var slideWidth = winWidth - 30;
 	// $('.swiper-slide').width(slideWidth);
 });
-function goToByScroll(id){
-	console.log(id);
-    // Remove "link" from the ID
-    //id = id.replace("link", "");
+// function goToByScroll(id){
+// 	console.log(id);
+//     // Remove "link" from the ID
+//     //id = id.replace("link", "");
     
-    // Scroll
-    var scrollTop = 0;
-    console.log(scrollTop);
-    scrollTop = $("#"+id).offset().top;
-    console.log(scrollTop);
-    scrollTop = scrollTop - 99;//dont know why it is showing little upwards
-    console.log(scrollTop);
+//     // Scroll
+//     var scrollTop = 0;
+//     console.log(scrollTop);
+//     scrollTop = $("#"+id).offset().top;
+//     console.log(scrollTop);
+//     scrollTop = scrollTop - 99;//dont know why it is showing little upwards
+//     console.log(scrollTop);
 
-    $('.popup-wrap#wildlife-main-popup').animate({//
-        //scrollTop: $("#"+id).offset().top
-        scrollTop: scrollTop
-    }, 0);
-}
+//     $('.popup-wrap#wildlife-main-popup').animate({//
+//         //scrollTop: $("#"+id).offset().top
+//         scrollTop: scrollTop
+//     }, 0);
+// }
 $(document).ready(function() {		
 	//initialize all number animate with 0
 	$('.numbAni').text('0');
@@ -50,8 +50,12 @@ $(document).ready(function() {
 
 		// tgg-popup popup-wrap popup-close
 		// tl.to($('#'+currentId+'-popup'), 1, {display: 'block', top: 0, opacity:1});
+
+		tl.to($('#wildlife-main-popup'), 0, {scrollTo:{y: "#wildlife-snow-leopard-collaring-popup"}, ease:Power2.easeOut});
 		tl.to($('.swiper-container .swiper-slide-active'), 2, {ease: Power4.easeOut, y: '-200px', opacity:0});//y = -200px
 		tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
+		// tl.to(window, 2, {scrollTo:{y:"#someID", offsetY:50}});
+
 		// tl.fromTo(introContent, 1, {css: {top: "50px", opacity: 0}}, {css:{top: "0px", opacity: 1}});
 		// tl.to(introContent, 2, {ease: Expo.easeOut, y: '0px', opacity:1}, '1.6');
 		// tl.to(currentContent, 2, {ease: Power4.easeOut, y: '0px', opacity:1, display: 'block'}, '1.5');
