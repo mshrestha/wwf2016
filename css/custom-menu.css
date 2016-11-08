@@ -161,7 +161,7 @@ ul.menu-share-this li ul li a.icon-facebook {
     padding-left: 20px;
     display: block;
     opacity: 1;
-    background: #a6d672;
+    background: transparent;
     float: left;
     height: 50px;
     text-align: left;
@@ -193,7 +193,7 @@ ul.menu-share-this li ul li a.icon-facebook {
   top: 70px;
   max-width: 410px;
   right: 32px;
-  background: #a6d672;
+  background: #709448;
 }
 .hidden-lg.hidden-md.sm-pagination.swiper-pagination.custom-pagination.on {
     
