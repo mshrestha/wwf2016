@@ -22,7 +22,7 @@
 		                		</div> <!-- /.col-sm-6 -->
 		                		<div class="col-sm-6">
 		                			<div class="box-container left-padding">
-		                				<a href="#slide-communications" class="hover-overlay orange">
+		                				<a href="#slide-communications" class="hover-overlay brown">
 			                				<div class="col-sm-12 women box box-3 box-title box-communication" style="background-image: url('img/women-working.jpg');">
 			                						<div class="inner-title">Communication</div>
 					                		</div>
@@ -31,7 +31,7 @@
 		                		</div>
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
-		                				<a href="#slide-climate-change" class="hover-overlay yellow">
+		                				<a href="#slide-climate-change" class="hover-overlay pink">
 			                				<div class="col-sm-12 box box-4 box-title box-climate-change" style="background-image: url('img/cats.jpg');">
 			                					<div class="inner-title">Climate Change</div>
 					                		</div>
@@ -42,7 +42,7 @@
 		                	<div class="col-sm-6 box-g box-g-ui-2" data-swiper-parallax="-200">
 		                		<div class="col-sm-7">
 		                			<div class="box-container">
-				                		<a href="#slide-wildlife" class="hover-overlay black">
+				                		<a href="#slide-wildlife" class="hover-overlay light-green">
 					                		<div class="col-sm-12 box-title box box-1 box-wildlife" style="background-image: url('img/wildlife.jpg');">
 					                			<div class="inner-title center">Wildlife</div>
 					                		</div>
@@ -51,8 +51,8 @@
 		                		</div> <!-- /.col-sm-6 -->
 		                		<div class="col-sm-5">
 		                			<div class="box-container left-padding">
-				                		<a href="#" class="hover-overlay green popup-trigger" id="financial">
-					                		<div class="col-sm-12 box-title box box-2 drk-green-box box-financials">
+				                		<a href="#" class="hover-overlay purple popup-trigger" id="financial">
+					                		<div class="col-sm-12 box-title box box-2 purple-box box-financials">
 						                		<div class="inner-title">FINANCIAL</div>
 						                	</div>
 				                		</a>
@@ -62,7 +62,7 @@
 		                			<div class="col-sm-5">
 		                				<div class="box-container">
 			                				<a href="#" class="hover-overlay green popup-trigger" id="policy">
-				                				<div class="col-sm-12 box box-4 box-title curve-bg blue-box box-policy">
+				                				<div class="col-sm-12 box box-4 box-title curve-bg dark-purple-box box-policy">
 													<div class="inner-title">Policy</div>
 						                		</div>
 					                		</a>
@@ -70,7 +70,7 @@
 		                			</div>
 		                			<div class="col-sm-7">
 		                				<div class="box-container left-padding">
-			                				<a href="#slide-forests" class="hover-overlay green">
+			                				<a href="#slide-forests" class="hover-overlay orange">
 				                				<div class="col-sm-12 box box-5 box-title box-forest" style="background-image: url('img/tree.jpg');">
 				                					<div class="inner-title">Forest</div>
 						                		</div>

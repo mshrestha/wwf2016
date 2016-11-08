@@ -8,7 +8,7 @@
 			                		<div class="col-sm-12">
 			                			<div class="box-container">
 					                		<a href="#" class="hover-overlay blue popup-trigger" id="water-drinking-water">
-						                		<div class="col-sm-12 box box-1 box-title curve-bg green-box wwf-nepal-title">
+						                		<div class="col-sm-12 box box-1 box-title curve-bg blue-box wwf-nepal-title">
 						                			<div class="inner-title">Access to drinking water</div>
 						                		</div>
 					                		</a>

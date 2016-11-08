@@ -48,22 +48,22 @@ span.swiper-pagination-bullet img{
 }
 span.swiper-pagination-bullet.swiper-pagination-bullet-active span.icon-border{
 	height: 50px;
-	background: #aead0d;
+	background: rgba(254,199,121,1);
 }
 span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-wildlife span.icon-border{
-  background: #000;
+  background: rgba(147,199,137,1);
 }
 span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-climate-change span.icon-border{
-  background: rgba(255,218,56, 1);
+  background: rgba(249,193,210, 1);
 }
 span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-water span.icon-border{
-  background: rgba(78,187,233, 1);
+  background: rgba(68,200,245, 1);
 }
 span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-communication span.icon-border{
   background: rgba(254,190,108, 1);
 }
 .swiper-pagination-bullet.menu-icon-communications.swiper-pagination-bullet-active span.icon-border{
-  background: rgba(254,190,108, 1);
+   background: rgba(168,171,110,1);
 }
 /* Disabled arrow */
 .swiper-button-white.swiper-button-disabled {

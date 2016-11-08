@@ -110,13 +110,35 @@ a:hover {
 	background: url('../img/curve-line-pattern.png') repeat;
 }
 .box.green-box{
-	background-color: #8dc63f;
+	background-color: #007931;
+}
+.box.light-green-box{
+	background-color: #93c789;
 }
 .box.blue-box{
-	background-color: #007476;
+	background-color: #44c8f5;
 }
 .drk-green-box{
 	background-color: #007932;
+}
+.box.orange-box{
+	background-color: rgba(254,199,121, 1);
+}
+.box.pink-box{
+	background-color: rgba(249,193,210, 1);
+}
+.box.blue-box{
+	background-color: #44c8f5;
+}
+.box.brown-box{
+	background-color: #a8ab6e;
+}
+
+.box.purple-box{
+	background-color: rgba(187,108,151,1);
+}
+.box.dark-purple-box{
+	background-color: rgba(158,120,161,1);
 }
 
 
@@ -191,7 +213,10 @@ a:hover {
 	position: relative;
 }
 .hover-overlay.green .box:before{
-	background-color: rgba(83,155,55,0.6); 
+	background-color: rgba(0,121,49,0.6); 
+}
+.hover-overlay.light-green .box:before{
+	background-color: rgba(147,199,137,0.6); 
 }
 .hover-overlay.black .box:before{
 	background-color: rgba(0, 0, 0, 0.6); 
@@ -199,11 +224,23 @@ a:hover {
 .hover-overlay.yellow .box:before{
 	background-color: rgba(255,218,56, 0.6);
 }
+.hover-overlay.pink .box:before{
+	background-color: rgba(249,193,210, 0.6);
+}
 .hover-overlay.blue .box:before{
-	background-color: rgba(78,187,233, 0.6);
+	background-color: rgba(68,200,245, 0.6);
 }
 .hover-overlay.orange .box:before{
-	background-color: rgba(254,190,108,0.6);
+	background-color: rgba(254,199,121,0.6);
+}
+.hover-overlay.brown .box:before{
+	background-color: rgba(168,171,110,0.6);
+}
+.hover-overlay.purple .box:before{
+	background-color: rgba(187,108,151,0.6);
+}
+.hover-overlay.dark-purple .box:before{
+	background-color: rgba(158,120,161,0.6);
 }
 
 /* box-g-ui-3 */
