@@ -185,10 +185,7 @@
     </div> <!-- /.fixed-content -->
 
   	<!-- popup slides -->
-  	<div class="popup-close"><span class="icon-cross"></span></div>
-	  	<?php
-	    popup_navigation();
-	    ?>
+  	<!--<div class="popup-close"><span class="icon-cross"></span></div>-->
 
 		<?php include('includes/popup/wwf-nepal.php');?>
 		<?php include('includes/popup/message.php');?>
