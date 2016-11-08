@@ -1,3 +1,8 @@
+$(window).resize(function() {
+	// var winWidth = $(window).width();
+	// var slideWidth = winWidth - 30;
+	// $('.swiper-slide').width(slideWidth);
+});
 $(document).ready(function() {		
 	//initialize all number animate with 0
 	$('.numbAni').text('0');
