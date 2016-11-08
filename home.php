@@ -194,19 +194,13 @@
 
 		<?php 
 		include('includes/popup/wildlife-main.php');
+		include('includes/popup/forests-main.php');
 		/*include('includes/popup/wildlife-rhino-translocation.php');
 		include('includes/popup/wildlife-snow-leopard-collaring.php');
 		include('includes/popup/wildlife-zero-poaching.php');
 		include('includes/popup/wildlife-swamp-deer-translocation.php');
 		include('includes/popup/wildlife-reducing-human-wildlife-conflict.php');*/
 		?>
-
-		<?php include('includes/popup/forests-habitat-management.php');?>
-		<?php include('includes/popup/forests-corridors-management.php');?>
-		<?php include('includes/popup/forests-corridors-restoration.php');?>
-		<?php include('includes/popup/forests-sustainable-communities.php');?>
-		<?php include('includes/popup/forests-grazing-control.php');?>
-		<?php include('includes/popup/forests-green-recovery.php');?>
 
 		<?php include('includes/popup/climate-change-participation.php');?>
 		<?php include('includes/popup/climate-change-building-community.php');?>

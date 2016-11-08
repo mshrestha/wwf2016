@@ -107,7 +107,7 @@ a:hover {
 	text-align: left;
 }
 .box.curve-bg,
-#wildlife-main-popup .section-intro {
+.popup-wrap .section-intro {
 	background: url('../img/curve-line-pattern.png') repeat;
 }
 .box.green-box{
@@ -123,8 +123,12 @@ a:hover {
 .drk-green-box{
 	background-color: #007932;
 }
-.box.orange-box{
+.box.orange-box,
+#forests-main-popup .section-intro{
 	background-color: rgba(254,199,121, 1);
+}
+.popup-wrap#forests-main-popup {
+	color: #000;
 }
 .box.pink-box{
 	background-color: rgba(249,193,210, 1);

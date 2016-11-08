@@ -23,7 +23,7 @@ $popup_communications_section = ['communications-earth-hour', 'communications-mo
 
 function popup_navigation($previous_story_id = '', $next_story_id = '') {
   echo '<ul class="popup-navigation">';
-    echo '<li class="popup-close"><span class="icon-cross"></span></li>';
+    echo '<li class="popup-close"><span class="icon-cross" title="Click or Press ESC Key"></span></li>';
     if($previous_story_id != '' && $next_story_id != '') {
     echo '<li><a href="#" class="popup-trigger previous-story" id="'.$previous_story_id.'">Previous Story</a></li>
           <li><a href="#" class="popup-trigger next-story" id="'.$next_story_id.'">Next Story</a></li>';

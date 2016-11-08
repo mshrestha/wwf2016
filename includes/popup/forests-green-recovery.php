@@ -1,16 +1,7 @@
 
-    	<div id="forests-green-recovery-popup" class="popup-wrap " style="background-image: url('img/inner-pop-up-image-bg.jpg'); height: 100%; width: 100%; position: fixed;top: 0; left: 0; z-index: 999;">
-            <?php
-            $popup_forests_section_current = 3;
-
-            popup_navigation($popup_forests_section[$popup_forests_section_current-1], $popup_forests_section[$popup_forests_section_current+1]);
-            ?>
-    		<div class="container-fluid fluid-fixed">
-    			<div class="col-sm-6 col-md-5 col-sm-offset-1">
-    				<div class="section-intro content-txt">
-	    				<h1 class="uppercase">Green Recovery and Reconstruction</h1>
-	    				<p>The 2015 earthquake in Nepal tragically resulted in many fatalities, destruction of property, and environmental damage. WWF Nepal and the Hariyo Ban Program supported the government to undertake a rapid environmental assessment looking at direct damage and risk of environmental impacts from recovery and reconstruction, including the effects of rebuilding half a million houses. WWF Nepal supported emergency relief followed by recovery work including settlement re-planning, livelihood restoration activities, and reconstruction of trails, water supplies and alternative energy. Training in environmentally sound reconstruction was also provided to government engineers and architects, mason trainers, NGOs, politicians, and community radio stations to reduce adverse impacts by other sectors, helping build back better, safer and greener for greater resilience.</p>
-    				</div> <!-- /.section-intro -->
-    			</div>
-    		</div> <!-- /.container-fluid fuild-fixed -->
+    	<div id="forests-green-recovery-popup" class="article-section" style="background-image: url('img/inner-pop-up-image-bg.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
+            <div class="section-intro content-txt section-absolute">
+                <h1 class="uppercase">Green Recovery and Reconstruction</h1>
+                <p>The 2015 earthquake in Nepal tragically resulted in many fatalities, destruction of property, and environmental damage. WWF Nepal and the Hariyo Ban Program supported the government to undertake a rapid environmental assessment looking at direct damage and risk of environmental impacts from recovery and reconstruction, including the effects of rebuilding half a million houses. WWF Nepal supported emergency relief followed by recovery work including settlement re-planning, livelihood restoration activities, and reconstruction of trails, water supplies and alternative energy. Training in environmentally sound reconstruction was also provided to government engineers and architects, mason trainers, NGOs, politicians, and community radio stations to reduce adverse impacts by other sectors, helping build back better, safer and greener for greater resilience.</p>
+            </div>
     	</div>
