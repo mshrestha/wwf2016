@@ -106,13 +106,14 @@ $(document).ready(function() {
 	slide_menu_click_trigger('forest');
 	slide_menu_click_trigger('climate-change');
 	slide_menu_click_trigger('water');
+	// slide_menu_click_trigger('policy');
 	slide_menu_click_trigger('communication');
 	slide_menu_click_trigger('financials');
 
 	// slide_menu_click_trigger('acknowledgement');
 	reverse_slide_menu_click_trigger('wwf-nepal');
 	reverse_slide_menu_click_trigger('message');
-	reverse_slide_menu_click_trigger('policy');
+	//reverse_slide_menu_click_trigger('policy');
 	reverse_slide_menu_click_trigger('financial');
 
 	// share button 

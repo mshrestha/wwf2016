@@ -18,6 +18,7 @@
 		    make_custom_pagination_active('forests');
 		    make_custom_pagination_active('climate-change');
 		    make_custom_pagination_active('water');
+		    make_custom_pagination_active('policy');
 		    make_custom_pagination_active('communications');
 		    make_custom_pagination_active('financial');
 	    }

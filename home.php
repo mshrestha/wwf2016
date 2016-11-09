@@ -106,9 +106,11 @@
 			      	</a>
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-policy">		        	
+		      		<a href="#slide-policy">
 			      		<img src="img/icons/icon-policy.png" alt="" />
 			      		Policy
 			      		<span class="icon-border"></span>			      	
+			      	</a>
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-communications">
 		        	<a href="#slide-communications">
@@ -159,8 +161,10 @@
 			      	</a>
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-policy">		        	
+		      		<a href="#slide-policy">
 			      		<img src="img/icons/icon-policy.png" alt="" />
 			      		<span class="icon-border"></span>			      	
+			      	</a>
 		      	</span>
 		      	<span class="swiper-pagination-bullet menu-icon-communications">
 		        	<a href="#slide-communications">
@@ -190,7 +194,6 @@
 
 		<?php include('includes/popup/wwf-nepal.php');?>
 		<?php include('includes/popup/message.php');?>
-		<?php include('includes/popup/policy.php');?>
 		<?php include('includes/popup/financial.php');?>
 
 		<?php 
@@ -198,12 +201,8 @@
 		include('includes/popup/forests-main.php');
 		include('includes/popup/climate-change-main.php');
 		include('includes/popup/water-main.php');
+		include('includes/popup/policy-main.php');
+		include('includes/popup/communications-main.php');
 		?>		
-
-		<?php include('includes/popup/communications-mountain-day.php');?>
-		<?php include('includes/popup/communications-tiger-day.php');?>
-		<?php include('includes/popup/communications-earth-hour.php');?>
-		<?php include('includes/popup/communications-prince-harry.php');?>
-		<?php include('includes/popup/communications-tgg.php');?>
 
 <?php include('includes/footer.php');?>

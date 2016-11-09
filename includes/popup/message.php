@@ -5,7 +5,7 @@
             ?>
     		<div class="container-fluid fluid-fixed">
     			<div class="col-sm-6 col-md-5 col-sm-offset-1">
-    				<div class="section-intro content-txt">
+    				<div class="section-intro content-txt no-curve-bg section-absolute">
 	    				<h1 class="uppercase">MESSAGE FROM THE COUNTRY REPRESENTATIVE</h1>
                         <p>&lt;TO BE COMPLETED&gt;</p>	    				
     				</div> <!-- /.section-intro -->

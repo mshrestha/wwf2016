@@ -59,6 +59,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-climate-
 span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-water span.icon-border{
   background: rgba(68,200,245, 1);
 }
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-policy span.icon-border{
+  background-color: rgba(187,108,151,1);
+}
 span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-communication span.icon-border{
   background: rgba(254,190,108, 1);
 }

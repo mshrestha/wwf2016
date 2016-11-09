@@ -110,7 +110,11 @@ a:hover {
 .popup-wrap .section-intro {
 	background: url('../img/curve-line-pattern.png') repeat;
 }
-.box.green-box{
+.no-curve-bg {
+	background-image: none !important;
+}
+.box.green-box,
+#wwf-nepal-popup .section-intro {
 	background-color: #007931;
 }
 .box.light-green-box,
@@ -138,11 +142,13 @@ a:hover {
 .box.blue-box{
 	background-color: #44c8f5;
 }
-.box.brown-box{
+.box.brown-box,
+#communications-main-popup .section-intro {
 	background-color: #a8ab6e;
 }
 
-.box.purple-box{
+.box.purple-box,
+#policy-main-popup .section-intro {
 	background-color: rgba(187,108,151,1);
 }
 .box.dark-purple-box{
