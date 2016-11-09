@@ -225,18 +225,18 @@ $(document).ready(function() {
 			var tl = new TimelineMax();
 			tl.to(smMenu, 1, {opacity:0, display:'none', y:-30, ease:Back.easeIn});
 			tl.to(smMenu, 1, {opacity:0, display:'none', y:-30, ease:Back.easeIn});
-			tl.to(line1, 1, {transformOrigin:'0% 0%', rotation: "0", ease:Back.easeIn}, '0.1');
-			tl.to(line3, 1, {transformOrigin:'left', rotation: "0", ease:Back.easeIn}, '0.2');
+			tl.to(line1, 0.7, {transformOrigin:'0% 0%', rotation: "0", ease:Back.easeIn}, '0.1');
+			tl.to(line3, 0.7, {transformOrigin:'left', rotation: "0", ease:Back.easeIn}, '0.2');
 			tl.to(line2, 0.3, {opacity: 1, ease:Back.easeIn}, '1');
 			smMenuToggle.removeClass('on');
 		}else{
 			var tl = new TimelineMax();
 			tl.to(smMenu, 0, {opacity:0, display:'none', y:-30, ease:Back.easeIn});
-			tl.to(smMenu, 1, {opacity:1, display:'block', y:0, ease:Back.easeIn});
+			tl.to(smMenu, 0.7, {opacity:1, display:'block', y:0, ease:Back.easeIn});
 
 			tl.to(line2, 0.3, {opacity: 0, ease:Back.easeIn}, '0.1');
-			tl.to(line1, 1, {transformOrigin:'0% 0%', rotation: "35", ease:Back.easeIn}, '0.1');
-			tl.to(line3, 1, {transformOrigin:'left', rotation: "-35",  ease:Back.easeIn}, '0.2');
+			tl.to(line1, 0.7, {transformOrigin:'0% 0%', rotation: "35", ease:Back.easeIn}, '0.1');
+			tl.to(line3, 0.7, {transformOrigin:'left', rotation: "-35",  ease:Back.easeIn}, '0.2');
 			smMenuToggle.addClass('on');
 		}
 	});

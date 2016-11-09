@@ -405,6 +405,8 @@ body.popupAcitve .swiper-slide-active{
 	.left-padding{
 		padding-left: 0;
 	}
+}
+@media(max-width: 991px){
 	ul.menu-share-this {
 	    position: absolute;
 	    top: 19px;
