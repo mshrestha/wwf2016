@@ -130,9 +130,11 @@ a:hover {
 .popup-wrap#forests-main-popup {
 	color: #000;
 }
-.box.pink-box{
+#climate-change-main-popup .section-intro,
+.box.pink-box {
 	background-color: rgba(249,193,210, 1);
 }
+#water-main-popup .section-intro,
 .box.blue-box{
 	background-color: #44c8f5;
 }

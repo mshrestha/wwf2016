@@ -195,25 +195,9 @@
 		<?php 
 		include('includes/popup/wildlife-main.php');
 		include('includes/popup/forests-main.php');
-		/*include('includes/popup/wildlife-rhino-translocation.php');
-		include('includes/popup/wildlife-snow-leopard-collaring.php');
-		include('includes/popup/wildlife-zero-poaching.php');
-		include('includes/popup/wildlife-swamp-deer-translocation.php');
-		include('includes/popup/wildlife-reducing-human-wildlife-conflict.php');*/
-		?>
-
-		<?php include('includes/popup/climate-change-participation.php');?>
-		<?php include('includes/popup/climate-change-building-community.php');?>
-		<?php include('includes/popup/climate-change-alternate-energy.php');?>
-		<?php include('includes/popup/climate-change-building-capacities.php');?>
-		<?php include('includes/popup/climate-change-permanent.php');?>
-
-		<?php include('includes/popup/water-drinking-water.php');?>
-		<?php include('includes/popup/water-improved-irrigation.php');?>
-		<?php include('includes/popup/water-sustainable-agriculture.php');?>
-		<?php include('includes/popup/water-conservation.php');?>
-		<?php include('includes/popup/water-ramsar.php');?>
-		<?php include('includes/popup/water-piloting-payments.php');?>
+		include('includes/popup/climate-change-main.php');
+		include('includes/popup/water-main.php');
+		?>		
 
 		<?php include('includes/popup/communications-mountain-day.php');?>
 		<?php include('includes/popup/communications-tiger-day.php');?>

@@ -53,8 +53,6 @@ $(document).ready(function() {
 		
 		//view particular section of same popup
 		var article_location = $(this).attr('href');
-		console.log(article_location);
-		console.log($('.article-section').not('#'+article_location) );
 
 		tl.to($('.swiper-container .swiper-slide-active'), 2, {ease: Power4.easeOut, y: '-200px', opacity:0});//y = -200px
 		// tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');

@@ -14,7 +14,7 @@
 					                		</a>
 			                			</div>
 			                			<div class="box-container">
-					                		<a href="#" class="hover-overlay orange popup-trigger" id="forests-corridors-management">
+					                		<a href="forests-corridors-management-popup" class="hover-overlay orange popup-trigger" id="forests-main">
 						                		<div class="col-sm-12 box box-2 box-title" style="background-image: url('img/forests/forest-management-in-critical-corridors-600.jpg');">
 						                			<div class="inner-title">Forest management in critical corridors</div>
 				                				</div>
