@@ -57,7 +57,7 @@
 		                	<div class="col-sm-3 box-g box-g-ui-3" data-swiper-parallax="-100">
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
-				                		<a href="water-piloting-payments" class="hover-overlay blue popup-trigger" id="water-main">
+				                		<a href="water-piloting-payments-popup" class="hover-overlay blue popup-trigger" id="water-main">
 					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/water/piloting-payments-for-ecosystem-services-600.jpg');">
 					                			<div class="inner-title">Piloting payments for ecosystem services</div>
 					                		</div>
