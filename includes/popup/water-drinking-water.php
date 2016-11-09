@@ -1,5 +1,5 @@
 
-    	<div id="water-drinking-water-popup" class="popup-wrap " style="background-image: url('img/water/access-to-drinking-water.jpg'); height: 100%; width: 100%; position: fixed;top: 0; left: 0; z-index: 999;">
+    	<div id="water-drinking-water-popup" class="section-article" style="background-image: url('img/water/access-to-drinking-water.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
             <?php
             $popup_water_section_current = 1;
             
