@@ -48,6 +48,7 @@
                 </div>
             </div> <!-- policy .swiper-slide end -->
             */ ?>
+            	<?php include('includes/swiper-slide/policy.php'); ?>
 
 	        	<?php include('includes/swiper-slide/slide-communications.php');?>
 

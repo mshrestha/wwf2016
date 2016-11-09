@@ -198,6 +198,9 @@ a:hover {
 .box-g-ui-2 .box-4, .box-g-ui-2 .box-5{
 	height: 219px;
 }
+.full-height-child.box-g-ui-2 .box{
+	height: 460px;
+}
 .hover-overlay .box:before{
 	content: "";
 	width: 100%;

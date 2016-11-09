@@ -4,7 +4,7 @@
 		                <div class="title" data-swiper-parallax="-100">COMMUNICATIONS &amp; OUTREACH</div>
 		                <div class="box-wrap rm-col-padding">
 		                	<div class="col-sm-9">
-			                	<div class="col-sm-6 box-g box-g-ui-4" data-swiper-parallax="-300">
+			                	<div class="col-sm-6 box-g box-g-ui-2" data-swiper-parallax="-300">
 			                		<div class="col-sm-12">
 			                			<div class="box-container">
 					                		<a href="#" class="hover-overlay brown popup-trigger" id="communications-mountain-day">

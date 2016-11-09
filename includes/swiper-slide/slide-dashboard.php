@@ -61,7 +61,7 @@
 		                		<div class="col-sm-12">
 		                			<div class="col-sm-5">
 		                				<div class="box-container">
-			                				<a href="#" class="hover-overlay green popup-trigger" id="policy">
+			                				<a href="#slide-policy" class="hover-overlay dark-purple" id="policy">
 				                				<div class="col-sm-12 box box-4 box-title curve-bg dark-purple-box box-policy">
 													<div class="inner-title">Policy</div>
 						                		</div>
