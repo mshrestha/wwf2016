@@ -69,6 +69,21 @@
 	    <script src="js/custom-swiper-effect-enable.js"></script>
     <?php } ?>
 
+	<!-- custom scrollbar plugin -->
+	<!-- <script src="../jquery.mCustomScrollbar.concat.min.js"></script> -->
+	<!-- <script src="vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script>
+		(function($){
+			$(window).on("load",function(){
+				
+				$("body").mCustomScrollbar({
+					theme:"minimal"
+				});
+				
+			});
+		})(jQuery);
+	</script> -->
+
     <script src="js/custom-swiper.js"></script>
     <script src="js/custom.js"></script>
 

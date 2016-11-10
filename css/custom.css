@@ -145,8 +145,9 @@ a:hover {
 #forests-main-popup .section-intro{
 	background-color: rgba(254,199,121, 1);
 }
-.popup-wrap#forests-main-popup {
-	color: #000;
+.popup-wrap#forests-main-popup{
+	background: rgba(133,193,62,1) url('img/loading.gif') no-repeat center 50%;
+
 }
 #climate-change-main-popup .section-intro,
 .box.pink-box {
@@ -308,7 +309,9 @@ a:hover {
 
 /*popup slides*/
 .popup-wrap{
-	background-color: #000;
+	background-color: rgba(133,193,62,1);
+	/*background: rgba(133,193,62,1) url('../img/loading.gif') no-repeat 100px center;*/
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center center;
 	/*
@@ -325,7 +328,7 @@ a:hover {
 	opacity: 0;
 }
 .article-section {
-	background-color: #000;
+	/*background-color: #000;*/
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -384,6 +387,13 @@ a:hover {
     line-height: 27px;
     padding: 0 15px;
     display: block;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.popup-navigation li a:hover, .popup-navigation li span:hover{
+    color: #FFF;
+    background: #000;
 }
 .popup-navigation li span {
     font-size: 18px;

@@ -1,7 +1,7 @@
 
 	        <ul class="menu-share-this">
 	        	<li class="">
-	        		<a href="#!" class="icon-share"></a>
+	        		<a href="#!" class="icon-plus icon-share"></a>
 	        		<ul class="share-icon-list">
 	        			<li><a href="http://www.wwfnepal.org/" target="_blank" title="WWF Nepal" class="icon-wwf"></a></li>
 	        			<li><a href="javascript::void" target="_blank" title="Contact Information" class="icon-envelop"></a></li>

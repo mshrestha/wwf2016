@@ -19,10 +19,10 @@
         ],
         "isMulticolor": false,
         "isMulticolor2": false,
+        "grid": 24,
         "tags": [
           "wwf"
-        ],
-        "grid": 24
+        ]
       },
       "attrs": [
         {},
@@ -33,7 +33,7 @@
       ],
       "properties": {
         "order": 7,
-        "id": 0,
+        "id": 4,
         "name": "wwf",
         "prevSize": 24,
         "code": 59649
@@ -52,17 +52,17 @@
         ],
         "isMulticolor": false,
         "isMulticolor2": false,
+        "grid": 24,
         "tags": [
           "youtube"
-        ],
-        "grid": 24
+        ]
       },
       "attrs": [
         {}
       ],
       "properties": {
         "order": 6,
-        "id": 1,
+        "id": 3,
         "name": "youtube",
         "prevSize": 24,
         "code": 59650
@@ -81,10 +81,10 @@
         ],
         "isMulticolor": false,
         "isMulticolor2": false,
+        "grid": 24,
         "tags": [
           "envelop"
-        ],
-        "grid": 24
+        ]
       },
       "attrs": [
         {}
@@ -110,17 +110,17 @@
         ],
         "isMulticolor": false,
         "isMulticolor2": false,
+        "grid": 24,
         "tags": [
           "fb"
-        ],
-        "grid": 24
+        ]
       },
       "attrs": [
         {}
       ],
       "properties": {
         "order": 2,
-        "id": 3,
+        "id": 1,
         "name": "fb",
         "prevSize": 24,
         "code": 59652
@@ -149,7 +149,7 @@
       ],
       "properties": {
         "order": 1,
-        "id": 4,
+        "id": 0,
         "name": "cross",
         "prevSize": 24,
         "code": 59648
@@ -157,35 +157,6 @@
       "setIdx": 0,
       "setId": 2,
       "iconIdx": 4
-    },
-    {
-      "icon": {
-        "paths": [
-          "M1024 487.632h-487.584v-487.632h-48.768v487.632h-487.648v48.752h487.648v487.616h48.768v-487.616h487.584v-48.752z"
-        ],
-        "attrs": [
-          {}
-        ],
-        "isMulticolor": false,
-        "isMulticolor2": false,
-        "grid": 24,
-        "tags": [
-          "plus"
-        ]
-      },
-      "attrs": [
-        {}
-      ],
-      "properties": {
-        "order": 2,
-        "id": 5,
-        "name": "plus",
-        "prevSize": 24,
-        "code": 59653
-      },
-      "setIdx": 0,
-      "setId": 2,
-      "iconIdx": 5
     }
   ],
   "height": 1024,

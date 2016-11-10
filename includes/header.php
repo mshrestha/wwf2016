@@ -27,7 +27,7 @@
     <!-- <link rel="stylesheet" href="../dist/css/swiper.min.css"> -->
 
     <!-- custom scrollbar stylesheet -->
-    <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css">
+    <!-- <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css"> -->
 
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/../css/custom-responsive.css">
@@ -38,6 +38,19 @@
     body {
         /*background-color: #000;*/
         background-size: cover;
+    }
+    .animate-bg {
+        background: rgba(133,193,62,1) url('img/loading.gif') no-repeat center;
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 999999;
+        display: block;
+        overflow: hidden;
     }
     .loading-wrapper {
         position: fixed;
