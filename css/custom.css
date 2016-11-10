@@ -703,3 +703,15 @@ g.circle-arrow circle{
 	top: auto;
 	bottom: 30px;
 }
+#communications-main-popup .section-intro.rm-bg {
+    background: none;
+}
+#communications-main-popup .section-intro.rm-bg {
+    background: none;
+}
+
+.video-dis {
+    background: #a8ab6e url('../img/curve-line-pattern.png') repeat;
+    padding: 20px;
+    margin-left: -10px;
+}
