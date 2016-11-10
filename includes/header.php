@@ -40,15 +40,16 @@
         background-size: cover;
     }
     .loading-wrapper {
-        background: rgba(133,193,62,1);
         position: fixed;
         left: 0;
         top: 0; 
         bottom: 0;
         right: 0;
         z-index: 9999;
+        background: rgba(133,193,62,1) url('img/loading.gif') no-repeat center;
     }
     .loading-animate {
+        display: none;
         /*background-color: #666;*/
         /*background-repeat: no-repeat;*/
         /* height: 200px;
