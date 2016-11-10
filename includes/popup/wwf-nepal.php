@@ -4,7 +4,7 @@
             ?>
     		<div class="container-fluid fluid-fixed">
     			<div class="col-sm-6 col-md-5 col-sm-offset-1">
-    				<div class="section-intro content-txt">
+    				<div class="section-intro content-txt section-absolute">
 	    				<div class="animate-visible"><h1 class="uppercase">ABOUT WWF NEPAL</h1></div>
 	    				<div class="animate-visible"><p>Since 1961, WWF has worked to conserve nature and ecological processes through a combination of actions on the ground, national and international advocacy work to establish appropriate policies, and international campaigns to highlight and demonstrate solutions to crucial environmental problems.</p>
                         <p>WWF started working in Nepal from 1967 when it launched a rhino conservation program in Chitwan. To keep up with the evolving face of conservation and the environmental movement, WWF’s focus evolved from its localized efforts in conservation of single species in the 1960s/1970s, integrated conservation and development approach in the 1980s, to a new horizon of landscape level conservation encompassing national, regional and global scales of complexity in the early 2000s.</p>

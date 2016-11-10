@@ -1,0 +1,7 @@
+
+    	<div id="policy-chal-strategy-popup" class="article-section " style="background-image: url('img/policy/maiden-chal-strategy.jpg'); height: 100%; width: 100%;top: 0; left: 0; z-index: 999;">
+            <div class="section-intro content-txt section-absolute">
+                <h1 class="uppercase">CHAL strategy</h1>
+                <p>The USAID-funded Hariyo Ban Program supported the government to establish a new landscape in the Gandaki River basin – the Chitwan-Annapurna Landscape (CHAL). CHAL stretches from the dry, high-altitude area of upper Mustang and the 8,000m high Himalayan range, down through the mid-hills to the low-lying Terai. CHAL has huge conservation importance, including snow leopard and red panda populations. Many of the 4.6 million human inhabitants are dependent on subsistence farming and forest products. The landscape’s economic activities include agriculture, tourism and hydropower. Major biodiversity threats include overharvesting of forests, uncontrolled fire, and poorly designed infrastructure development. Climate change exacerbates many threats. The new CHAL strategy will tackle these threats over the next ten years, taking an integrated river basin approach.</p>	  
+            </div>
+    	</div>
