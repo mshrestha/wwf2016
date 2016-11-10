@@ -40,17 +40,17 @@
         background-size: cover;
     }
     .loading-wrapper {
-        background: rgba(133,193,62,1);
         position: fixed;
         left: 0;
         top: 0; 
         bottom: 0;
         right: 0;
         z-index: 9999;
+        background: rgba(133,193,62,1) url('img/loading.gif') no-repeat center;
     }
     .loading-animate {
+        display: none;
         /*background-color: #666;*/
-        background-image: url(img/loadinganimate-water-curve.svg);
         /*background-repeat: no-repeat;*/
         /* height: 200px;
         width: 497px; */
@@ -64,11 +64,47 @@
         overflow: hidden;
     }
     .loading-move {
-        background: rgba(133,193,62,1);
+        background: url('img/loadinganimate-water-curve.svg');
+        background-size: 93px;
+        background-position: center;
+        background-repeat-y: no-repeat;
         height: 100%;
         width: 100%;
+        -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
         transform: translateX(0px);
+        -webkit-animation: animatedBackground 40s linear infinite;
+        -o-animation: animatedBackground 40s linear infinite;
+        animation: animatedBackground 40s linear infinite;
     }
+
+
+
+@keyframes animatedBackground{
+    from { background-position: 0 center; }
+    to { background-position: 100% center; }
+}
+
+@-moz-keyframes animatedBackground{
+    from { background-position: 0 center; }
+    to { background-position: 100% center; }
+}
+
+@-webkit-keyframes animatedBackground {
+    from { background-position: 0 center; }
+    to { background-position: 100% center; }
+}
+
+@-o-keyframes animatedBackground {
+    from { background-position: 0 center; }
+    to { background-position: 100% center; }
+}
+
+@-ms-keyframes animatedBackground {
+    from { background-position: 0 center; }
+    to { background-position: 100% center; }
+}
     </style>
     <!--<script src='http://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>-->
     <script src="js/vendor/jquery-1.11.2.min.js"></script>
