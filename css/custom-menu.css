@@ -91,6 +91,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-communic
 .menu-share-this {
 	right: 36px;
   margin-bottom: 0;
+  cursor: pointer;
 }
 .menu-share-this .icon-share {
   /*background: #ffffff url(../img/icons/icon-share.png) no-repeat center;*/
