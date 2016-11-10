@@ -1,3 +1,17 @@
+/*
+.loading-wwf {
+    width: 100%;
+    height: 44px;
+    background: url('img/loadinganimate-water-curve.svg');
+    z-index: 9999;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-size: 93px;
+    background-position: -0% 20%;
+    transition: all 20s linear;
+    background-repeat-y: no-repeat;
+}*/
 @import url('custom-menu.css');
 
 /* ==========================================================================

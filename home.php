@@ -1,5 +1,4 @@
 <?php include('includes/header.php');?>
-
 	<div class="fixed-content">		
 	    <!-- Swiper -->
 	    <div class="swiper-container">
