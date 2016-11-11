@@ -23,7 +23,7 @@
 		                		<div class="col-sm-6">
 		                			<div class="box-container left-padding">
 		                				<a href="#slide-communications" class="hover-overlay brown">
-			                				<div class="col-sm-12 women box box-3 box-title box-communication" style="background-image: url('img/women-working.jpg');">
+			                				<div class="col-sm-12 women box box-3 box-title box-communication" style="background-image: url('img/communications/international-mountain-day1-600.jpg');">
 			                						<div class="inner-title">Communication</div>
 					                		</div>
 				                		</a>
@@ -32,7 +32,7 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 		                				<a href="#slide-climate-change" class="hover-overlay pink">
-			                				<div class="col-sm-12 box box-4 box-title box-climate-change" style="background-image: url('img/cats.jpg');">
+			                				<div class="col-sm-12 box box-4 box-title box-climate-change" style="background-image: url('img/climate-change/participation-in-the-unfccc-process1-600.jpg');">
 			                					<div class="inner-title">Climate Change</div>
 					                		</div>
 				                		</a>
@@ -43,7 +43,7 @@
 		                		<div class="col-sm-7">
 		                			<div class="box-container">
 				                		<a href="#slide-wildlife" class="hover-overlay light-green">
-					                		<div class="col-sm-12 box-title box box-1 box-wildlife" style="background-image: url('img/wildlife.jpg');">
+					                		<div class="col-sm-12 box-title box box-1 box-wildlife" style="background-image: url('img/wildlife/zero-poaching-600.jpg');">
 					                			<div class="inner-title center">Wildlife</div>
 					                		</div>
 				                		</a>
@@ -71,7 +71,7 @@
 		                			<div class="col-sm-7">
 		                				<div class="box-container left-padding">
 			                				<a href="#slide-forests" class="hover-overlay orange">
-				                				<div class="col-sm-12 box box-5 box-title box-forest" style="background-image: url('img/tree.jpg');">
+				                				<div class="col-sm-12 box box-5 box-title box-forest" style="background-image: url('img/forests/forest-restoration-in-critical-corridors2-600.jpg');">
 				                					<div class="inner-title">Forest</div>
 						                		</div>
 					                		</a>
@@ -83,7 +83,7 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 				                		<a href="#slide-water" class="hover-overlay blue">
-					                		<div class="col-sm-12 box-title box box-1 box-water" style="background-image: url('img/water.jpg');">
+					                		<div class="col-sm-12 box-title box box-1 box-water" style="background-image: url('img/water/conservation1-600.jpg');">
 					                			<div class="inner-title">Water</div>
 					                		</div>
 				                		</a>
