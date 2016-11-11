@@ -2,8 +2,29 @@
  * Custom Loading jQuery For WWF Annual Report
  * By Nikesh Ulak, Kazi Studios
  */
+
+/* Align swiper slider vertically center */
+function swiper_valign() {
+    var win_width = $(window).width();
+    var win_height = $(window).height();
+    var swiper_padding_top;
+
+    if(win_width >= 768) {
+        var swiper_height = $('.dashboard-height').innerHeight();
+
+        swiper_padding_top = (win_height - swiper_height)/2;
+    } else {
+        swiper_padding_top = 80;//as in custom css
+    }
+    // console.log(win_height + '-' + swiper_padding_top);
+
+    $('.swiper-wrapper').css({
+        'padding-top': swiper_padding_top + 'px',
+    });
+}
+
 $(document).ready(function() {
-    $('.loading-wrapper').addClass('hidden');
+    //$('.loading-wrapper').addClass('hidden');
     moveAnimateLeft();
 
     function moveAnimateLeft() {
@@ -18,7 +39,12 @@ $(document).ready(function() {
     }
 });
 
-// $( window ).load(function() {
-//   // Run code after window loads completely - hide the loading
-//   $('.loading-wrapper').addClass('hidden');
-// });
+$( window ).load(function() {
+    // Run code after window loads completely - hide the loading
+    $('.loading-wrapper').addClass('hidden');
+
+    swiper_valign();
+});
+$( window ).resize(function() {
+    swiper_valign();
+});

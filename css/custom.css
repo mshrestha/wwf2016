@@ -64,7 +64,7 @@ a:hover {
 	left: 0;	
 }
 .swiper-wrapper{
-	padding-top: 80px;
+	/*padding-top: 80px;*/
 }
 .swiper-slide .title{
 	font-size: 27px;
