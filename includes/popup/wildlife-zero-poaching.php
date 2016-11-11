@@ -6,68 +6,71 @@
         </div> <!-- /.section-intro -->
 
         <div class="infographics">
-          <div class="infographics-widget">
-            <div class="col-sm-6">
-              <div class="widget-box">
-                <div class="widget-icon"><img src="img/infographics/zero_poaching-01.svg" alt=""></div>
-                <div class="widget-title">
-                  <div id="poachersNumber" class="numbAni">223</div>
-                  <span class="widget-title-text">wildlife poachers and traders arrested</span>
+          <div id="infographics-zero-poaching" class="infographics-widget clearfix">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="widget-box">
+                  <div class="widget-icon"><img src="img/infographics/zero_poaching-01.svg" alt=""></div>
+                  <div class="widget-title">
+                    <div id="poachersNumber" class="numbAni">223</div>
+                    <span class="widget-title-text">wildlife poachers and traders arrested</span>
+                  </div>
+                  <!-- <p>in anti-poaching operations</p> -->
                 </div>
-                <!-- <p>in anti-poaching operations</p> -->
+              </div>
+              <div class="col-sm-6">
+                <div class="widget-box">
+                  <div class="widget-icon"><img src="img/infographics/zero_poaching-02.svg" alt=""></div>
+                  <div class="widget-title">
+                    <div id="tigerNumber" class="numbAni">11</div>
+                    <span class="widget-title-text">tiger skins seized</span>
+                  </div>
+                  <!-- <p>on wildlife crimes and enforcement</p> -->
+                </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="widget-box">
-                <div class="widget-icon"><img src="img/infographics/zero_poaching-02.svg" alt=""></div>
-                <div class="widget-title">
-                  <div id="tigerNumber" class="numbAni">11</div>
-                  <span class="widget-title-text">tiger skins seized</span>
-                </div>
-                <!-- <p>on wildlife crimes and enforcement</p> -->
-              </div>
-            </div>
-            <div class="clear"></div>
 
-            <div class="col-sm-6">
-              <div class="widget-box">
-                <div class="widget-icon"><img src="img/infographics/zero_poaching-03.svg" alt=""></div>
-                <div class="widget-title">
-                  <div id="crimeControlNumber" class="numbAni">22</div>
-                  <span class="widget-title-text">Wildlife Crime Control Bureau district cells formed</span>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="widget-box">
+                  <div class="widget-icon"><img src="img/infographics/zero_poaching-03.svg" alt=""></div>
+                  <div class="widget-title">
+                    <div id="crimeControlNumber" class="numbAni">22</div>
+                    <span class="widget-title-text">Wildlife Crime Control Bureau district cells formed</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="widget-box">
+                  <div class="widget-icon"><img src="img/infographics/zero_poaching-04.svg" alt=""></div>
+                  <div class="widget-title">
+                    <div><span id="antiPoachingNumber" class="numbAni">920,000</span><span>km</span></div>
+                    <span class="widget-title-text">of anti-poaching patrols in Protected Areas</span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="widget-box">
-                <div class="widget-icon"><img src="img/infographics/zero_poaching-04.svg" alt=""></div>
-                <div class="widget-title">
-                  <div id="antiPoachingNumber" class="numbAni">920,000</div>
-                  <span class="widget-title-text">km of anti-poaching patrols in Protected Areas</span>
-                </div>
-              </div>
-            </div>
-            <div class="clear"></div>
 
-            <div class="col-sm-6">
-              <div class="widget-box">
-                <div class="widget-icon"><img src="img/infographics/zero_poaching-05.svg" alt=""></div>
-                <div class="widget-title">
-                  <div><span id="youthNumber" class="numbAni">1,200</span><span>+</span></div>
-                  <span class="widget-title-text">local youth mobilized in anti-poaching operations</span>
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="widget-box">
+                  <div class="widget-icon"><img src="img/infographics/zero_poaching-05.svg" alt=""></div>
+                  <div class="widget-title">
+                    <div><span id="youthNumber" class="numbAni">1,200</span><span>+</span></div>
+                    <span class="widget-title-text">local youth mobilized in anti-poaching operations</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="widget-box">
+                  <div class="widget-icon"><img src="img/infographics/zero_poaching-06.svg" alt=""></div>
+                  <div class="widget-title">
+                    <div id="canineNumber" class="numbAni">4</div>
+                    <span class="widget-title-text">Canine squad formed with four sniffer dogs</span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col-sm-6">
-              <div class="widget-box">
-                <div class="widget-icon"><img src="img/infographics/zero_poaching-06.svg" alt=""></div>
-                <div class="widget-title">
-                  <div id="canineNumber" class="numbAni">4</div>
-                  <span class="widget-title-text">Canine squad formed with four sniffer dogs</span>
-                </div>
-              </div>
-            </div>
-            <div class="clear"></div>
           </div>
         </div>
     	</div>

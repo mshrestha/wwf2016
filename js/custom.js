@@ -5,7 +5,7 @@ $(window).resize(function() {
 });
 $(document).ready(function() {		
 	//initialize all number animate with 0
-	//$('.numbAni').text('0');
+	$('.numbAni').text('0');
 
 	$('.window-height').height($(window).height());
 
@@ -54,9 +54,9 @@ $(document).ready(function() {
 
 		$('.popup-wrap#'+currentId+'-popup').addClass('popup-active');
 
-		setTimeout(function() {
+		/*setTimeout(function() {
 			animateNumber();
-		}, 2000);
+		}, 2000);*/
     
 	});
 
@@ -129,15 +129,52 @@ $(document).keyup(function(e) {
 });
 
 
-function animateNumber() {
-	if( $('.popup-wrap#wildlife-zero-poaching-popup').hasClass('popup-active') ) {
+// doesn't work after all article in single popup
+/*function animateNumber() {
+	if( $('#wildlife-zero-poaching-popup').hasClass('popup-active') ) {
     zeroPoachingnumbers();
   } else {
-    //$('.numbAni').text('0');
+    $('.numbAni').text('0');
   }	
-}
+}*/
+var zero_poaching_animated = 0;
+$('#infographics-zero-poaching').bind('inview', function(event, visible) {
+	zero_poaching_animated += 1;
+	if (visible) {
+		if(zero_poaching_animated == 1) {
+			zeroPoachingNumbers();
+			// console.log('zero poacing animated once');
+		}
+	} else {
+    	//$('.numbAni').text('0');
+	}
+});
 
-function zeroPoachingnumbers() {
+var corridors_management_animated = 0;
+$('#infographics-corridors-management').bind('inview', function(event, visible) {
+	corridors_management_animated += 1;
+	if (visible) {
+		if(corridors_management_animated == 1) {
+			corridorsManagementNumbers();
+			// console.log('corridors management animated once');
+		}
+	} else {
+	}
+});
+
+var habitat_management_animated = 0;
+$('#infographics-habitat-management').bind('inview', function(event, visible) {
+	habitat_management_animated += 1;
+	if (visible) {
+		if(habitat_management_animated == 1) {
+			habitatManagementNumbers();
+			// console.log('corridors management animated once');
+		}
+	} else {
+	}
+});
+
+function zeroPoachingNumbers() {
   // animated number
   $('#poachersNumber').animateNumber(
   	{ 
@@ -179,6 +216,64 @@ function zeroPoachingnumbers() {
   		);//#tigerNumber
 		}
 	);//end #poachersNumber
+}
+
+function corridorsManagementNumbers() {
+  // animated number
+  $('#communityForestNumber').animateNumber(
+  	{ 
+    number: 3600
+    },
+    function() 
+    {
+      $('#grasslandNumber').animateNumber(
+        {
+          number: 505
+        },
+        function()
+        {
+          $('#fireLineNumber').animateNumber(
+            {
+              number: 240
+            },
+            function() 
+            {
+              $('#operationPlanNumber').animateNumber(
+                {
+                  number: 43
+                }
+              );//#operationPlanNumber ends
+            }
+          );//#fireLineNumber
+		}
+  		);//#grasslandNumber
+	}
+  );//end #communityForestNumber
+}
+
+function habitatManagementNumbers() {
+  // animated number
+  $('#habitatGrasslandNumber').animateNumber(
+  	{ 
+    number: 255
+    },
+    function() 
+    {
+      $('#habitatWetlandNumber').animateNumber(
+        {
+          number: 9
+        },
+        function()
+        {
+          $('#habitatFirelineNumber').animateNumber(
+            {
+              number: 262
+            }
+          );//#fireLineNumber
+		}
+  		);//#grasslandNumber
+	}
+  );//end #communityForestNumber
 }
 
 // financial animate

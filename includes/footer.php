@@ -41,7 +41,8 @@
 		})(jQuery);
 	</script> -->
 	
-		<script src="js/jquery.animateNumber.min.js"></script>
+	<script src="js/jquery.inview.js"></script>
+	<script src="js/jquery.animateNumber.min.js"></script>
 
     <!-- Initialize Swiper -->
     <?php 
