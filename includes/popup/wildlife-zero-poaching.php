@@ -44,8 +44,8 @@
                 <div class="widget-box">
                   <div class="widget-icon"><img src="img/infographics/zero_poaching-04.svg" alt=""></div>
                   <div class="widget-title">
-                    <div id="antiPoachingNumber" class="numbAni">920,000</div>
-                    <span class="widget-title-text">km of anti-poaching patrols in Protected Areas</span>
+                    <div><span id="antiPoachingNumber" class="numbAni">920,000</span><span>km</span></div>
+                    <span class="widget-title-text">of anti-poaching patrols in Protected Areas</span>
                   </div>
                 </div>
               </div>

@@ -11,8 +11,8 @@
 						  <div class="widget-box">
 						    <div class="widget-icon"><img src="img/infographics/forest_management-01.svg" alt=""></div>
 						    <div class="widget-title">
-						      <div><span id="communityForestNumber" class="numbAni">3600</span><span>+</span></div>
-						      <span class="widget-title-text">ha of new community forests handed over in TAL and SHL</span>
+						      <div><span id="communityForestNumber" class="numbAni">3600</span><span>+ha</span></div>
+						      <span class="widget-title-text">of new community forests handed over in TAL and SHL</span>
 						    </div>
 						    <!-- <p>in anti-poaching operations</p> -->
 						  </div>
@@ -21,7 +21,7 @@
 						  <div class="widget-box">
 						    <div class="widget-icon"><img src="img/infographics/forest_management-02.svg" alt=""></div>
 						    <div class="widget-title">
-						      <div id="grasslandNumber" class="numbAni">505</div>
+						      <div><span id="grasslandNumber" class="numbAni">505</span><span>ha</span></div>
 						      <span class="widget-title-text">ha of grassland managed in buffer zones, critical corridors and bottlenecks</span>
 						    </div>
 						    <!-- <p>on wildlife crimes and enforcement</p> -->
@@ -34,8 +34,8 @@
 					      <div class="widget-box">
 					        <div class="widget-icon"><img src="img/infographics/forest_management-03.svg" alt=""></div>
 					        <div class="widget-title">
-					          <div id="fireLineNumber" class="numbAni">240</div>
-					          <span class="widget-title-text">km of fire-lines constructed</span>
+					          <div><span id="fireLineNumber" class="numbAni">240</span><span>km</span></div>
+					          <span class="widget-title-text">of fire-lines constructed</span>
 					        </div>
 					      </div>
 					    </div>
