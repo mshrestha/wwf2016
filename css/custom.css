@@ -186,6 +186,11 @@ a:hover {
 	-o-transition: all 10s ease;
 	transition: all 10s ease;
 }
+.touch .box{
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
 .hover-overlay:hover .box{
 	-webkit-transition: all 15s ease;
 	-o-transition: all 15s ease;
@@ -199,6 +204,11 @@ a:hover {
 	-ms-transform-origin: center;
 	-o-transform-origin: center;
 	transform-origin: center;
+}
+.touch .hover-overlay:active .box{
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 .box-wrap a{
 	color: #FFF;
