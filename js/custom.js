@@ -5,7 +5,7 @@ $(window).resize(function() {
 });
 $(document).ready(function() {		
 	//initialize all number animate with 0
-	//$('.numbAni').text('0');
+	$('.numbAni').text('0');
 
 	$('.window-height').height($(window).height());
 
@@ -54,9 +54,9 @@ $(document).ready(function() {
 
 		$('.popup-wrap#'+currentId+'-popup').addClass('popup-active');
 
-		setTimeout(function() {
+		/*setTimeout(function() {
 			animateNumber();
-		}, 2000);
+		}, 2000);*/
     
 	});
 
@@ -129,13 +129,26 @@ $(document).keyup(function(e) {
 });
 
 
-function animateNumber() {
-	if( $('.popup-wrap#wildlife-zero-poaching-popup').hasClass('popup-active') ) {
+// doesn't work after all article in single popup
+/*function animateNumber() {
+	if( $('#wildlife-zero-poaching-popup').hasClass('popup-active') ) {
     zeroPoachingnumbers();
   } else {
-    //$('.numbAni').text('0');
+    $('.numbAni').text('0');
   }	
-}
+}*/
+var zero_poaching_animated = 0;
+$('#infographics-zero-poaching').bind('inview', function(event, visible) {
+	zero_poaching_animated += 1;
+	if (visible) {
+		if(zero_poaching_animated == 1) {
+			zeroPoachingnumbers();
+			console.log('zero poacing animated once');
+		}
+	} else {
+    	//$('.numbAni').text('0');
+	}
+});
 
 function zeroPoachingnumbers() {
   // animated number

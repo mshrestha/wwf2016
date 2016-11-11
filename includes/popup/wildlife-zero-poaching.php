@@ -6,7 +6,7 @@
         </div> <!-- /.section-intro -->
 
         <div class="infographics">
-          <div class="infographics-widget">
+          <div id="infographics-zero-poaching" class="infographics-widget clearfix">
             <div class="col-sm-6">
               <div class="widget-box">
                 <div class="widget-icon"><img src="img/infographics/zero_poaching-01.svg" alt=""></div>
