@@ -69,10 +69,31 @@
 	    <script src="js/custom-swiper-effect-enable.js"></script>
     <?php } ?>
 
-	<!-- custom scrollbar plugin -->
-	<!-- <script src="../jquery.mCustomScrollbar.concat.min.js"></script> -->
-	<!-- <script src="vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom-swiper.js"></script>
+    <script src="js/custom.js"></script>
+
+    <!-- custom scrollbar stylesheet -->
+    <!-- //cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js
+//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.min.css
+//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/mCSB_buttons.png -->
+
+	<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.min.css"> -->
+	 <!-- custom scrollbar plugin  -->
+	<!-- <script src="//cdn.jsdelivr.net/jquery.mcustomscrollbar/3.0.6/jquery.mCustomScrollbar.concat.min.js"></script> -->
+	<style>
+		
+	</style>
 	<script>
+	</script>
+	<!-- <script src="vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script> -->
+
+
+    <!-- <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css">
+	 custom scrollbar plugin 
+	<script src="../jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.concat.min.js"></script> -->
+
+	<!-- <script>
 		(function($){
 			$(window).on("load",function(){
 				
@@ -84,8 +105,7 @@
 		})(jQuery);
 	</script> -->
 
-    <script src="js/custom-swiper.js"></script>
-    <script src="js/custom.js"></script>
+    
 
 </body>
 </html>
