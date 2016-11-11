@@ -162,6 +162,18 @@ $('#infographics-corridors-management').bind('inview', function(event, visible) 
 	}
 });
 
+var habitat_management_animated = 0;
+$('#infographics-habitat-management').bind('inview', function(event, visible) {
+	habitat_management_animated += 1;
+	if (visible) {
+		if(habitat_management_animated == 1) {
+			habitatManagementNumbers();
+			// console.log('corridors management animated once');
+		}
+	} else {
+	}
+});
+
 function zeroPoachingNumbers() {
   // animated number
   $('#poachersNumber').animateNumber(
@@ -231,6 +243,31 @@ function corridorsManagementNumbers() {
                   number: 43
                 }
               );//#operationPlanNumber ends
+            }
+          );//#fireLineNumber
+		}
+  		);//#grasslandNumber
+	}
+  );//end #communityForestNumber
+}
+
+function habitatManagementNumbers() {
+  // animated number
+  $('#habitatGrasslandNumber').animateNumber(
+  	{ 
+    number: 255
+    },
+    function() 
+    {
+      $('#habitatWetlandNumber').animateNumber(
+        {
+          number: 9
+        },
+        function()
+        {
+          $('#habitatFirelineNumber').animateNumber(
+            {
+              number: 262
             }
           );//#fireLineNumber
 		}

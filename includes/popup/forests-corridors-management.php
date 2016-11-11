@@ -9,7 +9,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 						  <div class="widget-box">
-						    <div class="widget-icon"><img src="img/infographics/zero_poaching-01.svg" alt=""></div>
+						    <div class="widget-icon"><img src="img/infographics/forest_management-01.svg" alt=""></div>
 						    <div class="widget-title">
 						      <div><span id="communityForestNumber" class="numbAni">3600</span><span>+</span></div>
 						      <span class="widget-title-text">ha of new community forests handed over in TAL and SHL</span>
@@ -19,7 +19,7 @@
 						</div>
 						<div class="col-sm-6">
 						  <div class="widget-box">
-						    <div class="widget-icon"><img src="img/infographics/zero_poaching-02.svg" alt=""></div>
+						    <div class="widget-icon"><img src="img/infographics/forest_management-02.svg" alt=""></div>
 						    <div class="widget-title">
 						      <div id="grasslandNumber" class="numbAni">505</div>
 						      <span class="widget-title-text">ha of grassland managed in buffer zones, critical corridors and bottlenecks</span>
@@ -32,7 +32,7 @@
 					<div class="row">
 					    <div class="col-sm-6">
 					      <div class="widget-box">
-					        <div class="widget-icon"><img src="img/infographics/zero_poaching-03.svg" alt=""></div>
+					        <div class="widget-icon"><img src="img/infographics/forest_management-03.svg" alt=""></div>
 					        <div class="widget-title">
 					          <div id="fireLineNumber" class="numbAni">240</div>
 					          <span class="widget-title-text">km of fire-lines constructed</span>
@@ -41,7 +41,7 @@
 					    </div>
 					    <div class="col-sm-6">
 					      <div class="widget-box">
-					        <div class="widget-icon"><img src="img/infographics/zero_poaching-04.svg" alt=""></div>
+					        <div class="widget-icon"><img src="img/infographics/forest_management-04.svg" alt=""></div>
 					        <div class="widget-title">
 					          <div id="operationPlanNumber" class="numbAni">43</div>
 					          <span class="widget-title-text">Forest Operation Plans* renewed</span>
