@@ -146,7 +146,7 @@ a:hover {
 	background-color: rgba(254,199,121, 1);
 }
 .popup-wrap#forests-main-popup{
-	background: rgba(133,193,62,1) url('img/loading.gif') no-repeat center 50%;
+	background: rgba(133,193,62,1) url('../img/loading.gif') no-repeat center 50%;
 
 }
 #climate-change-main-popup .section-intro,
