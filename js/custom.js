@@ -3,24 +3,6 @@ $(window).resize(function() {
 	// var slideWidth = winWidth - 30;
 	// $('.swiper-slide').width(slideWidth);
 });
-// function goToByScroll(id){
-// 	console.log(id);
-//     // Remove "link" from the ID
-//     //id = id.replace("link", "");
-    
-//     // Scroll
-//     var scrollTop = 0;
-//     console.log(scrollTop);
-//     scrollTop = $("#"+id).offset().top;
-//     console.log(scrollTop);
-//     scrollTop = scrollTop - 99;//dont know why it is showing little upwards
-//     console.log(scrollTop);
-
-//     $('.popup-wrap#wildlife-main-popup').animate({//
-//         //scrollTop: $("#"+id).offset().top
-//         scrollTop: scrollTop
-//     }, 0);
-// }
 $(document).ready(function() {		
 	//initialize all number animate with 0
 	//$('.numbAni').text('0');

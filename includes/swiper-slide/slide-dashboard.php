@@ -1,6 +1,6 @@
 
 	            <div class="swiper-slide" data-hash="slide-dashboard">
-	            	<div class="container-fluid fluid-fixed">
+	            	<div class="container-fluid fluid-fixed dashboard-height">
 		                <div class="title" data-swiper-parallax="-100">WWF Annual Report 2016</div>
 		                <div class="box-wrap rm-col-padding">
 		                	<div class="col-sm-4 box-g box-g-ui-1" data-swiper-parallax="-300">
