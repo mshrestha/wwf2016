@@ -35,7 +35,7 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 				                		<a href="climate-change-building-capacities-popup" class="hover-overlay pink popup-trigger" id="climate-change-main">
-					                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/tree-vid-thumb.jpg');">
+					                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/climate-change/building-capacities-in-redd_600.jpg');">
 						                		<div class="inner-title">Building capacities in REDD+</div>
 						                	</div>
 				                		</a>

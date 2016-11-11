@@ -374,6 +374,9 @@ a:hover {
     position: fixed;
     z-index: 9999;
 }
+.popup-wrap .popup-navigation {
+	/*display: none !important;*/
+}
 .popup-navigation li {
     float: left;
     margin-left: 3px;

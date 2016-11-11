@@ -129,6 +129,9 @@ ul.menu-share-this li ul {
 	opacity:0;
 	display:'none';
 }
+.menu-share-this a {  
+  cursor: pointer;
+}
 ul.menu-share-this li:hover ul {
 	display: block;
 }

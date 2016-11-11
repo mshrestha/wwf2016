@@ -36,7 +36,7 @@
 		                			<div class="col-sm-5">
 			                			<div class="box-container">
 					                		<a href="forests-sustainable-communities-popup" class="hover-overlay orange popup-trigger" id="forests-main">
-						                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/water.jpg');">
+						                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/forests/sustainable-communities-initiative-600.jpg');">
 							                		<div class="inner-title">Sustainable Communities Initiative</div>
 							                	</div>
 					                		</a>
@@ -58,7 +58,7 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 				                		<a href="forests-green-recovery-popup" class="hover-overlay orange popup-trigger" id="forests-main">
-					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/lady-with-poster.jpg');">
+					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/forests/green-recovery-and-reconstruction-600.jpg');">
 					                			<div class="inner-title">Green Recovery and Reconstruction</div>
 					                		</div>
 				                		</a>
