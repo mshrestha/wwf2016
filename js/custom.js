@@ -142,15 +142,27 @@ $('#infographics-zero-poaching').bind('inview', function(event, visible) {
 	zero_poaching_animated += 1;
 	if (visible) {
 		if(zero_poaching_animated == 1) {
-			zeroPoachingnumbers();
-			console.log('zero poacing animated once');
+			zeroPoachingNumbers();
+			// console.log('zero poacing animated once');
 		}
 	} else {
     	//$('.numbAni').text('0');
 	}
 });
 
-function zeroPoachingnumbers() {
+var corridors_management_animated = 0;
+$('#infographics-corridors-management').bind('inview', function(event, visible) {
+	corridors_management_animated += 1;
+	if (visible) {
+		if(corridors_management_animated == 1) {
+			corridorsManagementNumbers();
+			// console.log('corridors management animated once');
+		}
+	} else {
+	}
+});
+
+function zeroPoachingNumbers() {
   // animated number
   $('#poachersNumber').animateNumber(
   	{ 
@@ -192,6 +204,39 @@ function zeroPoachingnumbers() {
   		);//#tigerNumber
 		}
 	);//end #poachersNumber
+}
+
+function corridorsManagementNumbers() {
+  // animated number
+  $('#communityForestNumber').animateNumber(
+  	{ 
+    number: 3600
+    },
+    function() 
+    {
+      $('#grasslandNumber').animateNumber(
+        {
+          number: 505
+        },
+        function()
+        {
+          $('#fireLineNumber').animateNumber(
+            {
+              number: 240
+            },
+            function() 
+            {
+              $('#operationPlanNumber').animateNumber(
+                {
+                  number: 43
+                }
+              );//#operationPlanNumber ends
+            }
+          );//#fireLineNumber
+		}
+  		);//#grasslandNumber
+	}
+  );//end #communityForestNumber
 }
 
 // financial animate

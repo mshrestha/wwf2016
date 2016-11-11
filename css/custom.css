@@ -571,7 +571,7 @@ body.popupAcitve .swiper-slide-active{
   /*background: #8dc63f;*/
 }
 .infographics-widget {
-  padding: 10px 10px 0 20px;
+  /*padding: 10px 10px 0 20px;*/
 }
 .infographics-widget p {
   font-size: 12px;
@@ -606,6 +606,11 @@ body.popupAcitve .swiper-slide-active{
 	height: 64px; */
 	max-width: 90px;
 	max-height: 64px;
+}
+.note {
+	font-weight: normal;
+    font-family: Georgia;
+    font-size: 11px;
 }
 .icon-txt h2 {
     font-size: 27px;
