@@ -385,7 +385,7 @@ a:hover {
     z-index: 9999;
 }
 .popup-wrap .popup-navigation {
-	/*display: none !important;*/
+	display: none !important;
 }
 .popup-navigation li {
     float: left;

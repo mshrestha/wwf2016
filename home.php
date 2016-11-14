@@ -192,9 +192,10 @@
   	<!--<div class="popup-close"><span class="icon-cross"></span></div>-->
 
 	  	<?php
-	    // popup_navigation();
+	    popup_navigation();
 	    ?>
 
+		
 		<?php include('includes/popup/wwf-nepal.php');?>
 		<?php include('includes/popup/message.php');?>
 		<?php include('includes/popup/financial.php');?>

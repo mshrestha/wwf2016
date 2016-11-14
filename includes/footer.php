@@ -49,9 +49,14 @@
 
     	if (isset($_SERVER['HTTP_USER_AGENT'])) {
 		    $agent = $_SERVER['HTTP_USER_AGENT'];
+
+			print_r('aaa'.$agent);
 		}
 		if (strlen(strstr($agent, 'Firefox')) > 0) {
 		    $browser = 'firefox';
+		}
+		if (strlen(strstr($agent, 'Safari')) > 0) {
+		    $browser = 'safari';
 		}
 
     	$isiPad = (bool) strpos($_SERVER['HTTP_USER_AGENT'],'iPad');
@@ -60,7 +65,7 @@
     	<!-- for ipad and fixefox -->
     	<script src="js/custom-swiper-effect-disable.js"></script>
     <?php }
-    elseif ($browser == 'firefox') {
+    elseif ($browser == 'firefox' || $browser == 'safari') {
     ?>
     	<!-- for ipad and fixefox -->
     	<script src="js/custom-swiper-effect-disable.js"></script>
@@ -87,6 +92,19 @@
 
     <script src="js/custom-swiper.js"></script>
     <script src="js/custom.js"></script>
+
+    <script src="js/scrollbar/jquery.scrollbar.js"></script>
+    <script type="text/javascript">
+	$(document).ready(function(){
+	    $('.scrollbar-div').scrollbar();
+	    var win_height = $(window).height();
+
+	    $('.scrollbar-div, .article-section').css({//.scrollbar-div, 
+	    	'min-height': win_height + 'px',
+	    	'max-height': win_height + 'px',
+	    });
+	});
+	</script>
 
 </body>
 </html>

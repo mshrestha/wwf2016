@@ -31,6 +31,7 @@
 
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/../css/custom-responsive.css">
+    <link rel="stylesheet" href="css/scrollbar/style.css">
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
