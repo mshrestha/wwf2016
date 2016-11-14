@@ -26,9 +26,6 @@
     <link rel="stylesheet" href="css/swiper-style.css">
     <!-- <link rel="stylesheet" href="../dist/css/swiper.min.css"> -->
 
-    <!-- custom scrollbar stylesheet -->
-    <!-- <link rel="stylesheet" href="vendor/malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css"> -->
-
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/../css/custom-responsive.css">
     <link rel="stylesheet" href="css/scrollbar/style.css">
