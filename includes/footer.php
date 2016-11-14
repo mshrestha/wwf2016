@@ -114,16 +114,7 @@
     
 
     <script src="js/scrollbar/jquery.scrollbar.js"></script>
-    <script type="text/javascript">
-	$(document).ready(function(){
-	    $('.scrollbar-div').scrollbar();
-	    var win_height = $(window).height();
-
-	    $('.scrollbar-div, .article-section').css({//.scrollbar-div, 
-	    	'min-height': win_height + 'px',
-	    	'max-height': win_height + 'px',
-	    });
-	});
+    <script src="js/scrollbar/custom-scrollbar.js">
 	</script>
 
 </body>

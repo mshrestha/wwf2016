@@ -1,0 +1,8 @@
+
+    	<div id="" class="article-section" style="background-image: url('img/inner-pop-up-image-bg.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">            
+	        <div class="section-intro content-txt section-absolute">
+				<!-- <h1 class="uppercase">Regional Programs</h1> -->
+				<h1 class="uppercase">Asian Rhino and Elephant Action Strategy</h1>
+                <p>Asian elephants and all four Asian rhino species are amongst the most endangered large mammals in the world and their numbers are falling at some of the critical biodiversity sites. WWF is doing its best to halt this trend and initiated a suite of conservation activities for these important species under a comprehensive program called AREAS (Asian Rhino and Elephant Action Strategy) and based the regional HQ in WWF Nepal Program since the year 2000. The overall objective is that the WWF AREAS program is instrumental in achieving conservation results through interventions by WWF and interventions of partner organizations (governments, NGOs, and other stakeholders) so that Asian elephant and rhino populations are viable in adequate habitats in 2020. It will do so by enhancing institutional capacity of WWF and partners through technical and policy support to contribute to the survival of viable populations of Asian elephants, greater one-horned, Sumatran and Javan rhinos in the wild. The program will also monitor at the regional level to measure the impact of WWF investments for the conservation of these four species of Asian pachyderms. Nepal aims to establish two viable rhino populations in Chitwan and Western Complexes.</p>
+	        </div> <!-- /.section-intro -->
+    	</div>
