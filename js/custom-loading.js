@@ -42,6 +42,7 @@ $(document).ready(function() {
 $( window ).load(function() {
     // Run code after window loads completely - hide the loading
     $('.loading-wrapper').addClass('hidden');
+    $('.loading').addClass('hidden');
 
     swiper_valign();
 });
