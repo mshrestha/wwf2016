@@ -50,7 +50,7 @@
     	if (isset($_SERVER['HTTP_USER_AGENT'])) {
 		    $agent = $_SERVER['HTTP_USER_AGENT'];
 
-			print_r('aaa'.$agent);
+			// print_r('aaa'.$agent);
 		}
 		if (strlen(strstr($agent, 'Firefox')) > 0) {
 		    $browser = 'firefox';
