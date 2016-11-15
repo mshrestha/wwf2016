@@ -405,7 +405,9 @@ a:hover {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.popup-navigation li a:hover, .popup-navigation li span:hover{
+.no-touch .popup-navigation li a:hover, .no-touch .popup-navigation li span:hover, 
+.touch .popup-navigation li a:focus, .touch .popup-navigation li span:focus
+{
     color: #FFF;
     background: #000;
 }
@@ -477,6 +479,10 @@ body.popupAcitve .swiper-slide-active{
 		font-weight: normal;
 		font-size: 15px;
 		font-family: 'Open Sans', sans-serif;
+	}
+	.video-sec{
+		margin-left: -10px;
+		margin-bottom: 30px;
 	}
 }
 @media(min-width:768px){}
@@ -614,6 +620,31 @@ body.popupAcitve .swiper-slide-active{
 @media(max-width: 991px){
 	.infographics{
 		width: 100%;
+		position: static;
+	}
+	/*#forests-main-popup .section-intro {
+	    position: static;
+	    margin-top: 60px;
+	    margin-left: 10px;
+	}
+	#forests-main-popup .infographics{
+	    position: static;
+	    padding-left: 10px;
+	}*/
+	.swiper-slide{
+		padding-left: 0;
+	}
+	.header .col-sm-12{
+		padding-left: 0;
+	}
+	body .section-absolute{
+		position: static;
+	}
+	 .section-intro{
+	 	margin-top: 60px;
+	 }
+	.container-fluid.fluid-fixed{
+		padding-right: 0;
 	}
 }
 .note {
@@ -749,4 +780,6 @@ g.circle-arrow circle{
     background: #a8ab6e url('../img/curve-line-pattern.png') repeat;
     padding: 20px;
     margin-left: -10px;
+    max-width: 400px;
+    margin-bottom: 30px;
 }

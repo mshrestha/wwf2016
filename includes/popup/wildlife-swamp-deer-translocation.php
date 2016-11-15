@@ -1,4 +1,4 @@
-		<img src="img/water/swamp-deer-translocation<?php echo get_small_image();?>.jpg" class="hidden">
+		<img src="img/wildlife/swamp-deer-translocation<?php echo get_small_image();?>.jpg" class="hidden">
     	<div id="wildlife-swamp-deer-translocation-popup" class="article-section" style="background-image: url('img/wildlife/swamp-deer-translocation<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%;top: 0; left: 0; z-index: 999;">            
             <div class="section-intro content-txt section-absolute section-bottom section-right">
                 <h1 class="uppercase">Swamp deer translocation</h1>
