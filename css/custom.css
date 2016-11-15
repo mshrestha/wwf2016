@@ -620,8 +620,9 @@ body.popupAcitve .swiper-slide-active{
 @media(max-width: 991px){
 	.infographics{
 		width: 100%;
+		position: static;
 	}
-	#forests-main-popup .section-intro {
+	/*#forests-main-popup .section-intro {
 	    position: static;
 	    margin-top: 60px;
 	    margin-left: 10px;
@@ -629,6 +630,21 @@ body.popupAcitve .swiper-slide-active{
 	#forests-main-popup .infographics{
 	    position: static;
 	    padding-left: 10px;
+	}*/
+	.swiper-slide{
+		padding-left: 0;
+	}
+	.header .col-sm-12{
+		padding-left: 0;
+	}
+	body .section-absolute{
+		position: static;
+	}
+	 .section-intro{
+	 	margin-top: 60px;
+	 }
+	.container-fluid.fluid-fixed{
+		padding-right: 0;
 	}
 }
 .note {
