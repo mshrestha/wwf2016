@@ -41,7 +41,7 @@ $(document).ready(function() {
 		tl.to($('.article-section').not('#'+article_location), 0, {opacity:0}, '0');
 		tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
 
-		tl.to($('#'+currentId+'-popup'), 0, {scrollTo:{y: "#"+article_location}, ease:Power2.easeOut});
+		tl.to($('#'+currentId+'-popup .scrollbar-div'), 0, {scrollTo:{y: "#"+article_location}, ease:Power2.easeOut});
 		tl.to($('.article-section'), 0, {opacity:1}, '4.5');
 		// tl.to(window, 2, {scrollTo:{y:"#someID", offsetY:50}});
 
