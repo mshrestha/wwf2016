@@ -14,6 +14,11 @@ $(document).ready(function() {
 	var animateGroup = $('.animate-visible');
 	// tl.to(animateGroup, 0, {ease: Power4.easeInOut, y: '50px', opacity:0}, '0');
 
+	// close animate
+	var closeBtn = $('.popup-close');
+	var tl = new TimelineMax();
+	tl.to(closeBtn, 0, {ease: Power4.easeInOut, y: '-10px', opacity:0, display: 'none'}, '0');
+
 	// pop up trigger
 	$('.popup-trigger').click(function(event) {		
 		$('.popup-wrap').removeClass('popup-active');//remove popup-active from all other
@@ -50,7 +55,7 @@ $(document).ready(function() {
 		// tl.to(currentContent, 2, {ease: Power4.easeOut, y: '0px', opacity:1, display: 'block'}, '1.5');
 
 
-		tl.to(closeBtn, 1, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
+		tl.to(closeBtn, 1, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '2');
 
 		$('.popup-wrap#'+currentId+'-popup').addClass('popup-active');
 

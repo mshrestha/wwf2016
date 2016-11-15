@@ -405,7 +405,9 @@ a:hover {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
-.popup-navigation li a:hover, .popup-navigation li span:hover{
+.no-touch .popup-navigation li a:hover, .no-touch .popup-navigation li span:hover, 
+.touch .popup-navigation li a:focus, .touch .popup-navigation li span:focus
+{
     color: #FFF;
     background: #000;
 }
@@ -618,6 +620,15 @@ body.popupAcitve .swiper-slide-active{
 @media(max-width: 991px){
 	.infographics{
 		width: 100%;
+	}
+	#forests-main-popup .section-intro {
+	    position: static;
+	    margin-top: 60px;
+	    margin-left: 10px;
+	}
+	#forests-main-popup .infographics{
+	    position: static;
+	    padding-left: 10px;
 	}
 }
 .note {

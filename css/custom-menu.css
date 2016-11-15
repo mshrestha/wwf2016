@@ -189,6 +189,7 @@ ul.menu-share-this li ul li a.icon-facebook {
     float: left;
     height: 50px;
     text-align: left;
+    line-height: 30px;
 
 }
 .sm-pagination span.swiper-pagination-bullet img{
@@ -201,6 +202,7 @@ ul.menu-share-this li ul li a.icon-facebook {
     padding: 10px 0;
 }
 .visible-sm.visible-xs.sm-menu-toggle {
+    cursor: pointer;
     position: absolute;
     top: 24px;
     right: 30px;
@@ -235,4 +237,7 @@ ul.menu-share-this li ul li a.icon-facebook {
 }
 .sm-menu-toggle span.line3{
   top: 16px;
+}
+.hidden-lg.hidden-md.sm-pagination.swiper-pagination.custom-pagination .swiper-pagination-bullet-active {
+    background: #435a29;
 }
