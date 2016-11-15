@@ -1,5 +1,5 @@
-
-    	<div id="wildlife-zero-poaching-popup" class="article-section" style="background-image: url('img/wildlife/zero-poaching-image.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
+      <img src="img/water/zero-poaching-image<?php echo get_small_image();?>.jpg" class="hidden">
+    	<div id="wildlife-zero-poaching-popup" class="article-section" style="background-image: url('img/wildlife/zero-poaching-image<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
       <div class="infographics">
           <div id="infographics-zero-poaching" class="infographics-widget clearfix">
             <div class="row">
