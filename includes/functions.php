@@ -31,3 +31,14 @@ function popup_navigation($previous_story_id = '', $next_story_id = '') {
     }//end if
   echo '</ul>';
 }
+
+// for small size image in mobile devices
+function isMobile() {
+    return preg_match("/(android|webos|avantgo|iphone|ipad|ipod|blackbe‌​rry|iemobile|bolt|bo‌​ost|cricket|docomo|f‌​one|hiptop|mini|oper‌​a mini|kitkat|mobi|palm|phone|pie|tablet|up\.browser|up\.link|‌​webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+}
+
+function get_small_image() {
+	if(isMobile()):
+		return '-sm';
+	endif;
+}
