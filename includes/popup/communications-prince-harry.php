@@ -1,4 +1,4 @@
-
+<img src="img/communications/prince-harry.jpg" alt="" class="hidden">
     	<div id="communications-prince-harry-popup" class="article-section " style="background-image: url('img/communications/prince-harry.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
 			<div class="section-intro content-txt section-absolute">
 				<h1 class="uppercase">Prince Harry</h1>

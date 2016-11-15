@@ -611,6 +611,11 @@ body.popupAcitve .swiper-slide-active{
 	max-width: 90px;
 	max-height: 64px;
 }
+@media(max-width: 991px){
+	.infographics{
+		width: 100%;
+	}
+}
 .note {
 	font-weight: normal;
     font-family: Georgia;
