@@ -478,6 +478,10 @@ body.popupAcitve .swiper-slide-active{
 		font-size: 15px;
 		font-family: 'Open Sans', sans-serif;
 	}
+	.video-sec{
+		margin-left: -10px;
+		margin-bottom: 30px;
+	}
 }
 @media(min-width:768px){}
 @media(min-width:992px){}
@@ -749,4 +753,6 @@ g.circle-arrow circle{
     background: #a8ab6e url('../img/curve-line-pattern.png') repeat;
     padding: 20px;
     margin-left: -10px;
+    max-width: 400px;
+    margin-bottom: 30px;
 }
