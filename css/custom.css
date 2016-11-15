@@ -192,7 +192,7 @@ a:hover {
 	transition: all 0.3s ease;
 }
 .hover-overlay:hover .box{
-	-webkit-transition: all 15s ease;
+	/*-webkit-transition: all 15s ease;
 	-o-transition: all 15s ease;
 	transition: all 15s ease;
 	-webkit-transform: scale(1.05)  translate(0, -5px);
@@ -203,7 +203,7 @@ a:hover {
 	-moz-transform-origin: center;
 	-ms-transform-origin: center;
 	-o-transform-origin: center;
-	transform-origin: center;
+	transform-origin: center;*/
 }
 .touch .hover-overlay:active .box{
 	-webkit-transition: all 0.3s ease;
@@ -328,6 +328,7 @@ a:hover {
 	padding-top: 114px;
 	padding-bottom: 114px;*/
 	overflow: auto;
+	/*-webkit-overflow-scrolling: touch;*/
 	color: #FFF;
 	height: 100%;	
 	display: none;
