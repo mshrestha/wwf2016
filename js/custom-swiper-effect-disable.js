@@ -20,11 +20,22 @@ var swiper = new Swiper('.swiper-container', {
     //   slideShadows : false,
     // },
   touchEventsTarget: 'container',
-  /*onSlideChangeStart(swiper) {
-    // console.log('changed');
-    trigger_make_custom_pagination_active();
-  }*/
+  onSlideChangeStart(swiper) {
+    console.log('changed-disabled');
+    //trigger_make_custom_pagination_active();
+
+    pauseVideo();
+  }
 });
+
+function pauseVideo() {
+  if( $('.swiper-slide.slide-with-video').hasClass('swiper-slide-active') ) {    
+  } else {
+    if($('.mb_YTVPPlaypause').text() == 'p') {
+        $('.mb_YTVPPlaypause').trigger('click');
+    }
+  }
+}
 
 function make_custom_pagination_active(swiper_slide_class) {
   if( $('.swiper-slide-active').hasClass('slide-'+swiper_slide_class) ) {

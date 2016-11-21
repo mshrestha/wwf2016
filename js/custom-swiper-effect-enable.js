@@ -21,10 +21,21 @@ var swiper = new Swiper('.swiper-container', {
     },
   touchEventsTarget: 'container',
   onSlideChangeStart(swiper) {
-    // console.log('changed');
+    console.log('changed');
     //trigger_make_custom_pagination_active();//doesn't need this now - added in swiper.modified.js
+    
+    pauseVideo();
   }
 });
+
+function pauseVideo() {
+  if( $('.swiper-slide.slide-with-video').hasClass('swiper-slide-active') ) {    
+  } else {
+    if($('.mb_YTVPPlaypause').text() == 'p') {
+        $('.mb_YTVPPlaypause').trigger('click');
+    }
+  }
+}
 
 function make_custom_pagination_active(swiper_slide_class) {
   if( $('.swiper-slide-active').hasClass('slide-'+swiper_slide_class) ) {

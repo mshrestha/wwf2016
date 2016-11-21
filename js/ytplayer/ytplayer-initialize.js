@@ -7,21 +7,6 @@ $(document).ready(function() {
   videoContainerHeight();
 });
 
-  $('.mb_YTVPPlaypause').click(function() {
-    console.log( $('.mb_YTVPPlaypause').text() );
-    
-    if($(this).text() == 'p') {
-      //its playing - so show pause icon to pause it
-      console.log('playing');
-      $(this).addClass('PauseIcon');
-    }
-    else {      
-      //paused - so remove pause icon
-      console.log('paused');
-      $(this).removeClass('PauseIcon');
-    }
-  });
-
 $(window).resize(function() {
   $('.page-container').height( $(window).height() );
   $('.fullHeightImg').height( $(window).height() );
@@ -85,5 +70,34 @@ jQuery(function () {
       }
     });
 
+    /*myPlayer.on("YTPReady", function (e) {
+      jQuery('.mb_YTVPPlaypause').show();
+    });*/
+    jQuery('#bgndVideo').on("YTPReady",function(e){
+      console.log('Ready..');
+      jQuery('.mb_YTVPPlaypause').show(); 
+    });
+
   } //if screen size
 });
+
+$(window).load(function() {
+  setTimeout(function() {
+    playPauseIcon();
+  }, 2000);
+});
+
+function playPauseIcon() {
+  $('.mb_YTVPPlaypause').show();
+
+  $('.mb_YTVPPlaypause').click(function() {
+    if($(this).text() == 'p') {
+      //its playing - so show pause icon to pause it
+      $(this).addClass('PauseIcon');
+    }
+    else {      
+      //paused - so remove pause icon
+      $(this).removeClass('PauseIcon');
+    }
+  });
+}
