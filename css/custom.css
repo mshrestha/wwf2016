@@ -346,7 +346,8 @@ a:hover {
 	padding: 20px;
 	position: relative;
 }
-.popup-wrap p{
+.popup-wrap p, .popup-wrap a {
+	color: #ffffff;
 	font-family: Georgia, serif;
 	font-size: 1em;
 }
@@ -761,11 +762,8 @@ g.circle-arrow circle{
 	top: auto;
 	bottom: 30px;
 }
-#communications-main-popup .section-intro.rm-bg {
-    background: none;
-}
-#communications-main-popup .section-intro.rm-bg {
-    background: none;
+.section-intro.rm-bg {
+    background: none !important;
 }
 .loading {
     position: fixed;
@@ -779,9 +777,12 @@ g.circle-arrow circle{
 .video-dis {
     background: #a8ab6e url('../img/curve-line-pattern.png') repeat;
     padding: 20px;
-    margin-left: -10px;
     max-width: 400px;
     margin-bottom: 30px;
+}
+.section-intro.video-content {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /* homepage video */
