@@ -62,6 +62,12 @@ $(document).ready(function() {
 		/*setTimeout(function() {
 			animateNumber();
 		}, 2000);*/
+
+		//pause video if popup opened
+		if($('.mb_YTVPPlaypause').text() == 'p') {
+			//if playing
+	        $('.mb_YTVPPlaypause').trigger('click');
+	    }
     
 	});
 

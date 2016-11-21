@@ -21,7 +21,7 @@ var swiper = new Swiper('.swiper-container', {
     },
   touchEventsTarget: 'container',
   onSlideChangeStart(swiper) {
-    console.log('changed');
+    // console.log('changed');
     //trigger_make_custom_pagination_active();//doesn't need this now - added in swiper.modified.js
     
     pauseVideo();

@@ -21,7 +21,7 @@ var swiper = new Swiper('.swiper-container', {
     // },
   touchEventsTarget: 'container',
   onSlideChangeStart(swiper) {
-    console.log('changed-disabled');
+    // console.log('changed-disabled');
     //trigger_make_custom_pagination_active();
 
     pauseVideo();

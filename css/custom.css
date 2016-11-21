@@ -797,6 +797,8 @@ g.circle-arrow circle{
     z-index: 999;
     left: 0;
     top: 0;
+    width: 100%;
+    height: 100%;
 }
 .welcome-video {
     height: 100%;
@@ -831,7 +833,7 @@ g.circle-arrow circle{
   margin-top: -7px;
 }
 .mb_YTVPProgress {
-  background: url(../images/white_bg_1px.gif) repeat-x 0 5px;
+  /*background: url(../images/white_bg_1px.gif) repeat-x 0 5px;*/
   cursor: pointer;
   height: 10px;
   width: 100%;
@@ -849,7 +851,7 @@ g.circle-arrow circle{
   cursor: pointer;
   width: 30px;
   height: 30px;
-  background: url('../images/yt-player-dot.png') no-repeat center center;
+  /*background: url('../images/yt-player-dot.png') no-repeat center center;*/
   margin-top: -15px;
   margin-right: -15px;
   border-radius: 15px;
@@ -876,7 +878,7 @@ g.circle-arrow circle{
   width: 70px;
   position: fixed;
   left: 50%;
-  top: 45%;
+  top: 40%;
   margin-top: -35px !important;
   margin-left: -35px !important;
 }
@@ -889,7 +891,7 @@ g.circle-arrow circle{
 .mb_YTVPPlaypause:hover,
 #playButton:hover,
 .PauseIcon:hover {
-  background-color: #f68c50 !important;
+  background-color: #007931 !important;
   transition: all 500ms ease-in-out;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -908,4 +910,7 @@ g.circle-arrow circle{
   display: none;
   margin-top: 200px;
   text-align: center;
+}
+.YTPOverlay {
+	display: none;
 }

@@ -91,13 +91,36 @@ function playPauseIcon() {
   $('.mb_YTVPPlaypause').show();
 
   $('.mb_YTVPPlaypause').click(function() {
-    if($(this).text() == 'p') {
-      //its playing - so show pause icon to pause it
-      $(this).addClass('PauseIcon');
-    }
-    else {      
-      //paused - so remove pause icon
-      $(this).removeClass('PauseIcon');
-    }
+    $('.slide-with-video .intro-text').hide();
+
+    addPauseIcon();
   });
+}
+
+function addPauseIcon() {
+  if($('.mb_YTVPPlaypause').text() == 'p') {
+    //its playing - so show pause icon to pause it
+    $('.mb_YTVPPlaypause').addClass('PauseIcon');
+  }
+  else {      
+    //paused - so remove pause icon
+    $('.mb_YTVPPlaypause').removeClass('PauseIcon');
+  }
+}
+
+var timeout;
+document.onmousemove = function(){
+  clearTimeout(timeout);
+  $('.mb_YTVPPlaypause').show();
+  // console.log('mouse-moved');
+  
+  timeout = setTimeout(function(){
+    // console.log('mouse not moved for 5 sec');
+
+    // alert("move your mouse");
+    if($('.mb_YTVPPlaypause').text() == 'p') {
+      //its playing
+      $('.mb_YTVPPlaypause').hide();
+    }
+  }, 2000);
 }
