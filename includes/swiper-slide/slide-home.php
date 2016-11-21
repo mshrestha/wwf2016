@@ -1,4 +1,8 @@
-						<div class="swiper-slide" data-hash="slide-home">
+				<div class="swiper-slide slide-with-video" data-hash="slide-home">
+					<div class="welcome-video img-cover" style="background-image: url('http://img.youtube.com/vi/1tWYm9EiwxA/maxresdefault.jpg');">
+						<div id="bgndVideo" class="player" data-property="{videoURL:'http://youtu.be/1tWYm9EiwxA',containment:'.welcome-video',autoPlay:true, mute:false, startAt:0, opacity:1}">My video</div>
+						<!-- , quality:'large' -->
+					</div>
 	        		<div class="container-fluid fluid-fixed">
 		                <div class="text intro-text" data-swiper-parallax="-300">
 		                	<div class="box-title">

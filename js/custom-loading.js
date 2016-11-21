@@ -21,6 +21,11 @@ function swiper_valign() {
     $('.swiper-wrapper').css({
         'padding-top': swiper_padding_top + 'px',
     });
+
+    //minus the same padding as top position for video
+    $('.welcome-video').css({
+        'top': '-' + swiper_padding_top + 'px',
+    });
 }
 
 $(document).ready(function() {
