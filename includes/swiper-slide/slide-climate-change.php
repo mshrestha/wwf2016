@@ -27,7 +27,7 @@
 		                			<div class="box-container">
 				                		<a href="climate-change-alternate-energy-popup" class="hover-overlay pink popup-trigger" id="climate-change-main">
 					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/climate-change/alternate-energy-600.jpg');">
-					                			<div class="inner-title center">Alternate energy</div>
+					                			<div class="inner-title center">ALTERNATE ENERGY PROMOTION</div>
 					                		</div>
 				                		</a>
 		                			</div>
