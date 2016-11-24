@@ -609,7 +609,7 @@ body.popupAcitve .swiper-slide-active{
   font-size: 18px;
   display: block;
   line-height: 20px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   min-height: 40px; /* for 2 line */
 }
 .infographics .infographics-widget .widget-icon img {
@@ -760,7 +760,7 @@ g.circle-arrow circle{
 }
 .section-bottom {
 	top: auto;
-	bottom: 30px;
+	bottom: 50px;
 }
 .section-intro.rm-bg {
     background: none !important;
@@ -914,4 +914,11 @@ g.circle-arrow circle{
 }
 .YTPOverlay {
 	display: none;
+}
+
+/* Copyright text */
+.copyright-text {
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
 }

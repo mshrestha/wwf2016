@@ -193,30 +193,30 @@ function zeroPoachingNumbers() {
     },
     function() 
     {
-      $('#tigerNumber').animateNumber(
+      $('#crimeControlNumber').animateNumber(
         {
-          number: 11
+          number: 22
         },
         function()
         {
-          $('#crimeControlNumber').animateNumber(
+          $('#antiPoachingNumber').animateNumber(
             {
-              number: 22
+              number: 920
             },
             function() 
             {
-              $('#antiPoachingNumber').animateNumber(
+              $('#youthNumber').animateNumber(
                 {
-                  number: 920000
+                  number: 1200
                 },
                 function() 
                 {
-                  $('#youthNumber').animateNumber(
+                  $('#canineNumber').animateNumber(
                     {
-                      number: 1200
+                      number: 4
                     },
                     function() {
-                      $('#canineNumber').animateNumber({number: 4});
+                      $('#tigerNumber').animateNumber({number: 11});
                     }
                   );//#youthNumber ends
                 }
@@ -231,9 +231,9 @@ function zeroPoachingNumbers() {
 
 function corridorsManagementNumbers() {
   // animated number
-  $('#communityForestNumber').animateNumber(
+  $('#fireLineNumber').animateNumber(
   	{ 
-    number: 3600
+    number: 240
     },
     function() 
     {
@@ -243,15 +243,29 @@ function corridorsManagementNumbers() {
         },
         function()
         {
-          $('#fireLineNumber').animateNumber(
+          $('#communityForestNumber').animateNumber(
             {
-              number: 240
+              number: 3600
             },
             function() 
             {
               $('#operationPlanNumber').animateNumber(
                 {
                   number: 43
+                },
+                function() {
+                	$('#forestRestoredNumber').animateNumber(
+                		{
+                			number: 334
+                		},
+                		function() {
+                			$('#waterholesNumber').animateNumber(
+	                			{
+	                				number: 16	
+	                			}
+            				)
+                		}
+            		)
                 }
               );//#operationPlanNumber ends
             }
@@ -264,21 +278,21 @@ function corridorsManagementNumbers() {
 
 function habitatManagementNumbers() {
   // animated number
-  $('#habitatGrasslandNumber').animateNumber(
+  $('#habitatFirelineNumber').animateNumber(
   	{ 
-    number: 255
+    number: 262
     },
     function() 
     {
-      $('#habitatWetlandNumber').animateNumber(
+      $('#habitatGrasslandNumber').animateNumber(
         {
-          number: 9
+          number: 255
         },
         function()
         {
-          $('#habitatFirelineNumber').animateNumber(
+          $('#habitatWetlandNumber').animateNumber(
             {
-              number: 262
+              number: 9 
             }
           );//#fireLineNumber
 		}

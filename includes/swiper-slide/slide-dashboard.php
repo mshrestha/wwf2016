@@ -14,7 +14,7 @@
 		                			</div>
 		                			<div class="box-container">
 				                		<a href="message" class="hover-overlay green popup-trigger" id="message">
-					                		<div class="col-sm-12 box box-2 box-title box-message" style="background-image: url('img/message/cr-message2-600.jpg');">					
+					                		<div class="col-sm-12 box box-2 box-title box-message" style="background-image: url('img/message/cr-message1-600.jpg');">					
 					                			<div class="inner-title">Message</div>
 			                				</div>
 				                		</a>

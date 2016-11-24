@@ -47,7 +47,7 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 				                		<a href="wildlife-reducing-human-wildlife-conflict-popup" class="hover-overlay light-green popup-trigger" id="wildlife-main">
-					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/wildlife/world-ranger-congress-600.jpg');">
+					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/wildlife/reducing-human-wildlife-conflict-600.jpg');">
 					                			<div class="inner-title">Reducing Human-Wildlife Conflict</div>
 					                		</div>
 				                		</a>

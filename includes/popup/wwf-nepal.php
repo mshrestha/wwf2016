@@ -8,8 +8,8 @@
 
                     <?php 
                     include('includes/popup/wwfnepal-about.php');
-                    include('includes/popup/wwfnepal-vision.php');
-                    include('includes/popup/wwfnepal-goal.php');
+                    //include('includes/popup/wwfnepal-vision.php');
+                    //include('includes/popup/wwfnepal-goal.php');
                     include('includes/popup/wwfnepal-regional-living.php');
                     include('includes/popup/wwfnepal-regional-tiger.php');
                     include('includes/popup/wwfnepal-regional-asian.php');

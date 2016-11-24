@@ -1,6 +1,7 @@
       <img src="img/wildlife/zero-poaching-image<?php echo get_small_image();?>.jpg" class="hidden">
     	<div id="wildlife-zero-poaching-popup" class="article-section" style="background-image: url('img/wildlife/zero-poaching-image<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
-      <div class="infographics">
+        <?php copyright('WWF-US/Narendra Shrestha');?>
+        <div class="infographics">
           <div id="infographics-zero-poaching" class="infographics-widget clearfix">
             <div class="row">
               <div class="col-sm-6">
@@ -15,19 +16,6 @@
               </div>
               <div class="col-sm-6">
                 <div class="widget-box">
-                  <div class="widget-icon"><img src="img/infographics/zero_poaching-02.svg" alt=""></div>
-                  <div class="widget-title">
-                    <div id="tigerNumber" class="numbAni">11</div>
-                    <span class="widget-title-text">tiger skins seized</span>
-                  </div>
-                  <!-- <p>on wildlife crimes and enforcement</p> -->
-                </div>
-              </div>
-            </div>
-
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-box">
                   <div class="widget-icon"><img src="img/infographics/zero_poaching-03.svg" alt=""></div>
                   <div class="widget-title">
                     <div id="crimeControlNumber" class="numbAni">22</div>
@@ -35,27 +23,30 @@
                   </div>
                 </div>
               </div>
+            </div>
+
+            <div class="row">
               <div class="col-sm-6">
                 <div class="widget-box">
                   <div class="widget-icon"><img src="img/infographics/zero_poaching-04.svg" alt=""></div>
                   <div class="widget-title">
-                    <div><span id="antiPoachingNumber" class="numbAni">920,000</span><span>km</span></div>
+                    <div><span id="antiPoachingNumber" class="numbAni">920</span><span>k</span></div>
                     <span class="widget-title-text">of anti-poaching patrols in Protected Areas</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="widget-box">
+                  <div class="widget-icon"><img src="img/infographics/zero_poaching-05.svg" alt=""></div>
+                  <div class="widget-title">
+                    <div><span id="youthNumber" class="numbAni">1200</span><span>+</span></div>
+                    <span class="widget-title-text">local youth mobilized in anti-poaching operations</span>
                   </div>
                 </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="col-sm-6">
-                <div class="widget-box">
-                  <div class="widget-icon"><img src="img/infographics/zero_poaching-05.svg" alt=""></div>
-                  <div class="widget-title">
-                    <div><span id="youthNumber" class="numbAni">1,200</span><span>+</span></div>
-                    <span class="widget-title-text">local youth mobilized in anti-poaching operations</span>
-                  </div>
-                </div>
-              </div>
               <div class="col-sm-6">
                 <div class="widget-box">
                   <div class="widget-icon"><img src="img/infographics/zero_poaching-06.svg" alt=""></div>
@@ -65,12 +56,22 @@
                   </div>
                 </div>
               </div>
+              <div class="col-sm-6">
+                <div class="widget-box">
+                  <div class="widget-icon"><img src="img/infographics/zero_poaching-02.svg" alt=""></div>
+                  <div class="widget-title">
+                    <div id="tigerNumber" class="numbAni">11</div>
+                    <span class="widget-title-text">tiger skins seized</span>
+                  </div>
+                  <!-- <p>on wildlife crimes and enforcement</p> -->
+                </div>
+              </div>
             </div>
           </div>
         </div>            
         <div class="section-intro content-txt section-absolute section-bottom section-right box">
-          <h1 class="uppercase">Zero poaching</h1>
-          <p>On 2 May 2016, Nepal marked two years since its last rhino was poached. This is the first time that Nepal achieved two consecutive years of zero poaching of rhinoswhose population presently stands at 645, the highest recorded number in the country so far.Nepal’s zero poaching success is rooted in a coordinated response, which is driven from the centre and implemented at grassroots level, including heightened protection efforts within Protected Areas and buffer zones and community forests. Nepal has also been a driving force behind the Zero Poaching Toolkit, which highlights the six pillars that countries need to focus on to tackle poaching.</p>
+          <h1 class="uppercase">THE ZERO POACHING STANDARD</h1>
+          <p>On 2 May 2016, Nepal marked two years since its last rhino was poached. This is the first time that Nepal achieved two consecutive years of zero poaching of rhinos whose population presently stands at 645, the highest recorded number in the country so far. Nepal’s zero poaching success is rooted in a coordinated response, which is driven from the centre and implemented at grassroots level, including heightened protection efforts within Protected Areas and buffer zones and community forests. Nepal has also been a driving force behind the Zero Poaching Toolkit, which highlights the six pillars that countries need to focus on to tackle poaching.</p>
         </div> <!-- /.section-intro -->
     	</div>
       <style>

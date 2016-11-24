@@ -42,3 +42,7 @@ function get_small_image() {
 		return '-sm';
 	endif;
 }
+
+function copyright($copyright) {
+  echo '<div class="copyright-text">&copy; '.$copyright.'</div>';
+}
