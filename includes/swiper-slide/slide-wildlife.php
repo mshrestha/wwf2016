@@ -9,14 +9,14 @@
 			                			<div class="box-container">
 					                		<a href="wildlife-rhino-translocation-popup" class="hover-overlay light-green popup-trigger" id="wildlife-main">
 						                		<div class="col-sm-12 box box-1 box-title curve-bg light-green-box wwf-nepal-title">
-						                			<div class="inner-title">Rhino translocation</div>
+						                			<div class="inner-title">A NEW HOME FOR RHINOS</div>
 						                		</div>
 					                		</a>
 			                			</div>
 			                			<div class="box-container">
 					                		<a href="wildlife-snow-leopard-collaring-popup" class="hover-overlay light-green popup-trigger" id="wildlife-main">
 						                		<div class="col-sm-12 box box-2 box-title" style="background-image: url('img/wildlife/snow-leopard-collaring-600.jpg');">
-						                			<div class="inner-title">Snow leopard collaring</div>
+						                			<div class="inner-title">TRACKING LAPCHHEMBA</div>
 				                				</div>
 					                		</a>
 			                			</div>
@@ -27,7 +27,7 @@
 		                			<div class="box-container">
 				                		<a href="wildlife-zero-poaching-popup" class="hover-overlay light-green popup-trigger" id="wildlife-main">
 					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/wildlife/zero-poaching-600.jpg');">
-					                			<div class="inner-title center">Zero poaching</div>
+					                			<div class="inner-title center">THE ZERO POACHING STANDARD</div>
 					                		</div>
 				                		</a>
 		                			</div>

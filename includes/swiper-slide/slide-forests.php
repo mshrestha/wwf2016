@@ -16,7 +16,7 @@
 			                			<div class="box-container">
 					                		<a href="forests-corridors-management-popup" class="hover-overlay orange popup-trigger" id="forests-main">
 						                		<div class="col-sm-12 box box-2 box-title" style="background-image: url('img/forests/forest-management-in-critical-corridors-600.jpg');">
-						                			<div class="inner-title">Forest management in critical corridors</div>
+						                			<div class="inner-title">FOREST RESTORATION AND MANAGEMENT IN CRITICAL CORRIDORS</div>
 				                				</div>
 					                		</a>
 			                			</div>
