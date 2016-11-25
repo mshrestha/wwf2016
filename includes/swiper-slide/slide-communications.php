@@ -15,8 +15,8 @@
 			                			</div>
 			                			<div class="box-container">
 					                		<a href="communications-tiger-day-popup" class="hover-overlay brown popup-trigger" id="communications-main">
-						                		<div class="col-sm-12 box box-2 box-title" style="background-image: url('img/communications/global-tiger-day-600.jpg');">
-						                			<div class="inner-title">Global Tiger Day</div>
+						                		<div class="col-sm-12 box box-2 box-title" style="background-image: url('img/communications/prince-harry1-600.jpg');">
+						                			<div class="inner-title">A ROYAL VISIT</div>
 				                				</div>
 					                		</a>
 			                			</div>
@@ -26,8 +26,8 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 				                		<a href="communications-earth-hour-popup" class="hover-overlay brown popup-trigger" id="communications-main">
-					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/communications/earth-hour-600.jpg');">
-					                			<div class="inner-title center">Earth Hour</div>
+					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/communications/international-mountain-day1-600.jpg');">
+					                			<div class="inner-title center">INTERNATIONAL MOUNTAIN DAY</div>
 					                		</div>
 				                		</a>
 		                			</div>
@@ -35,8 +35,8 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 				                		<a href="communications-prince-harry-popup" class="hover-overlay brown popup-trigger" id="communications-main">
-					                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/communications/prince-harry-600.jpg');">
-						                		<div class="inner-title">Prince Harry</div>
+					                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/communications/earth-hour-600.jpg');">
+						                		<div class="inner-title">EARTH HOUR</div>
 						                	</div>
 				                		</a>
 		                			</div>
