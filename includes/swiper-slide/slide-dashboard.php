@@ -32,7 +32,7 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 		                				<a href="#slide-climate-change" class="hover-overlay pink">
-			                				<div class="col-sm-12 box box-4 box-title box-climate-change" style="background-image: url('img/climate-change/participation-in-the-unfccc-process1-600.jpg');">
+			                				<div class="col-sm-12 box box-4 box-title box-climate-change" style="background-image: url('img/climate-change/participation-in-the-unfccc-process2-600.jpg');">
 			                					<div class="inner-title">Climate Change</div>
 					                		</div>
 				                		</a>

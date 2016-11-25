@@ -1,6 +1,13 @@
 		<img src="img/wildlife/snow-leopard-collaring<?php echo get_small_image();?>.jpg" class="hidden">
-    	<div id="wildlife-snow-leopard-collaring-popup" class="article-section" style="background-image: url('img/wildlife/snow-leopard-collaring<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%;top: 0; left: 0; z-index: 999;">    	
+    	<div id="wildlife-snow-leopard-collaring-popup" class="popup-wrap article-section" style="background-image: url('img/wildlife/snow-leopard-collaring<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%;position: fixed;top: 0; left: 0; z-index: 999;">    	
     		<?php copyright('WWF Nepal/Bicky Gauchan');?>
+    		
+	        <?php
+	        // var_dump($wildlife_section);
+	        $popup_wildlife_section_current = 1;
+
+	        popup_navigation($popup_wildlife_section[$popup_wildlife_section_current-1], $popup_wildlife_section[$popup_wildlife_section_current+1]);
+	        ?>
     		<div class="container-fluid fluid-fixed">                
 	            <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 100px; max-width: 100%;">
 		            <div class="row">

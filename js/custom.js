@@ -31,7 +31,11 @@ $(document).ready(function() {
 		var tl = new TimelineMax();
 		var popupTrigger = $('.popup-trigger');
 		// alert(this.id);
-		var currentId = this.id;
+		var article_location = $(this).attr('href');
+		/*var currentId = this.id;*/
+		currentId = article_location;
+
+
 		// var introContent = $('.section-intro');
 		// var currentContent = $('#'+currentId+'-popup').find('.animate-visible');
 
@@ -39,15 +43,17 @@ $(document).ready(function() {
 		// tl.to($('#'+currentId+'-popup'), 1, {display: 'block', top: 0, opacity:1});
 		
 		//view particular section of same popup
-		var article_location = $(this).attr('href');
 
 		tl.to($('.swiper-container .swiper-slide-active'), 2, {ease: Power4.easeOut, y: '-200px', opacity:0});//y = -200px
 		// tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
-		tl.to($('.article-section').not('#'+article_location), 0, {opacity:0}, '0');
-		tl.to($('#'+currentId+'-popup'), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
+		
+		/*tl.to($('.article-section').not('#'+article_location), 0, {opacity:0}, '0');*/
 
-		tl.to($('#'+currentId+'-popup .scrollbar-div'), 0, {scrollTo:{y: "#"+article_location}, ease:Power2.easeOut});
-		tl.to($('.article-section'), 0, {opacity:1}, '4.5');
+		tl.to($('#'+currentId), 2, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
+
+		/*tl.to($('#'+currentId+'-popup .scrollbar-div'), 0, {scrollTo:{y: "#"+article_location}, ease:Power2.easeOut});
+		tl.to($('.article-section'), 0, {opacity:1}, '4.5');*/
+
 		// tl.to(window, 2, {scrollTo:{y:"#someID", offsetY:50}});
 
 		// tl.fromTo(introContent, 1, {css: {top: "50px", opacity: 0}}, {css:{top: "0px", opacity: 1}});
@@ -55,9 +61,9 @@ $(document).ready(function() {
 		// tl.to(currentContent, 2, {ease: Power4.easeOut, y: '0px', opacity:1, display: 'block'}, '1.5');
 
 
-		tl.to(closeBtn, 1, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '2');
+		tl.to(closeBtn, 1, {ease: Power4.easeInOut, y: '0px', opacity:1, display: 'block'}, '0.2');
 
-		$('.popup-wrap#'+currentId+'-popup').addClass('popup-active');
+		$('.popup-wrap#'+currentId).addClass('popup-active');
 
 		/*setTimeout(function() {
 			animateNumber();
