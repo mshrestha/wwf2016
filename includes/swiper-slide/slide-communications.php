@@ -33,12 +33,23 @@
 		                			</div>
 		                		</div> <!-- /.col-sm-6 -->
 		                		<div class="col-sm-12">
-		                			<div class="box-container">
-				                		<a href="communications-prince-harry-popup" class="hover-overlay brown popup-trigger" id="communications-main">
-					                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/communications/earth-hour-600.jpg');">
-						                		<div class="inner-title">EARTH HOUR</div>
-						                	</div>
-				                		</a>
+		                			<div class="col-sm-5">
+			                			<div class="box-container">
+					                		<a href="forests-sustainable-communities-popup" class="hover-overlay brown popup-trigger" id="forests-main">
+						                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/communications/earth-hour-600.jpg');">
+							                		<div class="inner-title">EARTH HOUR</div>
+							                	</div>
+					                		</a>
+			                			</div>
+		                			</div>
+		                			<div class="col-sm-7">
+			                			<div class="box-container left-padding">
+					                		<a href="forests-grazing-control-popup" class="hover-overlay orange popup-trigger" id="forests-main">
+						                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/communications/global-tiger-day-600.jpg');">
+							                		<div class="inner-title">GLOBAL TIGER DAY</div>
+							                	</div>							                	
+					                		</a>
+			                			</div>
 		                			</div>
 		                		</div>
 		                	</div> <!-- /.box-g-ui-2 -->
@@ -47,8 +58,8 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 				                		<a href="communications-tgg-popup" class="hover-overlay brown popup-trigger" id="communications-main">
-					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/lady-with-poster.jpg');">
-					                			<div class="inner-title">TGG</div>
+					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/communications/generation-green-600.jpg');">
+					                			<div class="inner-title">THE GENERATION GREEN</div>
 					                		</div>
 				                		</a>
 		                			</div>
