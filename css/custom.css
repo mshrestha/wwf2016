@@ -436,6 +436,16 @@ body.popupAcitve .swiper-slide-active{
 .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right{
 	/*background: none;*/
 }
+#contact-info-wrap {
+	font-family: 'wwfregular';
+    width: 210px;
+    height: 142px;
+    background: #FFF;
+    position: absolute;
+    right: 30px;
+    padding: 10px;
+    top: -28px;
+}
 /*responsive*/
 @media(max-width:767px){
 	.swiper-slide{

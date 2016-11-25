@@ -110,10 +110,32 @@ $(document).ready(function() {
 	reverse_slide_menu_click_trigger('financial');
 
 	// share button 
-	$('.menu-share-this').hover(function() {
-	  TweenMax.staggerTo($('.share-icon-list'), 0.5, {opacity:1, display:'block', y:0, ease:Back.easeIn}, 0.1);
-	}, function() {
-		TweenMax.staggerTo($('.share-icon-list'), 0.5, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0.1);
+	TweenMax.staggerTo($('.share-icon-list'), 0, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0);
+	$('.icon-share').click(function() {
+		if ($(this).hasClass('on')) {
+			TweenMax.staggerTo($('.share-icon-list'), 0.5, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0.1);
+	  		$(this).removeClass('on');
+	  		TweenMax.staggerTo($('#contact-info-wrap'), 0.5, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0.1);
+	  		$('#contact-toggle').removeClass('on');
+		}else{
+	  		TweenMax.staggerTo($('.share-icon-list'), 0.5, {opacity:1, display:'block', y:0, ease:Back.easeIn}, 0.1);
+	  		$(this).addClass('on');
+		}
+	});
+
+	// TweenMax.staggerTo($('.share-icon-list'), 0, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0);
+	  		
+	TweenMax.staggerTo($('#contact-info-wrap'), 0.5, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0.1);
+	$('#contact-toggle').click(function() {
+		if ($(this).hasClass('on')) {			
+			TweenMax.staggerTo($('#contact-info-wrap'), 0.5, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0.1);
+	  		$(this).removeClass('on');
+		}else{
+	  		TweenMax.staggerTo($('#contact-info-wrap'), 0.5, {opacity:1, display:'block', y:0, ease:Back.easeIn}, 0.1);
+	  		$(this).addClass('on');
+		}
+
+		// $('#contact-info-wrap').
 	});
 });
 

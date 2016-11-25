@@ -175,6 +175,10 @@
 			      		<img src="img/icons/icon-financials.png" alt="" />
 			      		<span class="icon-border"></span>			      	
 		      	</span>
+		      	<span class="swiper-pagination-bullet menu-icon-financial">		        	
+			      		<img src="img/icons/icon-acknowledgement.png" alt="" />
+			      		<span class="icon-border"></span>			      	
+		      	</span>
 	      	</div>
 
 	        <div class="menu-text hidden-sm hidden-xs"><a href="#slide-dashboard">MENU</a></div>

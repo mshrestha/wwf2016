@@ -64,7 +64,7 @@
 						</div>
 					    <div class="col-sm-6">
 					      <div class="widget-box">
-					        <div class="widget-icon"><img src="img/infographics/forest_management-04.svg" alt=""></div>
+					        <div class="widget-icon"><img src="img/infographics/habitat_management-02.svg" alt=""></div>
 					        <div class="widget-title">
 					          <div id="waterholesNumber" class="numbAni">16</div>
 					          <span class="widget-title-text">waterholes restored</span>
