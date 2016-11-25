@@ -4,7 +4,6 @@
 		  	<?php
 		    popup_navigation();
 		    ?>
-		    			
 			<?php include('includes/popup/water-sustainable-agriculture.php');?>
 			<?php include('includes/popup/water-drinking-water.php');?>
 			<?php include('includes/popup/water-conservation.php');//reducing climate?>
