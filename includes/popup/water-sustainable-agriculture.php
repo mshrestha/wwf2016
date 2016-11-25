@@ -1,5 +1,12 @@
-    	<div id="water-sustainable-agriculture-popup" class="article-section " style="background-image: url('img/water/improved-irrigation-opportunities.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
+    	<div id="water-sustainable-agriculture-popup" class="article-section popup-wrap" style="background-image: url('img/water/improved-irrigation-opportunities.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
             <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 100px; max-width: 100%;">
+	    		<?php copyright('WWF Nepal/Simrika Sharma');?>
+		        <?php
+		        // var_dump($wildlife_section);
+		        $popup_water_section_current = 0;
+
+		        popup_navigation($popup_water_section[$popup_water_section_last], $popup_water_section[$popup_water_section_current+1]);
+		        ?>
 	            <div class="row">
 	            	<div class="col-md-8">
 			            <!-- <div class="video-sec">

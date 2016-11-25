@@ -14,8 +14,8 @@ $popup_climate_section_last = 4;//5 section
 $popup_climate_section = ['climate-change-participation', 'climate-change-building-community', 'climate-change-alternate-energy', 'climate-change-building-capacities', 'climate-change-permanent'];
 
 $popup_water_section_first = $section_first;
-$popup_water_section_last = 5;//6 section
-$popup_water_section = ['water-conservation', 'water-drinking-water', 'water-improved-irrigation', 'water-piloting-payments', 'water-ramsar', 'water-sustainable-agriculture'];
+$popup_water_section_last = 4;//5 section
+$popup_water_section = ['water-sustainable-agriculture', 'water-drinking-water', 'water-conservation', 'water-ramsar', 'water-piloting-payments'];
 
 $popup_communications_section_first = $section_first;
 $popup_communications_section_last = 4;//5 section
