@@ -11,7 +11,7 @@ $popup_forests_section = ['forests-habitat-management', 'forests-corridors-manag
 
 $popup_climate_section_first = $section_first;
 $popup_climate_section_last = 4;//5 section
-$popup_climate_section = ['climate-change-alternate-energy', 'climate-change-building-capacities', 'climate-change-building-community', 'climate-change-participation', 'climate-change-permanent'];
+$popup_climate_section = ['climate-change-participation', 'climate-change-building-community', 'climate-change-alternate-energy', 'climate-change-building-capacities', 'climate-change-permanent'];
 
 $popup_water_section_first = $section_first;
 $popup_water_section_last = 5;//6 section
