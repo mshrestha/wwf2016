@@ -6,12 +6,12 @@ $popup_wildlife_section_last = 4;//5 section
 $popup_wildlife_section = ['wildlife-rhino-translocation', 'wildlife-snow-leopard-collaring', 'wildlife-zero-poaching', 'wildlife-swamp-deer-translocation', 'wildlife-reducing-human-wildlife-conflict'];
 
 $popup_forests_section_first = $section_first;
-$popup_forests_section_last = 5;//6 section
-$popup_forests_section = ['forests-corridors-management', 'forests-corridors-restoration', 'forests-grazing-control', 'forests-green-recovery', 'forests-habitat-management', 'forests-sustainable-communities'];
+$popup_forests_section_last = 3;//4 section
+$popup_forests_section = ['forests-habitat-management', 'forests-corridors-management', 'forests-sustainable-communities', 'forests-grazing-control'];
 
 $popup_climate_section_first = $section_first;
 $popup_climate_section_last = 4;//5 section
-$popup_climate_section = ['climate-change-alternate-energy', 'climate-change-building-capacities', 'climate-change-building-community', 'climate-change-participation', 'climate-change-permanent'];
+$popup_climate_section = ['climate-change-participation', 'climate-change-building-community', 'climate-change-alternate-energy', 'climate-change-building-capacities', 'climate-change-permanent'];
 
 $popup_water_section_first = $section_first;
 $popup_water_section_last = 5;//6 section
