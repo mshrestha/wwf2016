@@ -24,13 +24,13 @@
 			                	</div> <!-- /.box-g-ui-4 -->
 		                	<div class="col-sm-6 box-g box-g-ui-5" data-swiper-parallax="-200">
 		                		<div class="col-sm-12">
-		                			<div class="box-container">
+		                			<!-- <div class="box-container">
 				                		<a href="forests-corridors-restoration-popup" class="hover-overlay orange popup-trigger" id="forests-main">
 					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/forests/forest-restoration-in-critical-corridors2-600.jpg');">
 					                			<div class="inner-title center">Forest restoration in critical corridors</div>
 					                		</div>
 				                		</a>
-		                			</div>
+		                			</div -->
 		                		</div> <!-- /.col-sm-6 -->
 		                		<div class="col-sm-12">
 		                			<div class="col-sm-5">
@@ -56,13 +56,13 @@
 		                	</div><!-- /.col-sm-9 -->
 		                	<div class="col-sm-3 box-g box-g-ui-3" data-swiper-parallax="-100">
 		                		<div class="col-sm-12">
-		                			<div class="box-container">
+		                			<!-- <div class="box-container">
 				                		<a href="forests-green-recovery-popup" class="hover-overlay orange popup-trigger" id="forests-main">
 					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/forests/green-recovery-and-reconstruction-600.jpg');">
 					                			<div class="inner-title">Green Recovery and Reconstruction</div>
 					                		</div>
 				                		</a>
-		                			</div>
+		                			</div> -->
 		                		</div> <!-- /.col-sm-6 -->
 		                	</div> <!-- /.box-g-ui-2 -->
 		                </div><!-- /.box-wrap -->
