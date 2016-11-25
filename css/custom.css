@@ -1026,3 +1026,14 @@ g.circle-arrow circle{
     bottom: 20px;
     right: 30px;
 }
+.video-section-full{
+	height: 100%; 
+	width: 100%;
+	top: 0; 
+	left: 0; 
+	z-index: 999;
+	background: #93c789 url('../img/curve-line-pattern.png') repeat;
+}
+.video-section-full.green{
+	background-color: #93c789;
+}
