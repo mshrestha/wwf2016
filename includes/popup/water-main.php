@@ -6,7 +6,7 @@
 		    ?>
 		    
 			<?php include('includes/popup/water-drinking-water.php');?>
-			<?php include('includes/popup/water-improved-irrigation.php');?>
+			<?php // include('includes/popup/water-improved-irrigation.php');?>
 			<?php include('includes/popup/water-sustainable-agriculture.php');?>
 			<?php include('includes/popup/water-conservation.php');?>
 			<?php include('includes/popup/water-ramsar.php');?>
