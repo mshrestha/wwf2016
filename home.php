@@ -196,7 +196,7 @@
   	<!--<div class="popup-close"><span class="icon-cross"></span></div>-->
 
 	  	<?php
-	    popup_navigation();
+	    // popup_navigation();
 	    ?>
 
 		

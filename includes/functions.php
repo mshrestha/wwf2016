@@ -3,7 +3,7 @@ $section_first = 0;
 
 $popup_wildlife_section_first = $section_first;
 $popup_wildlife_section_last = 4;//5 section
-$popup_wildlife_section = ['wildlife-reducing-human-wildlife-conflict', 'wildlife-rhino-translocation', 'wildlife-snow-leopard-collaring', 'wildlife-swamp-deer-translocation', 'wildlife-zero-poaching'];
+$popup_wildlife_section = ['wildlife-rhino-translocation', 'wildlife-snow-leopard-collaring', 'wildlife-zero-poaching', 'wildlife-swamp-deer-translocation', 'wildlife-reducing-human-wildlife-conflict'];
 
 $popup_forests_section_first = $section_first;
 $popup_forests_section_last = 5;//6 section
@@ -22,12 +22,12 @@ $popup_communications_section_last = 4;//5 section
 $popup_communications_section = ['communications-earth-hour', 'communications-mountain-day', 'communications-prince-harry', 'communications-tgg', 'communications-tiger-day'];
 
 function popup_navigation($previous_story_id = '', $next_story_id = '') {
-	echo '<div class="loading"></div>';
+	// echo '<div class="loading"></div>';
   echo '<ul class="popup-navigation">';
     echo '<li class="popup-close"><span class="icon-cross" title="Click or Press ESC Key"></span></li>';
     if($previous_story_id != '' && $next_story_id != '') {
-    echo '<li><a href="#" class="popup-trigger previous-story" id="'.$previous_story_id.'">Previous Story</a></li>
-          <li><a href="#" class="popup-trigger next-story" id="'.$next_story_id.'">Next Story</a></li>';
+    echo '<li><a href="'.$previous_story_id.'-popup" class="popup-trigger previous-story" id="'.$previous_story_id.'">Previous Story</a></li>
+          <li><a href="'.$next_story_id.'-popup" class="popup-trigger next-story" id="'.$next_story_id.'">Next Story</a></li>';
     }//end if
   echo '</ul>';
 }

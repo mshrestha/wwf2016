@@ -1,6 +1,12 @@
 		<img src="img/wildlife/rhino-translocation2<?php echo get_small_image();?>.jpg" class="hidden">
-    	<div id="wildlife-rhino-translocation-popup" class="article-section" style="background-image: url('img/wildlife/rhino-translocation2<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%;top: 0; left: 0; z-index: 999;">
+    	<div id="wildlife-rhino-translocation-popup" class="article-section popup-wrap" style="background-image: url('img/wildlife/rhino-translocation2<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; position: fixed;top: 0; left: 0; z-index: 999;">
     		<?php copyright('WWF Nepal/Simrika Sharma');?>
+	        <?php
+	        // var_dump($wildlife_section);
+	        $popup_wildlife_section_current = 0;
+
+	        popup_navigation($popup_wildlife_section[$popup_wildlife_section_last], $popup_wildlife_section[$popup_wildlife_section_current+1]);
+	        ?>
             <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 100px; max-width: 100%;">
 	            <div class="row">
 	            	<div class="col-md-8">
