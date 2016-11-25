@@ -17,6 +17,10 @@ $popup_water_section_first = $section_first;
 $popup_water_section_last = 4;//5 section
 $popup_water_section = ['water-sustainable-agriculture', 'water-drinking-water', 'water-conservation', 'water-ramsar', 'water-piloting-payments'];
 
+$popup_policy_section_first = $section_first;
+$popup_policy_section_last = 4;//5 section
+$popup_policy_section = [''];
+
 $popup_communications_section_first = $section_first;
 $popup_communications_section_last = 4;//5 section
 $popup_communications_section = ['communications-earth-hour', 'communications-mountain-day', 'communications-prince-harry', 'communications-tgg', 'communications-tiger-day'];
