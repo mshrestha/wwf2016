@@ -19,7 +19,7 @@ $popup_water_section = ['water-sustainable-agriculture', 'water-drinking-water',
 
 $popup_policy_section_first = $section_first;
 $popup_policy_section_last = 4;//5 section
-$popup_policy_section = [''];
+$popup_policy_section = ['policy-tal-nepal', 'policy-green-recovery', 'policy-chal-strategy', 'policy-aligning', 'policy-sustainable'];
 
 $popup_communications_section_first = $section_first;
 $popup_communications_section_last = 4;//5 section
