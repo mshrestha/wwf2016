@@ -5,7 +5,7 @@
 	        // var_dump($wildlife_section);
 	        $popup_forests_section_current = 0;
 
-	        popup_navigation($popup_forests_section[$popup_forests_section_first], $popup_forests_section[$popup_forests_section_current+1]);
+	        popup_navigation($popup_forests_section[$popup_forests_section_last], $popup_forests_section[$popup_forests_section_current+1]);
 	        ?>
             <div class="section-intro content-txt section-absolute section-right box orange-box">
                 <h1 class="uppercase">Habitat management in Protected Areas</h1>
