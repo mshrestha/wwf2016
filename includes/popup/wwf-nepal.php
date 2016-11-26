@@ -1,12 +1,12 @@
     	
         <div id="wwf-nepal-popup" class="popup-wrap" style="background-image: url('img/wwfnepal/about-wwf-nepal.jpg'); height: 100%; width: 100%; position: fixed;top: 0; left: 0; z-index: 999;">            
-            <?php
-            popup_navigation();
-            ?>
             <?php copyright('Robert Van Waarden/WWF');?>
             <div class="scrollbar-outer-div">
             <div class="scrollbar-inner-div">
                 <div class="scrollbar-div">
+                    <?php
+                    popup_navigation();
+                    ?>
 
                     <?php 
                     include('includes/popup/wwfnepal-about.php');

@@ -384,7 +384,7 @@ a:hover {
     top: 30px;
     right: 30px;
 
-    position: fixed;
+    position: absolute;
     z-index: 9999;
 }
 .popup-wrap .popup-navigation {
