@@ -225,6 +225,7 @@ ul.menu-share-this li ul li a.icon-download {
   background: #709448;
   height: 70%;
   overflow: auto;
+  max-height: 535px;
 }
 .hidden-lg.hidden-md.sm-pagination.swiper-pagination.custom-pagination.on {
     
