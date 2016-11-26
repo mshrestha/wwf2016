@@ -20,12 +20,12 @@ var swiper = new Swiper('.swiper-container', {
     //   slideShadows : false,
     // },
   touchEventsTarget: 'container',
-  onSlideChangeStart(swiper) {
+  /*onSlideChangeStart(swiper) {//doesn't work on ipad
     // console.log('changed-disabled');
     //trigger_make_custom_pagination_active();
 
     pauseVideo();
-  }
+  }*/
 });
 
 function pauseVideo() {
