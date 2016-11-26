@@ -505,7 +505,7 @@ body.popupAcitve .swiper-slide-active{
 	}
 	
 }
-/*.no-touch .welcome-video{
+.no-touch .welcome-video{
 	display: block;
 }
 .touch .welcome-video{
@@ -515,7 +515,7 @@ body.popupAcitve .swiper-slide-active{
 .touch .swiper-wrapper{
 		background: url('../img/cover.jpg');
 		background-position: center;
-	}*/
+	}
 @media(min-width:768px){}
 @media(min-width:992px){}
 @media(min-width:1200px){
