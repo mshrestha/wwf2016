@@ -115,8 +115,8 @@ $(document).ready(function() {
 	// slide_menu_click_trigger('acknowledgement');
 	reverse_slide_menu_click_trigger('wwf-nepal');
 	reverse_slide_menu_click_trigger('message');
-	//reverse_slide_menu_click_trigger('policy');
 	reverse_slide_menu_click_trigger('financial');
+	reverse_slide_menu_click_trigger('acknowledgement');
 
 	// share button 
 	TweenMax.staggerTo($('.share-icon-list'), 0, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0);

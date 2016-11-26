@@ -123,6 +123,11 @@
 			      		Financial
 			      		<span class="icon-border"></span>			      	
 		      	</span>
+		      	<span class="swiper-pagination-bullet menu-icon-acknowledgement">		        	
+			      		<img src="img/icons/icon-acknowledgement.png" alt="" />
+			      		Acknowledgement
+			      		<span class="icon-border"></span>			      	
+		      	</span>
 	      	</div>
 
 
@@ -175,7 +180,7 @@
 			      		<img src="img/icons/icon-financials.png" alt="" />
 			      		<span class="icon-border"></span>			      	
 		      	</span>
-		      	<span class="swiper-pagination-bullet menu-icon-financial">		        	
+		      	<span class="swiper-pagination-bullet menu-icon-acknowledgement">		        	
 			      		<img src="img/icons/icon-acknowledgement.png" alt="" />
 			      		<span class="icon-border"></span>			      	
 		      	</span>
@@ -203,6 +208,7 @@
 		<?php include('includes/popup/wwf-nepal.php');?>
 		<?php include('includes/popup/message.php');?>
 		<?php include('includes/popup/financial.php');?>
+		<?php include('includes/popup/acknowledgement.php');?>
 
 		<?php 
 		include('includes/popup/wildlife-main.php');

@@ -4,11 +4,13 @@
             <?php
             popup_navigation();
             ?>
-            <div id="" class="article-section" style="background-image: url('img/message/cr-message1<?php echo get_small_image();?>.jpg'); min-height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
-                <?php copyright('WWF Nepal');?>    
-                <div class="section-intro content-txt no-curve-bg section-absolute scrollbar-outer-div">
-                    <div class="scrollbar-inner-div">
-                        <div class="scrollbar-div">
+            <?php copyright('WWF Nepal');?>    
+            <div class="scrollbar-outer-div">
+            <div class="scrollbar-inner-div">
+            <div id="" class="article-section scrollbar-div" style="background-image: url('img/message/cr-message1<?php echo get_small_image();?>.jpg'); min-height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
+                <div class="section-intro content-txt no-curve-bg section-absolute box green-box"><!-- scrollbar-outer-div -->
+                    <div class=""><!-- scrollbar-inner-div -->
+                        <div class=""><!-- scrollbar-div -->
             				<div class="animate-visible">
         	    				<h1 class="uppercase">MESSAGE FROM THE COUNTRY REPRESENTATIVE</h1>
                                 <p>We cannot look forward without looking back.</p>	    			
@@ -23,5 +25,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            </div>
             </div>
     	</div>
