@@ -1,5 +1,5 @@
 		<img src="img/inner-pop-up-image-bg.jpg" class="hidden">
-    	<div id="communications-tgg-popup" class="article-section popup-wrap" style="background-image: url('img/inner-pop-up-image-bg.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
+    	<div id="communications-tgg-popup" class="article-section popup-wrap" style="background-image: url('img/communications/generation-green.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
     		<?php copyright('WWF Nepal');?>
 	        <?php
 	        $popup_communications_section_current = 4;

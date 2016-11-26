@@ -9,7 +9,7 @@
 			                			<div class="box-container">
 					                		<a href="policy-tal-nepal-popup" class="hover-overlay dark-purple popup-trigger" id="policy-main">
 						                		<div class="col-sm-12 box box-1 box-title curve-bg dark-purple-box wwf-nepal-title">
-					                			<div class="inner-title">TAL NEPAL STRATEGY AND ACTION PLAN</div>
+					                			<div class="inner-title">TAL NEPAL STRATEGY AND ACTION PLAN (2015-2025)</div>
 					                		</div>
 					                		</a>
 			                			</div>

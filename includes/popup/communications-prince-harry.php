@@ -1,5 +1,5 @@
-		<img src="img/communications/prince-harry<?php echo get_small_image();?>.jpg" class="hidden">
-    	<div id="communications-prince-harry-popup" class="popup-wrap article-section " style="background-image: url('img/communications/prince-harry<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
+		<img src="img/communications/prince-harry1<?php echo get_small_image();?>.jpg" class="hidden">
+    	<div id="communications-prince-harry-popup" class="popup-wrap article-section " style="background-image: url('img/communications/prince-harry1<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
     		<?php copyright('WWF Nepal');?>
 	        <?php
 	        // var_dump($wildlife_section);

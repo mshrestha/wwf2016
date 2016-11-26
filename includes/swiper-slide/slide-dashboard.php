@@ -32,7 +32,7 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 		                				<a href="#slide-climate-change" class="hover-overlay pink">
-			                				<div class="col-sm-12 box box-4 box-title box-climate-change" style="background-image: url('img/climate-change/participation-in-the-unfccc-process2-600.jpg');">
+			                				<div class="col-sm-12 box box-4 box-title box-climate-change" style="background-image: url('img/climate-change/alternate-energy-600.jpg');">
 			                					<div class="inner-title">Climate Change</div>
 					                		</div>
 				                		</a>
@@ -71,7 +71,7 @@
 		                			<div class="col-sm-7">
 		                				<div class="box-container left-padding">
 			                				<a href="#slide-forests" class="hover-overlay orange">
-				                				<div class="col-sm-12 box box-5 box-title box-forest" style="background-image: url('img/forests/forest-restoration-in-critical-corridors2-600.jpg');">
+				                				<div class="col-sm-12 box box-5 box-title box-forest" style="background-image: url('img/forests/forest-management-in-critical-corridors-600.jpg');">
 				                					<div class="inner-title">Forest</div>
 						                		</div>
 					                		</a>
@@ -83,7 +83,7 @@
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
 				                		<a href="#slide-water" class="hover-overlay blue">
-					                		<div class="col-sm-12 box-title box box-1 box-water" style="background-image: url('img/water/conservation1-600.jpg');">
+					                		<div class="col-sm-12 box-title box box-1 box-water" style="background-image: url('img/water/ramsar-600.jpg');">
 					                			<div class="inner-title">Water</div>
 					                		</div>
 				                		</a>
