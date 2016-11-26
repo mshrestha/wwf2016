@@ -86,6 +86,8 @@ $(document).ready(function() {
 		var tl = new TimelineMax();
 		var popup = $('.popup-wrap');
 		var closeBtn = $('.popup-close');
+		var prevBtn = $('.previous-story');
+		var nxtBtn = $('.next-story');
 		// var popupNav = $('.popup-navigation');
 
 		tl.to(popup, 2, {ease: Power4.easeInOut, y: '100px', opacity:0, display: 'none'}, '0');
@@ -93,7 +95,8 @@ $(document).ready(function() {
 		// tl.to(popup, 1, {display: 'none', opacity: 0});
 		// tl.to($('.swiper-container .swiper-slide-active'), 1, {top: 0, opacity:1}, '0');
 		tl.to($('.swiper-container .swiper-slide-active'), 2, {ease: Power4.easeOut, y: '0', opacity:1}, '1.5');
-		tl.to(closeBtn, 1, {ease: Power4.easeInOut, y: '-10px', opacity:0, display: 'none'}, '0.2');
+		
+		// tl.to(closeBtn, 1, {ease: Power4.easeInOut, y: '-10px', opacity:0, display: 'none'}, '0.2');
 		// tl.to(popupNav, 1, {ease: Power4.easeInOut, y: '-10px', opacity:0, display: 'none'}, '0.2');
 		// tl.to($('.animate-visible'), 0, {ease: Power4.easeInOut, y: '0px', opacity:0, display: 'none'}, '3');
 	});

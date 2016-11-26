@@ -21,9 +21,9 @@
 	            </div> <!-- /.section-intro -->
 	    	</div>
 	    	<div class="article-section video-section-full">
-	            <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 100px; max-width: 100%;">
+	            <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 70px; max-width: 100%;">
 		            <div class="row">
-		            	<div class="col-md-8">
+		            	<div class="col-xs-8 col-xs-offset-2">
 				            <div class="video-sec">
 				                <div class="embed-responsive embed-responsive-16by9">
 								    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/-U-V33tqrHc"></iframe>
