@@ -1,9 +1,10 @@
 		<img src="img/wwfnepal/about-wwf-nepal<?php echo get_small_image();?>.jpg" class="hidden">
-    	<div id="acknowledgement-popup" class="article-section popup-wrap" style="background-image: url('img/wwfnepal/about-wwf-nepal<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">            
+    	<div id="acknowledgement-popup" class="popup-wrap" style="background-image: url('img/wwfnepal/about-wwf-nepal<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">            
     		<?php popup_navigation();?>
-	        <div class="section-intro content-txt section-absolute box" style="background-color: #f8a681;">
-	            <div class="scrollbar-inner-div">
-	                <div class="scrollbar-div">	        	
+    		<div class="scrollbar-outer-div">
+            <div class="scrollbar-inner-div">
+                <div class="scrollbar-div article-section">	        	
+	        		<div class="section-intro content-txt section-absolute box" style="background-color: #f8a681;">
 		                <h1 class="uppercase">ACKNOWLEDGEMENTS</h1>
 		                <p>WWF Nepal acknowledges with gratitude the support received from the following partners, donors and supporters:</p>
 		                <ul class="list-disc">
@@ -14,7 +15,8 @@
 		                    <li>National Trust for Nature Conservation; Nepal Army; Nepal Police; Wildlife Conservation Nepal; Federation of Community Forestry Users, Nepal; Society of Hydrology and Meteorology-Nepal; Family Planning Association of Nepal; Dolphin Conservation Society; Environmental Camps for Conservation Awareness; Youth Alliance for Environment; Green Youth Lumbini; Nepal Forum for Environmental Journalists; Society of Environmental Journalists; Clean Energy Nepal; Biogas Sector Partnership Nepal; Tribhuvan University; Kathmandu University; Institute of Forestry; Wildlife Watch Group; Bird Conservation Nepal; National Environmental Coalition of Indigenous Nationalities; Ethnobotanical Society of Nepal; Wildlife Conservation Nepal; National Foundation for the Development of Indigenous Nationalities; Building and Wood Workers’ International Nepal Affiliate Committee; Trade Union National Centres; School Environment Conservation Education Network Nepal; Nepal Foresters Association; Nepal Federation of Indigenous Nationalities; Himalayan Grassroots Women’s Natural Resource Management Association; Dalit Alliance for Natural Resources, Nepal; Centre for Rural Technology; Community-Based Forestry Supporters’ Network, Nepal; Center for Molecular Dynamics.</li>
 		                </ul>
 		                <p>WWF Nepal would like to express special thanks to: Community Based Organizations; Media; Community Forest Coordination Committees; Community Forest User Groups, Buffer Zone User Groups; Buffer Zone User Committees; Buffer Zone Management Committees; Community-Based Anti-Poaching Units; Eco Clubs; Ghodaghodi Area Conservation and Awareness Forum; Kangchenjunga Conservation Area Management Council and user committees; Integrated Resource Management Committees; Mothers’Groups; YouthClubs; District Development Committees; District Forest Offices; Village Development Committees; Women Awareness Groups and local communities.</p>
-		            </div>
+		            </div> <!-- /.section-intro -->
 		        </div>
-	        </div> <!-- /.section-intro -->
+	        </div>
+	        </div>
     	</div>
