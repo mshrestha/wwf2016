@@ -8,7 +8,7 @@
 	        popup_navigation($popup_water_section[$popup_water_section_current-1], $popup_water_section[$popup_water_section_first]);
 	        ?>
 			<div class="section-intro content-txt section-absolute box blue-box">
-				<h1 class="uppercase">Piloting payments for ecosystem services</h1>
+				<h1 class="uppercase">Piloting payments for ecosystem services </h1>
 				<p>Phewa lake in the Pokhara valley in the Chitwan-Annapurna Landscape is a major tourist attraction and also supports fishing, hydropower and other ecosystem services. However, the lake is shrinking due to sedimentation from the upper catchment. Beneficiaries of Phewa Lake (hotels owners, boatmen and fishermen) are willing to pay for sediment retention to slow the process down. In response communities in upper catchment are changing land use practices in their farmland and forests to reduce soil erosion and landslides. The Phewa Ecosystem Management Board has been formed, along with ecosystem service providers’ and receivers’ committees. The beneficiaries of the ecosystem services have started making payments for sediment retention activities in the upper catchment, which could become a sustainable source of financing for Phewa Lake conservation.</p>
 			</div>
     	</div>

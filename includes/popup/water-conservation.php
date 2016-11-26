@@ -8,7 +8,7 @@
 	        popup_navigation($popup_water_section[$popup_water_section_current-1], $popup_water_section[$popup_water_section_current+1]);
 	        ?>
 			<div class="section-intro content-txt section-absolute box blue-box">
-				<h1 class="uppercase">REDUCING CLIMATE VULNERABILITIES</h1>
+				<h1 class="uppercase">Reducing climate vulnerabilities</h1>
 				<p>Conservation and management of forests and watersheds is an important part of the IWRM project in Indrawati sub-basin that helps keep a check on environment degradation and landslides predominant in hilly communities. In this regard, the local communities planted 14,600 seedlings of different forest and fodder species covering about 34ha of degraded slopes in Indrawati sub basin benefitting 740 households. In addition, low cost bio-engineering interventions were carried out for landslide stabilization such as the construction of check dams and bamboo plantations benefitting 54 households. Through such conservation and protection measures, agricultural land and homes of local communities become less vulnerable to climate-induced disasters such as landslides and floods.</p>
 			</div>
     	</div>

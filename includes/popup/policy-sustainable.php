@@ -5,7 +5,7 @@
 	        // var_dump($wildlife_section);
 	        $popup_policy_section_current = 4;
 
-	        popup_navigation($popup_policy_section[$popup_policy_section_current-1], $popup_policy_section[$popup_policy_section_last]);
+	        popup_navigation($popup_policy_section[$popup_policy_section_current-1], $popup_policy_section[$popup_policy_section_first]);
 	        ?>
             <div class="section-intro content-txt section-absolute box dark-purple-box">
                 <h1 class="uppercase">Sustainable Green Infrastructure</h1>
