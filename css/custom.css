@@ -182,9 +182,9 @@ a:hover {
 	padding: 3px 3px;
 	position: relative;
 	width: 100%;
-	-webkit-transition: all 10s ease;
-	-o-transition: all 10s ease;
-	transition: all 10s ease;
+	-webkit-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 .touch .box{
 	-webkit-transition: all 0.3s ease;
@@ -1049,4 +1049,7 @@ g.circle-arrow circle{
 }
 .video-section-full.green{
 	background-color: #93c789;
+}
+.video-section-full.brown{
+	background-color: #a8ab6e;
 }
