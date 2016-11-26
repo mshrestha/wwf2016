@@ -36,7 +36,7 @@
 		                			<div class="col-sm-12">
 			                			<div class="box-container">
 					                		<a href="communications-tiger-day-popup" class="hover-overlay brown popup-trigger" id="water-main">
-						                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/policy/aligning-conservation-600.jpg');">
+						                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/communications/global-tiger-day-600.jpg');">
 							                		<div class="inner-title">GLOBAL TIGER DAY</div>
 							                	</div>
 					                		</a>
