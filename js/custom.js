@@ -216,6 +216,18 @@ $('#infographics-habitat-management').bind('inview', function(event, visible) {
 	}
 });
 
+var sustainable_agricuture_animated = 0;
+$('#infographics-sustainable-agriculture').bind('inview', function(event, visible) {
+	sustainable_agricuture_animated += 1;
+	if (visible) {
+		if(sustainable_agricuture_animated == 1) {
+			sustainableAgricultureNumbers();
+			// console.log('corridors management animated once');
+		}
+	} else {
+	}
+});
+
 function zeroPoachingNumbers() {
   // animated number
   $('#poachersNumber').animateNumber(
@@ -324,6 +336,33 @@ function habitatManagementNumbers() {
           $('#habitatWetlandNumber').animateNumber(
             {
               number: 9 
+            }
+          );//#fireLineNumber
+		}
+  		);//#grasslandNumber
+	}
+  );//end #communityForestNumber
+}
+function sustainableAgricultureNumbers() {
+  // animated number
+  $('#polyhousesNumber').animateNumber(
+  	{ 
+    number: 238
+    },
+    function() 
+    {
+      $('#pondsNumber').animateNumber(
+        {
+          number: 17
+        },
+        function()
+        {
+          $('#householdNumber').animateNumber(
+            {
+              number: 9 
+            },
+            function() {
+            	$('#irrigationNumber').animateNumber({ number: 32 })
             }
           );//#fireLineNumber
 		}
