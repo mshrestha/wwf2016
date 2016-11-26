@@ -482,7 +482,7 @@ body.popupAcitve .swiper-slide-active{
 	    top: 1px;
 	    bottom: auto;
 	    right: 27px;
-	    width: 155px;
+	    width: 195px;
 	}
 
 	ul.menu-share-this li ul li {
@@ -498,6 +498,10 @@ body.popupAcitve .swiper-slide-active{
 	.video-sec{
 		margin-left: -10px;
 		margin-bottom: 30px;
+	}
+	div#contact-info-wrap {
+	    top: 28px;
+	    right: 0px;
 	}
 }
 @media(min-width:768px){}

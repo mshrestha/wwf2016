@@ -21,7 +21,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background: none;
 }
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
-  width: 8%;
+  width: 7.1%;
   max-width: 117px;
 }
 .swiper-pagination-white .swiper-pagination-bullet span.icon-border {
@@ -223,6 +223,8 @@ ul.menu-share-this li ul li a.icon-download {
   max-width: 280px;
   right: 32px;
   background: #709448;
+  height: 70%;
+  overflow: auto;
 }
 .hidden-lg.hidden-md.sm-pagination.swiper-pagination.custom-pagination.on {
     
