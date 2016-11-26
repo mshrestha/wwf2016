@@ -503,7 +503,19 @@ body.popupAcitve .swiper-slide-active{
 	    top: 28px;
 	    right: 0px;
 	}
+	
 }
+.no-touch .welcome-video{
+	display: block;
+}
+.touch .welcome-video{
+	display: none;
+
+}
+.touch .swiper-wrapper{
+		background: url('../img/cover.jpg');
+		background-position: center;
+	}
 @media(min-width:768px){}
 @media(min-width:992px){}
 @media(min-width:1200px){
