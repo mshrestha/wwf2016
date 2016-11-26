@@ -892,7 +892,7 @@ g.circle-arrow circle{
 .video-dis {
     background: #a8ab6e url('../img/curve-line-pattern.png') repeat;
     padding: 20px;
-    max-width: 400px;
+    /*max-width: 400px;*/
     margin-bottom: 30px;
 }
 .section-intro.video-content {
