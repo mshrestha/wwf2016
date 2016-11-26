@@ -23,7 +23,7 @@ $popup_policy_section = ['policy-tal-nepal', 'policy-green-recovery', 'policy-ch
 
 $popup_communications_section_first = $section_first;
 $popup_communications_section_last = 4;//5 section
-$popup_communications_section = ['communications-earth-hour', 'communications-mountain-day', 'communications-prince-harry', 'communications-tgg', 'communications-tiger-day'];
+$popup_communications_section = ['communications-prince-harry', 'communications-mountain-day', 'communications-earth-hour', 'communications-tiger-day', 'communications-tgg'];
 
 function popup_navigation($previous_story_id = '', $next_story_id = '') {
 	// echo '<div class="loading"></div>';
