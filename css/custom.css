@@ -857,6 +857,7 @@ g.circle-arrow circle{
 	position: absolute;
 	left: 30px;
 	top: 70px;
+	margin-bottom: 30px;
 }
 .section-right {
 	left: auto;
@@ -865,6 +866,7 @@ g.circle-arrow circle{
 .section-bottom {
 	top: auto;
 	bottom: 50px;
+	margin-bottom: 0;
 }
 .section-intro.rm-bg {
     background: none !important;
@@ -1025,6 +1027,7 @@ g.circle-arrow circle{
     position: absolute;
     bottom: 20px;
     right: 30px;
+    z-index: 9999;
 }
 .video-section-full{
 	height: 100%; 
