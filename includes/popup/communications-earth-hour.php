@@ -1,11 +1,12 @@
 		<img src="img/communications/earth-hour<?php echo get_small_image();?>.jpg" class="hidden">
-    	<div id="communications-earth-hour-popup" class="article-section popup-wrap" style="background-image: url('img/communications/earth-hour<?php echo get_small_image();?>.jpg'); min-height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
+		<div id="communications-earth-hour-popup" class="popup-wrap scrollbar-outer-div" style="position: fixed; height: 100%; width: 100%;top: 0; left: 0; z-index: 999;">
     		<?php copyright('WWF Nepal');?>
 	        <?php
 	        $popup_communications_section_current = 2;
 
 	        popup_navigation($popup_communications_section[$popup_communications_section_current-1], $popup_communications_section[$popup_communications_section_current+1]);
 	        ?>
+    	<div class="article-section" style="background-image: url('img/communications/earth-hour<?php echo get_small_image();?>.jpg'); min-height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
             <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 100px; max-width: 100%;">
 	            <div class="row">
 	            	<div class="col-md-4">
@@ -16,14 +17,19 @@
 		            	</div>
 	            	</div>
 	            </div>
-	            <div class="row">
-	            	<div class="col-md-12">
+            </div>
+    	</div>
+    	<div class="article-section video-section-full brown">
+		    <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 70px; max-width: 100%;">
+		        <div class="row">
+		        	<div class="col-xs-8 col-xs-offset-2">
 			            <div class="video-sec">
 			                <div class="embed-responsive embed-responsive-16by9">
 							    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8yKkFPqwHCU"></iframe>
 							</div>
 						</div>
-	            	</div>
-	            </div>
-            </div>
-    	</div>
+		        	</div>
+		        </div>
+		    </div> <!-- /.section-intro -->
+		</div>
+	</div>
