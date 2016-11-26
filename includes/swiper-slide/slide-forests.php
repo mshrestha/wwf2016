@@ -38,7 +38,7 @@
 		                	</div><!-- /.col-sm-9 -->
 		                	<div class="col-sm-3 box-g box-g-ui-3" data-swiper-parallax="-100">
 		                		<div class="col-sm-12">		                			
-		                			<div class="box-container left-padding">
+		                			<div class="box-container">
 				                		<a href="forests-grazing-control-popup" class="hover-overlay orange popup-trigger" id="forests-main">
 					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/forests/zero-grazing-600.jpg');">
 						                		<div class="inner-title">Grazing control</div>
