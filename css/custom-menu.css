@@ -28,6 +28,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   width: 7.1% !important; 
   max-width: 117px !important;
 }
+.swiper-pagination{
+  bottom: 10px !important;
+  width: 100% !important;
+}
 .swiper-pagination-white .swiper-pagination-bullet span.icon-border {
   display: block;
   width: 100%;
