@@ -161,6 +161,9 @@ ul.menu-share-this li ul li a.icon-youtube {
 ul.menu-share-this li ul li a.icon-facebook {
 	background-position: -4px -81px;
 }
+ul.menu-share-this li ul li a.icon-download {
+  background-image: url(../img/icons/download-button.png);
+}
 
 /* Custom pagination */
 .swiper-pagination.custom-pagination {

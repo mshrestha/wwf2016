@@ -16,6 +16,7 @@
 	        			</li>
 	        			<li><a href="http://www.youtube.com/user/WWFNEPAL" target="_blank" title="Find us on Youtube" class="icon-youtube"></a></li>
 	        			<li><a href="https://www.facebook.com/wwfnepal" target="_blank" title="Find us on Facebook" class="icon-fb"></a></li>
+	        			<li><a href="pdf/wwf_ar16-sm.pdf" target="_blank" title="Download Annual Report" class="icon-download"></a></li>
 	        		</ul>
 	        	</li>
 	        </ul>
