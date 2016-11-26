@@ -20,7 +20,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 .swiper-pagination-white .swiper-pagination-bullet {
   background: none;
 }
-.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+.swiper-container-horizontal .swiper-pagination-bullets .swiper-pagination-bullet{
   width: 7.1%;
   max-width: 117px;
 }
