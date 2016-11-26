@@ -13,7 +13,8 @@
                     include('includes/popup/wwfnepal-regional-living.php');
                     include('includes/popup/wwfnepal-regional-tiger.php');
                     include('includes/popup/wwfnepal-regional-asian.php');
-                    include('includes/popup/wwfnepal-acknowledgement.php');
+                    
+                    //include('includes/popup/wwfnepal-acknowledgement.php');
                     ?>
                 </div>
             </div>

@@ -6,14 +6,14 @@
 		                	<div class="col-sm-4 box-g box-g-ui-1" data-swiper-parallax="-300">
 		                		<div class="col-sm-6">
 		                			<div class="box-container">
-				                		<a href="wwf-nepal" class="hover-overlay green popup-trigger" id="wwf-nepal">
+				                		<a href="wwf-nepal-popup" class="hover-overlay green popup-trigger" id="wwf-nepal">
 					                		<div class="col-sm-12 box box-1 box-title curve-bg green-box wwf-nepal-title">
 					                			<div class="inner-title">WWF Nepal</div>
 					                		</div>
 				                		</a>
 		                			</div>
 		                			<div class="box-container">
-				                		<a href="message" class="hover-overlay green popup-trigger" id="message">
+				                		<a href="message-popup" class="hover-overlay green popup-trigger" id="message">
 					                		<div class="col-sm-12 box box-2 box-title box-message" style="background-image: url('img/message/cr-message1-600.jpg');">					
 					                			<div class="inner-title">Message</div>
 			                				</div>
@@ -51,7 +51,7 @@
 		                		</div> <!-- /.col-sm-6 -->
 		                		<div class="col-sm-5">
 		                			<div class="box-container left-padding">
-				                		<a href="financial" class="hover-overlay purple popup-trigger" id="financial">
+				                		<a href="financial-popup" class="hover-overlay purple popup-trigger" id="financial">
 					                		<div class="col-sm-12 box-title box box-2 purple-box box-financials">
 						                		<div class="inner-title">FINANCIAL</div>
 						                	</div>
@@ -90,6 +90,15 @@
 		                			</div>
 		                		</div> <!-- /.col-sm-6 -->
 		                	</div> <!-- /.box-g-ui-2 -->
+
+		                	<!-- Added just for triggering popup -->
+                			<div class="box-container left-padding hidden">
+		                		<a href="acknowledgement-popup" class="hover-overlay purple popup-trigger" id="financial">
+			                		<div class="col-sm-12 box-title box box-2 purple-box box-acknowledgement">
+				                		<div class="inner-title">Acknowledgement</div>
+				                	</div>
+		                		</a>
+                			</div>
 
 
 			                <!-- <div class="row">
