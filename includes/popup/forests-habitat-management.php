@@ -7,11 +7,12 @@
 
 	        popup_navigation($popup_forests_section[$popup_forests_section_last], $popup_forests_section[$popup_forests_section_current+1]);
 	        ?>
-            <div class="section-intro content-txt section-absolute section-right box orange-box">
+            <div class="section-intro content-txt section-static section-right box orange-box pull-right">
                 <h1 class="uppercase">Habitat management in Protected Areas</h1>
                 <p>Habitat management in TAL is a crucial aspect of protected areas management where park authorities, Nepal Army and local communities undertake grassland management, fire-line construction and maintenance, and waterhole construction and maintenance in order to provide suitable habitat for wildlife all year round. This helps maintain the diversity of palatable grass species, and manage appropriate feeding, drinking, nesting and breeding grounds for wild animals. Seasonal elements such as the monsoons and dry periods have a bearing on the quality of habitat which, if not managed on a regular basis, can be detrimental to the growth and maintenance of wildlife populations.</p>
             </div>
-            <div class="infographics section-bottom">
+           	<div class="clearfix"></div>
+            <div class="infographics section-static pull-right">
 	        	<div id="infographics-habitat-management" class="infographics-widget clearfix">
 					<div class="row">
 					    <div class="col-sm-6">

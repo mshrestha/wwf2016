@@ -866,6 +866,15 @@ g.circle-arrow circle{
 	top: auto;
 	bottom: 50px;
 }
+.section-static{
+	position: static;
+    margin-top: 55px;
+    transition: none;
+    margin-left: 12px;
+}
+.section-static.section-right{
+	
+}
 .section-intro.rm-bg {
     background: none !important;
 }
@@ -1027,12 +1036,13 @@ g.circle-arrow circle{
     right: 30px;
 }
 .video-section-full{
-	height: 100%; 
+	min-height: 100%; 
 	width: 100%;
 	top: 0; 
 	left: 0; 
 	z-index: 999;
 	background: #93c789 url('../img/curve-line-pattern.png') repeat;
+	max-height: auto;
 }
 .video-section-full.green{
 	background-color: #93c789;
