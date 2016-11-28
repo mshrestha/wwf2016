@@ -65,7 +65,7 @@
               </div>
               <div class="col-sm-6">
                 <div class="widget-box">
-                  <div class="widget-icon"><img src="img/infographics/zero_poaching-02.svg" alt=""></div>
+                  <div class="widget-icon"><img src="img/infographics/zero_poaching-02.svg" alt="" style="margin-left: 16px;"></div>
                   <div class="widget-title">
                     <div id="tigerNumber" class="numbAni">11</div>
                     <span class="widget-title-text">tiger skins seized</span>
