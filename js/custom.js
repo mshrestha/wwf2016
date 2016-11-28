@@ -148,6 +148,18 @@ $(document).ready(function() {
 	});
 });
 
+$(document).on('click', function (e) {
+//closing the opened share icon list and contact info on document click
+  if ($(e.target).closest(".share-icon-list #contact-toggle").length === 0) {
+	TweenMax.staggerTo($('#contact-info-wrap'), 0.5, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0.1);
+	$('.share-icon-list #contact-toggle').removeClass('on');
+  }
+  if ($(e.target).closest(".icon-share, .menu-share-this").length === 0) {
+	TweenMax.staggerTo($('.share-icon-list'), 0.5, {opacity:0, display:'none', y:30, ease:Back.easeIn}, 0.1);
+	$('.icon-share').removeClass('on');
+  }
+});
+
 function slide_menu_click_trigger(section_class) {
 	/*$('.box.box-' + section_class).click(function() {
 		$('.menu-icon-' + section_class).trigger('click');
