@@ -17,7 +17,7 @@
 					<div class="row">
 					    <div class="col-sm-6">
 					      <div class="widget-box">
-					        <div class="widget-icon"><img src="img/infographics/habitat_management-03.svg" alt=""></div>
+					        <div class="widget-icon"><img src="img/infographics/forest_management-03.svg" alt=""></div>
 					        <div class="widget-title">
 					          <div id="habitatFirelineNumber" class="numbAni"><span>262</span><span>km</span></div>
 					          <span class="widget-title-text">of fire-line constructed</span>

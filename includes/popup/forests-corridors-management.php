@@ -25,7 +25,7 @@
 					    </div>
 						<div class="col-sm-6">
 						  <div class="widget-box">
-						    <div class="widget-icon"><img src="img/infographics/forest_management-02.svg" alt=""></div>
+						    <div class="widget-icon"><img src="img/infographics/habitat_management-01.svg" alt=""></div>
 						    <div class="widget-title">
 						      <div><span id="grasslandNumber" class="numbAni">505</span><span>ha</span></div>
 						      <span class="widget-title-text">ha of grassland managed in buffer zones, critical corridors and bottlenecks</span>
@@ -38,7 +38,7 @@
 					<div class="row">
 						<div class="col-sm-6">
 						  <div class="widget-box">
-						    <div class="widget-icon"><img src="img/infographics/forest_management-01.svg" alt=""></div>
+						    <div class="widget-icon"><img src="img/infographics/forest_community.svg" alt=""></div>
 						    <div class="widget-title">
 						      <div><span id="communityForestNumber" class="numbAni">3600</span><span>+ha</span></div>
 						      <span class="widget-title-text">of new community forests handed over in TAL and SHL</span>
