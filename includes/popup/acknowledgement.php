@@ -5,7 +5,7 @@
             <div class="scrollbar-inner-div">
                 <div class="scrollbar-div article-section">	        	
     				<?php popup_navigation();?>
-	        		<div class="section-intro content-txt section-absolute box ack-box" style="background-color: #f8a681;">
+	        		<div class="section-intro content-txt section-absolute box ack-box section-large-txt" style="background-color: #f8a681;">
 		                <h1 class="uppercase">ACKNOWLEDGEMENTS</h1>
 		                <p>WWF Nepal acknowledges with gratitude the support received from the following partners, donors and supporters:</p>
 		                <ul class="list-disc">

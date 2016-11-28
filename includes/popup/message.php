@@ -8,7 +8,7 @@
                 <?php
                 popup_navigation();
                 ?>
-                <div class="section-intro content-txt no-curve-bg section-absolute box green-box"><!-- scrollbar-outer-div -->
+                <div class="section-intro content-txt section-absolute box green-box section-large-txt"><!-- scrollbar-outer-div -->
                     <div class=""><!-- scrollbar-inner-div -->
                         <div class=""><!-- scrollbar-div -->
             				<div class="animate-visible">

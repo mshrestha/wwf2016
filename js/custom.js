@@ -80,7 +80,7 @@ $(document).ready(function() {
 	});
 
 	// popup close button
-	$('.popup-close').click(function() {
+	$('.popup-close, .logo').click(function() {
 		$('.popup-wrap').removeClass('popup-active');//remove popup-active from all other
 
 		$('body').removeClass('popupAcitve');

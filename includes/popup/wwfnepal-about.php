@@ -1,8 +1,8 @@
 		<img src="img/wwfnepal/about-wwf-nepal<?php echo get_small_image();?>.jpg" class="hidden">
-    	<div id="" class="article-section" style="background-image: url('img/wwfnepal/about-wwf-nepal<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">            
-	        <div class="section-intro content-txt section-absolute">	        	
+    	<div id="" class="article-section" style="height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">            
+	        <div class="content-txt section-absolute section-large-txt">	        	
 	            <div class="">
-	                <div class="">
+	                <div class="section-intro">
 						<div class="animate-visible"><h1 class="uppercase">ABOUT WWF NEPAL</h1></div>
 						<div class="animate-visible">
 							<p>Since 1961, WWF has worked to conserve nature and ecological processes through a combination of actions on the ground, national and international advocacy work to establish appropriate policies, and international campaigns to highlight and demonstrate solutions to crucial environmental problems.</p>
@@ -41,10 +41,9 @@
 							<p>By 2015 WWF Nepal shall conserve at least 3 priority landscapes within the Global 200 Ecoregions by reducing threats to species, habitat and ecological processes, and improving the livelihoods of local people</p>
 						</div>
 						<br><br>
+					</div>
 
-
-
-
+					<div class="section-intro" style="margin-top: 30px;">
 						<h1 class="uppercase">REGIONAL PROGRAMS</h1>
 						<h1 class="uppercase">Living Himalayas Initiative</h1>
 						<p>WWF’s work in Nepal is part of Living Himalayas – WWF’s global initiative, which aims to bring the three governments of Bhutan, India and Nepal together to effectively manage and conserve the natural resources in the face of climate change for the sake of their unique people, their exceptional wildlife and their breath-taking environment. Combining connectivity and regional solutions, the initiative views the eco-region as a single unit and not a series of fragmented landscapes in separate countries. Wildlife trade, landscape management and development issues will be treated regionally, bringing people, government and industry together in the three countries and developing plans that straddle borders and landscapes.</p>

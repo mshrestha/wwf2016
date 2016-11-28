@@ -31,6 +31,8 @@ var swiper = new Swiper('.swiper-container', {
 function pauseVideo() {
   if( $('.swiper-slide.slide-with-video').hasClass('swiper-slide-active') ) {    
   } else {
+    //pause video
+    console.log('pause');
     if($('.mb_YTVPPlaypause').text() == 'p') {
         $('.mb_YTVPPlaypause').trigger('click');
     }
