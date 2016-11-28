@@ -14,7 +14,6 @@
 			            	<div class="video-dis box light-green-box">
 				                <h1 class="uppercase">A NEW HOME FOR RHINOS</h1>
 				                <p>Five one-horned rhinos found a new home in Bardia National Park through a successful translocation expedition from Chitwan National Park in Nepal’s Terai Arc Landscape (TAL) on 1-5 March 2016. The translocation is part of a larger effort to move 30 rhinos to Bardia National Park (25 rhinos) and Shuklaphanta Wildlife Reserve (5 rhinos) through 2018. The expedition is an important step towards building a second viable population in the western complex of TAL with the broader goal of bringing back rhino populations to its historic level of 800+. As an encouraging development post-translocation, a male calf was born to a translocated female rhino on 22 May 2016.</p>
-				                <br>
 			            	</div>
 		            	</div>
 		            </div>

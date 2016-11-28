@@ -7,7 +7,7 @@
 	        popup_navigation($popup_water_section[$popup_water_section_last], $popup_water_section[$popup_water_section_current+1]);
 	        ?>
 	        <div class="article-section">
-            <div class="section-intro content-txt box blue-box section-absolute section-right">
+            <div class="section-intro content-txt box blue-box section-absolute section-bottom section-right">
             	<h1 class="uppercase">Sustainable agriculture</h1>
 				<p>Together with improving water availability for irrigation purposes, a key focus of the Integrated Water Resource Management (IWRM) project  in the Indrawati and Dudhkoshi sub-basins, is on providing facilities and building capacity of local communities with regard to climate-smart and sustainable agriculture. Conservation ponds were constructed to collect rainwater and run-off water as a storage to be used primarily during the dry seasons for vegetable farming while irrigation canals were maintained to provide access to water for irrigation purposes. Through the construction of poly-houses, local people no longer had to forego harvests on account of unpredictable weather patterns that damaged crops. The project also organized farmers’ schools on integrated pest management with the objective of reducing the use of chemical fertilizers and pesticides, and promoting organic farming. These interventions have helped promote sustainable agriculture and enhanced the livelihoods of local communities in the sub-basins.</p>
 	            <div class="row">

@@ -7,7 +7,7 @@
 
 	        popup_navigation($popup_climate_section[$popup_climate_section_current-1], $popup_climate_section[$popup_climate_section_current+1]);
 	        ?>
-			<div class="section-intro content-txt section-absolute box pink-box">
+			<div class="section-intro content-txt section-absolute section-right section-bottom box pink-box">
 				<h1 class="uppercase">Building capacities in REDD+ </h1>
 				<p>With a view to building awareness and understanding of REDD+ amongst youth and academia, WWF Nepal provides capacity building opportunities in order to prepare future conservationists to take forward REDD+ issues. During this fiscal year, WWF Nepal brought together 40 political youth representatives to discuss on issues related to natural resource management and renewables, REDD+, and issues on the new constitution of Nepal. 60 undergraduate and graduate students were also provided orientations on REDD+ and conducting forest carbon inventory. WWF Nepal also continued its engagement with the academic sector and provided scholarships to 15 academic researchers affiliated to various universities and colleges on climate change, biodiversity conservation and REDD+. </p>
 			</div>

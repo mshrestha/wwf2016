@@ -7,7 +7,7 @@
 
 	        popup_navigation($popup_policy_section[$popup_policy_section_current-1], $popup_policy_section[$popup_policy_section_first]);
 	        ?>
-            <div class="section-intro content-txt section-absolute box dark-purple-box">
+            <div class="section-intro content-txt section-absolute section-right section-bottom box dark-purple-box">
                 <h1 class="uppercase">Sustainable Green Infrastructure</h1>
                 <p>Strengthened policy dialogue on a resilient Nepal helped further the agenda of promoting the conservation and sustainable development connection. WWF Nepal successfully advocated the realignment of the Mechi-Mahakali Railway which would have otherwise cut into prime wildlife habitat of Chitwan National Park. WWF Nepal additionally entered into a contractual agreement with the World Bank for identification of biodiversity hotspots during the expansion of Nepal’s east-west highway. This has brought in new partners such as the Department of Railways, Department of Roads, Nepal Electricity Authority, and the private sector for hydro power development focusing on sustainable green infrastructure.</p>
             </div>

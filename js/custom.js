@@ -74,7 +74,9 @@ $(document).ready(function() {
 			//if playing
 	        $('.mb_YTVPPlaypause').trigger('click');
 	    }
-    
+
+	    //disable keyboard navigation
+	    swiper.disableKeyboardControl();    
 	});
 
 	// popup close button
@@ -99,6 +101,9 @@ $(document).ready(function() {
 		// tl.to(closeBtn, 1, {ease: Power4.easeInOut, y: '-10px', opacity:0, display: 'none'}, '0.2');
 		// tl.to(popupNav, 1, {ease: Power4.easeInOut, y: '-10px', opacity:0, display: 'none'}, '0.2');
 		// tl.to($('.animate-visible'), 0, {ease: Power4.easeInOut, y: '0px', opacity:0, display: 'none'}, '3');
+
+		//enable keyboard navigation
+		swiper.enableKeyboardControl();
 	});
 
 	// click on dashboard images
@@ -180,6 +185,13 @@ $(document).keyup(function(e) {
   	//close the popup
   	$('.popup-close').trigger('click');
   }
+  //doesn't work as triggered every previous and next story link 
+  /*if (e.keyCode == 37) { // arrow left
+  	$('.previous-story').trigger('click');	  	
+  }
+  if (e.keyCode == 39) { // arrow right
+  	$('.next-story').trigger('click');	  	
+  }*/
 });
 
 
