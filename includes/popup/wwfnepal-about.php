@@ -40,7 +40,6 @@
 						<div class="animate-visible">
 							<p>By 2015 WWF Nepal shall conserve at least 3 priority landscapes within the Global 200 Ecoregions by reducing threats to species, habitat and ecological processes, and improving the livelihoods of local people</p>
 						</div>
-						<br><br>
 					</div>
 
 					<div class="section-intro" style="margin-top: 30px;">

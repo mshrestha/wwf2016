@@ -897,7 +897,8 @@ g.circle-arrow circle{
 .section-absolute {
 	position: absolute;
 	left: 30px;
-	top: 70px;
+	/*top: 70px;*/
+	bottom: 20px;
 	margin-bottom: 30px;
 }
 .section-right {

@@ -114,8 +114,7 @@
     
 
     <script src="js/scrollbar/jquery.scrollbar.js"></script>
-    <script src="js/scrollbar/custom-scrollbar.js">
-	</script>
+    <script src="js/scrollbar/custom-scrollbar.js"></script>
 
 	<script src="js/ytplayer/jquery.mb.YTPlayer.js"></script>
 	<script src="js/ytplayer/ytplayer-initialize.js"></script>
