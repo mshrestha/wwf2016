@@ -22,18 +22,18 @@
 		                		</div> <!-- /.col-sm-6 -->
 		                		<div class="col-sm-6">
 		                			<div class="box-container left-padding">
-		                				<a href="#slide-communications" class="hover-overlay brown">
-			                				<div class="col-sm-12 women box box-3 box-title box-communication" style="background-image: url('img/communications/international-mountain-day1-600.jpg');">
-			                						<div class="inner-title">Communication</div>
+		                				<a href="#slide-water" class="hover-overlay blue">
+					                		<div class="col-sm-12 box-title box box-3 box-water" style="background-image: url('img/water/ramsar-600.jpg');">
+					                			<div class="inner-title">Water</div>
 					                		</div>
-				                		</a>
+				                		</a>		                				
 				                	</div>
 		                		</div>
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
-		                				<a href="#slide-climate-change" class="hover-overlay pink">
-			                				<div class="col-sm-12 box box-4 box-title box-climate-change" style="background-image: url('img/climate-change/alternate-energy-600.jpg');">
-			                					<div class="inner-title">Climate Change</div>
+		                				<a href="#slide-forests" class="hover-overlay orange">
+			                				<div class="col-sm-12 box box-4 box-title box-forest" style="background-image: url('img/forests/forest-management-in-critical-corridors-600.jpg');">
+			                					<div class="inner-title">Forests</div>
 					                		</div>
 				                		</a>
 				                	</div>
@@ -52,8 +52,8 @@
 		                		<div class="col-sm-5">
 		                			<div class="box-container left-padding">
 				                		<a href="financial-popup" class="hover-overlay purple popup-trigger" id="financial">
-					                		<div class="col-sm-12 box-title box box-2 purple-box box-financials">
-						                		<div class="inner-title">FINANCIAL</div>
+					                		<div class="col-sm-12 box-title box box-2 purple-box curve-bg box-financials">
+						                		<div class="inner-title">FINANCIALS</div>
 						                	</div>
 				                		</a>
 		                			</div>
@@ -62,7 +62,7 @@
 		                			<div class="col-sm-5">
 		                				<div class="box-container">
 			                				<a href="#slide-policy" class="hover-overlay dark-purple" id="policy">
-				                				<div class="col-sm-12 box box-4 box-title curve-bg dark-purple-box box-policy">
+				                				<div class="col-sm-12 box box-4 box-title curve-bg dark-purple-box box-policy" style="background-image: url('img/policy/maiden-chal-strategy-600.jpg');">
 													<div class="inner-title">Policy</div>
 						                		</div>
 					                		</a>
@@ -70,11 +70,11 @@
 		                			</div>
 		                			<div class="col-sm-7">
 		                				<div class="box-container left-padding">
-			                				<a href="#slide-forests" class="hover-overlay orange">
-				                				<div class="col-sm-12 box box-5 box-title box-forest" style="background-image: url('img/forests/forest-management-in-critical-corridors-600.jpg');">
-				                					<div class="inner-title">Forest</div>
-						                		</div>
-					                		</a>
+			                				<a href="#slide-climate-change" class="hover-overlay pink">
+			                				<div class="col-sm-12 box box-5 box-title box-climate-change" style="background-image: url('img/climate-change/alternate-energy-600.jpg');">
+			                					<div class="inner-title">Climate &amp; Change</div>
+					                		</div>
+				                		</a>
 					                	</div>	
 		                			</div>
 		                		</div>
@@ -82,9 +82,9 @@
 		                	<div class="col-sm-2 box-g box-g-ui-3" data-swiper-parallax="-100">
 		                		<div class="col-sm-12">
 		                			<div class="box-container">
-				                		<a href="#slide-water" class="hover-overlay blue">
-					                		<div class="col-sm-12 box-title box box-1 box-water" style="background-image: url('img/water/ramsar-600.jpg');">
-					                			<div class="inner-title">Water</div>
+				                		<a href="#slide-communications" class="hover-overlay brown">
+			                				<div class="col-sm-12 women box box-1 box-title box-communication" style="background-image: url('img/communications/international-mountain-day1-600.jpg');">
+			                						<div class="inner-title">Communications &amp; Outreach</div>
 					                		</div>
 				                		</a>
 		                			</div>

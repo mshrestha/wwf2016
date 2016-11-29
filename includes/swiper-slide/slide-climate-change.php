@@ -8,7 +8,7 @@
 			                		<div class="col-sm-12">
 			                			<div class="box-container">
 					                		<a href="climate-change-participation-popup" class="hover-overlay pink popup-trigger" id="climate-change-main">
-						                		<div class="col-sm-12 box box-1 box-title curve-bg pink-box wwf-nepal-title">
+						                		<div class="col-sm-12 box box-1 box-title wwf-nepal-title" style="background-image: url('img/climate-change/participation-in-the-unfccc-process2-600.jpg');">
 						                			<div class="inner-title">Participation in the UNFCCC Process</div>
 						                		</div>
 					                		</a>

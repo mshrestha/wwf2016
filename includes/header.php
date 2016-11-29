@@ -134,7 +134,7 @@
     <div class="header">
     	<div class="container-fluid fluid-fixed">
     		<div class="col-sm-12">
-    			<a href="#" class="logo"><img src="img/logo-wwf.jpg" alt=""></a>
+    			<a href="#slide-dashboard" class="logo"><img src="img/logo-wwf.jpg" alt=""></a>
     		</div>
     	</div>
     </div>	

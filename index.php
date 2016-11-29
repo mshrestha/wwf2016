@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; url=home.php#slide-home" />
+<meta http-equiv="refresh" content="0; url=home.php#slide-dashboard" />

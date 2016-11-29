@@ -8,7 +8,7 @@
 			                		<div class="col-sm-12">
 			                			<div class="box-container">
 					                		<a href="water-sustainable-agriculture-popup" class="hover-overlay blue popup-trigger" id="water-main">
-						                		<div class="col-sm-12 box box-1 box-title curve-bg blue-box wwf-nepal-title">
+						                		<div class="col-sm-12 box box-1 box-title wwf-nepal-title" style="background-image: url('img/water/improved-irrigation-opportunities-600.jpg')">
 						                			<div class="inner-title">SUSTAINABLE AGRICULTURE</div>
 						                		</div>
 					                		</a>

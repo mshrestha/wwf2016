@@ -6,7 +6,7 @@
 	        <div class="parallax-bg" id="parallaxbg" style="background-image:url('img/bg-blur.jpg')" data-swiper-parallax="-23%" ></div>
 	       
 	        <div class="swiper-wrapper">	        	
-	        	<?php include('includes/swiper-slide/slide-home.php');?>
+	        	<?php //include('includes/swiper-slide/slide-home.php');//we dont need this?>
 	        	<?php include('includes/swiper-slide/slide-dashboard.php');?>
 
 	        	<?php /*

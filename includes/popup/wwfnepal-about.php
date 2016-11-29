@@ -31,15 +31,13 @@
 						<div class="animate-visible">
 							<p>WWF Nepal’s mission is to stop the degradation of Nepal’s natural environment, and to build a future in which people live in harmony with nature, by conserving biological diversity, ensuring sustainable use of renewable resources, reducing pollution and wasteful consumption, and addressing sustainable livelihoods.</p>
 						</div>
-						<br><br>
 
 
-
-
+						<!-- <br><br>
 						<div class="animate-visible"><h1 class="uppercase">Goal</h1></div>
 						<div class="animate-visible">
 							<p>By 2015 WWF Nepal shall conserve at least 3 priority landscapes within the Global 200 Ecoregions by reducing threats to species, habitat and ecological processes, and improving the livelihoods of local people</p>
-						</div>
+						</div> -->
 					</div>
 
 					<div class="section-intro" style="margin-top: 30px;">

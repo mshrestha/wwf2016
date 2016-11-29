@@ -8,7 +8,7 @@
 			                		<div class="col-sm-12">
 			                			<div class="box-container">
 					                		<a href="forests-habitat-management-popup" class="hover-overlay orange popup-trigger" id="forests-main">
-						                		<div class="col-sm-12 box box-1 box-title curve-bg orange-box wwf-nepal-title">
+						                		<div class="col-sm-12 box box-1 box-title wwf-nepal-title" style="background-image: url('img/forests/habitat-management-in-protected-areas-600.jpg');">
 						                			<div class="inner-title">Habitat management in Protected Areas</div>
 						                		</div>
 					                		</a>

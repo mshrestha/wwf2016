@@ -8,7 +8,7 @@
 			                		<div class="col-sm-12">
 			                			<div class="box-container">
 					                		<a href="wildlife-rhino-translocation-popup" class="hover-overlay light-green popup-trigger" id="wildlife-main">
-						                		<div class="col-sm-12 box box-1 box-title curve-bg light-green-box wwf-nepal-title">
+						                		<div class="col-sm-12 box box-1 box-title wwf-nepal-title" style="background-image: url('img/wildlife/rhino-translocation2-600.jpg');">
 						                			<div class="inner-title">A NEW HOME FOR RHINOS</div>
 						                		</div>
 					                		</a>

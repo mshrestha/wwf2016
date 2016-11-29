@@ -8,7 +8,7 @@
 			                		<div class="col-sm-12">
 			                			<div class="box-container">
 					                		<a href="communications-prince-harry-popup" class="hover-overlay brown popup-trigger" id="policy-main">
-						                		<div class="col-sm-12 box box-1 box-title curve-bg brown-box wwf-nepal-title">
+						                		<div class="col-sm-12 box box-1 box-title wwf-nepal-title" style="background-image: url('img/communications/prince-harry1.jpg');">
 					                			<div class="inner-title">A ROYAL VISIT</div>
 					                		</div>
 					                		</a>
