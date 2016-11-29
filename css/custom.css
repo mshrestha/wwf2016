@@ -910,6 +910,10 @@ g.circle-arrow circle{
 	bottom: 50px;
 	margin-bottom: 0;
 }
+.section-top {
+	top: 70px;
+	bottom: auto;
+}
 .section-static{
 	position: static;
     margin-top: 55px;
