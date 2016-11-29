@@ -14,7 +14,8 @@ span.swiper-pagination-bullet a {
   height: 100%;
   width: 100%;  
 }
-span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+span.swiper-pagination-bullet.swiper-pagination-bullet-active,
+span.swiper-pagination-bullet:hover {
   opacity: 1;
 }
 .swiper-pagination-white .swiper-pagination-bullet {
@@ -54,28 +55,50 @@ span.swiper-pagination-bullet img{
 	position: relative;
 	z-index: 2;
 }
-span.swiper-pagination-bullet.swiper-pagination-bullet-active span.icon-border{
+span.swiper-pagination-bullet.swiper-pagination-bullet-active span.icon-border,
+span.swiper-pagination-bullet:hover span.icon-border {
 	height: 50px;
 	background: rgba(254,199,121,1);
 }
-span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-wildlife span.icon-border{
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-message span.icon-border,
+span.swiper-pagination-bullet.menu-icon-message:hover span.icon-border,
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-wwf-nepal span.icon-border,
+span.swiper-pagination-bullet.menu-icon-wwf-nepal:hover span.icon-border{
+  background: #007931;
+}
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-wildlife span.icon-border,
+span.swiper-pagination-bullet.menu-icon-wildlife:hover span.icon-border{
   background: rgba(147,199,137,1);
 }
-span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-climate-change span.icon-border{
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-climate-change span.icon-border,
+span.swiper-pagination-bullet.menu-icon-climate-change:hover span.icon-border{
   background: rgba(249,193,210, 1);
 }
-span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-water span.icon-border{
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-water span.icon-border,
+span.swiper-pagination-bullet.menu-icon-water:hover span.icon-border{
   background: rgba(68,200,245, 1);
 }
-span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-policy span.icon-border{
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-policy span.icon-border,
+span.swiper-pagination-bullet.menu-icon-policy:hover span.icon-border{
   background-color: rgba(187,108,151,1);
 }
-span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-communication span.icon-border{
+span.swiper-pagination-bullet.swiper-pagination-bullet-active.menu-icon-communication span.icon-border,
+span.swiper-pagination-bullet.menu-icon-communication:hover span.icon-border{
   background: rgba(254,190,108, 1);
 }
-.swiper-pagination-bullet.menu-icon-communications.swiper-pagination-bullet-active span.icon-border{
+.swiper-pagination-bullet.menu-icon-communications.swiper-pagination-bullet-active span.icon-border,
+.swiper-pagination-bullet.menu-icon-communications:hover span.icon-border{
    background: rgba(168,171,110,1);
 }
+.swiper-pagination-bullet.menu-icon-financial.swiper-pagination-bullet-active span.icon-border,
+.swiper-pagination-bullet.menu-icon-financial:hover span.icon-border {
+  background: #9a0063;  
+}
+.swiper-pagination-bullet.menu-icon-acknowledgement.swiper-pagination-bullet-active span.icon-border,
+.swiper-pagination-bullet.menu-icon-acknowledgement:hover span.icon-border {
+  background: #f8a681;  
+}
+
 /* Disabled arrow */
 .swiper-button-white.swiper-button-disabled {
     display: none;
