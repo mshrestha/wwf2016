@@ -16,6 +16,7 @@
 			                			<div class="box-container">
 					                		<a href="communications-mountain-day-popup" class="hover-overlay brown popup-trigger" id="water-main">
 						                		<div class="col-sm-12 box box-2 box-title" style="background-image: url('img/communications/international-mountain-day1-600.jpg');">
+						                			<span id="playButton"></span>
 						                			<div class="inner-title">International Mountain Day</div>
 				                				</div>
 					                		</a>
@@ -27,6 +28,7 @@
 		                			<div class="box-container">
 				                		<a href="communications-earth-hour-popup" class="hover-overlay brown popup-trigger" id="water-main">
 					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/communications/earth-hour-600.jpg');">
+					                			<span id="playButton"></span>
 					                			<div class="inner-title center">EARTH HOUR</div>
 					                		</div>
 				                		</a>

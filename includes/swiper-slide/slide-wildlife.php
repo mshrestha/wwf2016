@@ -9,6 +9,7 @@
 			                			<div class="box-container">
 					                		<a href="wildlife-rhino-translocation-popup" class="hover-overlay light-green popup-trigger" id="wildlife-main">
 						                		<div class="col-sm-12 box box-1 box-title wwf-nepal-title" style="background-image: url('img/wildlife/rhino-translocation2-600.jpg');">
+						                			<span id="playButton"></span>
 						                			<div class="inner-title">A NEW HOME FOR RHINOS</div>
 						                		</div>
 					                		</a>
@@ -16,6 +17,7 @@
 			                			<div class="box-container">
 					                		<a href="wildlife-snow-leopard-collaring-popup" class="hover-overlay light-green popup-trigger" id="wildlife-main">
 						                		<div class="col-sm-12 box box-2 box-title" style="background-image: url('img/wildlife/snow-leopard-collaring-600.jpg');">
+						                			<span id="playButton"></span>
 						                			<div class="inner-title">TRACKING LAPCHHEMBA</div>
 				                				</div>
 					                		</a>
@@ -27,6 +29,7 @@
 		                			<div class="box-container">
 				                		<a href="wildlife-zero-poaching-popup" class="hover-overlay light-green popup-trigger" id="wildlife-main">
 					                		<div class="col-sm-12 box-title box box-1" style="background-image: url('img/wildlife/zero-poaching-600.jpg');">
+					                			<span id="playButton"></span>
 					                			<div class="inner-title center">THE ZERO POACHING STANDARD</div>
 					                		</div>
 				                		</a>
@@ -36,6 +39,7 @@
 		                			<div class="box-container">
 				                		<a href="wildlife-swamp-deer-translocation-popup" class="hover-overlay light-green popup-trigger" id="wildlife-main">
 					                		<div class="col-sm-12 box-title box box-2" style="background-image: url('img/wildlife/swamp-deer-translocation-600.jpg');">
+					                			<span id="playButton"></span>
 						                		<div class="inner-title">Swamp deer translocation</div>
 						                	</div>
 				                		</a>

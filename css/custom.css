@@ -118,8 +118,8 @@ a:hover {
 }
 .inner-title.center, .inner-title.v-middle{
 	width: 100%;
-	text-align: center;
-	vertical-align: middle;
+	/*text-align: center;
+	vertical-align: middle;*/
 }
 .inner-title.v-middle{
 	text-align: left;
@@ -1051,6 +1051,20 @@ g.circle-arrow circle{
   top: 40%;
   margin-top: -35px !important;
   margin-left: -35px !important;
+}
+span#playButton {
+  	background: rgba(245, 245, 242, 0.88) url(../img/icons/play-icon-black.png) no-repeat 19px center;
+    position: absolute;
+    display: block;
+    top: 50%;
+    width: 52px;
+    height: 52px;
+    margin-top: -26px !important;
+    opacity: 0;
+    transition: 0.3s all ease-in-out;
+}
+.box:hover span#playButton {
+	opacity: 1;
 }
 .mb_YTVPPlaypause {
   margin: 0 auto;
