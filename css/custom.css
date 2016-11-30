@@ -423,13 +423,14 @@ a:hover {
     cursor: pointer;
     height: 27px;
     line-height: 27px;
-    padding: 0 15px;
+    /*padding: 0 5px;*/
     display: block;
     -webkit-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     text-decoration: none;
 }
+
 .no-touch .popup-navigation li a:hover, .no-touch .popup-navigation li span:hover, 
 .touch .popup-navigation li a:focus, .touch .popup-navigation li span:focus
 {

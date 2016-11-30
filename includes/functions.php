@@ -28,7 +28,7 @@ $popup_communications_section = ['communications-prince-harry', 'communications-
 function popup_navigation($previous_story_id = '', $next_story_id = '') {
 	// echo '<div class="loading"></div>';
   echo '<ul class="popup-navigation">';
-    echo '<li class="popup-close"><span class="icon-cross" title="Click or Press ESC Key"></span></li>';
+    echo '<li class="popup-close"><span class="icon-cross" title="Close Story"></span></li>';
     if($previous_story_id != '' && $next_story_id != '') {   
 
       $all_last_story_id = ['wildlife-reducing-human-wildlife-conflict', 'forests-grazing-control', 'climate-change-permanent', 'water-piloting-payments', 'policy-sustainable', 'communications-tgg'];
@@ -51,8 +51,8 @@ function popup_navigation($previous_story_id = '', $next_story_id = '') {
         $hideNextStory = '';
       }
 
-      echo '<li class="'.$hidePrevStory.'"><a href="'.$previous_story_id.'-popup" class="popup-trigger previous-story" id="'.$previous_story_id.'">Previous Story</a></li>';
-      echo '<li class="'.$hideNextStory.'"><a href="'.$next_story_id.'-popup" class="popup-trigger next-story" id="'.$next_story_id.'">Next Story</a></li>';
+      echo '<li class="'.$hidePrevStory.'"><a href="'.$previous_story_id.'-popup" class="popup-trigger previous-story" id="'.$previous_story_id.'"><span class="icon-arrow-left" title="Previous Story"></span></a></li>';
+      echo '<li class="'.$hideNextStory.'"><a href="'.$next_story_id.'-popup" class="popup-trigger next-story" id="'.$next_story_id.'"><span class="icon-arrow-right" title="Next Story"></span></a></li>';
     }//end if
   echo '</ul>';
 }
@@ -81,11 +81,11 @@ function copyright($copyright) {
 
 function video_col_class() {
   // return 'col-xs-8 col-xs-offset-2';
-  return '';
+  return 'col-sm-8 col-sm-offset-2';
 }
 function video_row_class() {
-  //return 'row';
-  return '';
+  return 'row';
+  // return '';
 }
 
 function video_popup($video_id, $video_link, $bg_color='') {
