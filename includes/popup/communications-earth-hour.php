@@ -10,19 +10,11 @@
             <div class="section-intro content-txt section-absolute section-bottom box brown-box">
                 <h1 class="uppercase">Earth Hour</h1>
                 <p>Earth Hour was marked in Nepal by shining 4,000 lights on climate action. Through an event organized in Basantapur, one of the UNESCO World Heritage Sites, WWF Nepal organized a candle light vigil and used the medium of spoken word through three young Nepali slam poets to talk about climate change and encourage climate action. Nepal joined more than 170 countries across the world in a unified act to shine a light on climate action through this year’s Earth Hour celebrations. Supporters in Nepal also shared their commitment to the planet by donating their Facebook feeds and social media profile pictures to Earth Hour to inspire their friends and communities to join the movement.</p>
+          		<p><a href="communications-earth-hour-video-popup" class="video-link popup-trigger" id=""><span class="glyphicon glyphicon-play"></span>WATCH: Earth Hour Nepal 2016</a></p>
             </div>
     	</div>
-    	<div class="article-section video-section-full brown">
-		    <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 70px; max-width: 100%;">
-		        <div class="row">
-		        	<div class="col-xs-8 col-xs-offset-2">
-			            <div class="video-sec">
-			                <div class="embed-responsive embed-responsive-16by9">
-							    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8yKkFPqwHCU"></iframe>
-							</div>
-						</div>
-		        	</div>
-		        </div>
-		    </div> <!-- /.section-intro -->
-		</div>
 	</div>
+
+	<?php
+	video_popup('communications-earth-hour', '8yKkFPqwHCU', 'brown');
+	?>

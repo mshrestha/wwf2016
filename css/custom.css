@@ -20,6 +20,9 @@
 .border{
 	border: #f00 2px solid;
 }
+.nopadding {
+	padding: 0 !important;
+}
 @font-face {
   font-family: 'wwfregular';
   src: url('../fonts/WWF.eot');
@@ -905,6 +908,10 @@ g.circle-arrow circle{
 	left: auto;
 	right: 30px;
 }
+.section-left {
+	left: 30px;
+	right: auto;
+}
 .section-bottom {
 	top: auto;
 	bottom: 50px;
@@ -1103,4 +1110,7 @@ g.circle-arrow circle{
 }
 .section-large-txt {
 	margin-left: 70px;
+}
+.video-link {
+    text-decoration: underline;
 }

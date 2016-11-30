@@ -57,6 +57,13 @@ function popup_navigation($previous_story_id = '', $next_story_id = '') {
   echo '</ul>';
 }
 
+function popup_navigation_close_video($id = '') {
+  // echo '<div class="loading"></div>';
+  echo '<ul class="popup-navigation">';
+    echo '<li class=""><a href="'.$id.'" class="popup-trigger nopadding"><span class="icon-cross" title="Click or Press ESC Key"></span></a></li>';
+  echo '</ul>';
+}
+
 // for small size image in mobile devices
 function isMobile() {
     return preg_match("/(android|webos|avantgo|iphone|ipad|ipod|blackbe‌​rry|iemobile|bolt|bo‌​ost|cricket|docomo|f‌​one|hiptop|mini|oper‌​a mini|kitkat|mobi|palm|phone|pie|tablet|up\.browser|up\.link|‌​webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
@@ -70,4 +77,32 @@ function get_small_image() {
 
 function copyright($copyright) {
   echo '<div class="copyright-text">&copy; '.$copyright.'</div>';
+}
+
+function video_col_class() {
+  // return 'col-xs-8 col-xs-offset-2';
+  return '';
+}
+function video_row_class() {
+  //return 'row';
+  return '';
+}
+
+function video_popup($video_id, $video_link, $bg_color='') {
+  echo '<div id="' . $video_id . '-video-popup" class="popup-wrap" style="height: 100%; width: 100%;top: 0; left: 0; z-index: 999;">';
+        popup_navigation_close_video($video_id . '-popup');//close icon with
+    echo '<div class="article-section video-section-full '.$bg_color.'">
+              <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 70px; max-width: 100%;">
+                <div class="'.video_row_class().'">
+                  <div class="'.video_col_class().'">
+                    <div class="video-sec">
+                        <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/'.$video_link.'"></iframe>
+                </div>
+              </div>
+                  </div>
+                </div>
+              </div> <!-- /.section-intro -->
+        </div>
+      </div>';
 }
