@@ -61,6 +61,7 @@ function popup_navigation($previous_story_id = '', $next_story_id = '') {
 
 function popup_navigation_close_video($id = '') {
   // echo '<div class="loading"></div>';
+  echo '<div class="menu-text"><span class="popup-close">MENU</span></div>';
   echo '<ul class="popup-navigation">';
     echo '<li class=""><a href="'.$id.'" class="popup-trigger nopadding"><span class="icon-cross" title="Click or Press ESC Key"></span></a></li>';
   echo '</ul>';
