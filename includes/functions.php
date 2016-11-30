@@ -27,6 +27,7 @@ $popup_communications_section = ['communications-prince-harry', 'communications-
 
 function popup_navigation($previous_story_id = '', $next_story_id = '') {
 	// echo '<div class="loading"></div>';
+  echo '<div class="transparent-bg"></div>';
   echo '<ul class="popup-navigation">';
     echo '<li class="popup-close"><span class="icon-cross" title="Close Story"></span></li>';
     if($previous_story_id != '' && $next_story_id != '') {   

@@ -2,12 +2,12 @@
     	<div id="message-popup" class="popup-wrap" style="background-image: url('img/message/cr-message1<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; position: fixed;top: 0; left: 0; z-index: 999;">
             <img src="img/message/cr-message1<?php echo get_small_image();?>.jpg" alt="" class="hidden">
             <?php copyright('WWF Nepal');?>    
+            <?php
+            popup_navigation();
+            ?>
             <div class="scrollbar-outer-div">
             <div class="scrollbar-inner-div">
             <div id="" class="article-section scrollbar-div" style="background-image: url('img/message/cr-message1<?php echo get_small_image();?>.jpg'); min-height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">
-                <?php
-                popup_navigation();
-                ?>
                 <div class="section-intro content-txt section-absolute section-top box green-box section-large-txt"><!-- scrollbar-outer-div -->
                     <div class=""><!-- scrollbar-inner-div -->
                         <div class=""><!-- scrollbar-div -->

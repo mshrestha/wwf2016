@@ -1129,3 +1129,13 @@ span#playButton {
 .video-link {
     text-decoration: underline;
 }
+.transparent-bg {
+	background: rgba(0,0,0,0.25);
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
