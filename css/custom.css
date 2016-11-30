@@ -430,6 +430,13 @@ a:hover {
     transition: all 0.3s ease;
     text-decoration: none;
 }
+.popup-wrap .menu-text {
+	z-index: 9999;
+}
+.popup-wrap .menu-text .popup-close {
+	font-size: 18px;
+	cursor: pointer;
+}
 
 .no-touch .popup-navigation li a:hover, .no-touch .popup-navigation li span:hover, 
 .touch .popup-navigation li a:focus, .touch .popup-navigation li span:focus
