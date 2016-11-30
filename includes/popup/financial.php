@@ -65,21 +65,21 @@
                                     <td>13,092,348</td>
                                 </tr>
                                 <tr>
-                                    <th>Total Expenditure [1+2+3+4]</th>
+                                    <th>Total Expenditure [1+2+3+4]<br>Figures in NRs</th>
                                     <th>481,757,028</th> 
                                     <th>719,416,551</th> 
                                     <th>919,088,881</th> 
                                     <th>1,132,196,812</th> 
                                     <th>1,198,292,159</th>
                                 </tr>
-                                <tr>
+                                <!--<tr class="hidden">
                                     <td>WWF’s fiscal year ends on 30th June Figures in NRs</td>
                                     <td>481,757,028</td> 
                                     <td>719,416,551</td> 
                                     <td>919,088,881</td> 
                                     <td>1,132,196,812</td> 
                                     <td>1,198,292,159</td>
-                                </tr>
+                                </tr>-->
 
                               </table>
                             </div> 

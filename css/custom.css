@@ -660,7 +660,7 @@ body.popupAcitve .swiper-slide-active{
 }
 .tiger-wrap{
 	z-index: 2;
-	width: 30%;
+	width: 40%;/* 30% */
 	position: absolute;
 	bottom: 0;
 	left: 0;

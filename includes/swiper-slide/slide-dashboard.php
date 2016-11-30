@@ -72,7 +72,7 @@
 		                				<div class="box-container left-padding">
 			                				<a href="#slide-climate-change" class="hover-overlay pink">
 			                				<div class="col-sm-12 box box-5 box-title box-climate-change" style="background-image: url('img/climate-change/alternate-energy-600.jpg');">
-			                					<div class="inner-title">Climate &amp; Change</div>
+			                					<div class="inner-title">Climate &amp; Energy</div>
 					                		</div>
 				                		</a>
 					                	</div>	

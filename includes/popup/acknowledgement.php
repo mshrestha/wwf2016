@@ -1,6 +1,6 @@
 		<img src="img/wwfnepal/about-wwf-nepal<?php echo get_small_image();?>.jpg" class="hidden">
     	<div id="acknowledgement-popup" class="popup-wrap" style="background-image: url('img/acknowledgement/acknowledgement<?php echo get_small_image();?>.jpg'); height: 100%; width: 100%; top: 0; left: 0; z-index: 999;">            
-            <?php copyright('Robert Van Waarden/WWF');?>
+            <?php copyright('WWF Nepal');?>
     		<div class="scrollbar-outer-div">
             <div class="scrollbar-inner-div">
                 <div class="scrollbar-div article-section">	        	
