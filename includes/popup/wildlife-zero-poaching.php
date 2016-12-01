@@ -79,7 +79,7 @@
         <div class="section-intro content-txt section-absolute section-bottom section-right box light-green-box">
           <h1 class="uppercase">THE ZERO POACHING STANDARD</h1>
           <p>On 2 May 2016, Nepal marked two years since its last rhino was poached. This is the first time that Nepal achieved two consecutive years of zero poaching of rhinos whose population presently stands at 645, the highest recorded number in the country so far. Nepal’s zero poaching success is rooted in a coordinated response, which is driven from the centre and implemented at grassroots level, including heightened protection efforts within Protected Areas and buffer zones and community forests. Nepal has also been a driving force behind the Zero Poaching Toolkit, which highlights the six pillars that countries need to focus on to tackle poaching.</p>
-          <p><a href="wildlife-zero-poaching-video-popup" class="video-link popup-trigger" id=""><span class="glyphicon glyphicon-play"></span>WATCH: Zero poaching and the World Ranger Congress</a></p>
+          <p><a href="wildlife-zero-poaching-video-popup" class="video-link popup-trigger" id=""><span class="glyphicon glyphicon-play"></span>WATCH VIDEO</a></p>
         </div> <!-- /.section-intro -->
         </div>
     	</div>

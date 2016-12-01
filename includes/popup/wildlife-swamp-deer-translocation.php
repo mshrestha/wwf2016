@@ -11,7 +11,7 @@
 	            <div class="section-intro content-txt section-absolute section-bottom section-right box light-green-box">
 	                <h1 class="uppercase">Swamp deer translocation</h1>
 	                <p>Five swamp deer were successfully translocated to Bardia National Park from Shuklaphanta Wildlife Reserve in Nepal’s Terai Arc Landscape on 27 May–2 June 2016. Shuklaphanta Wildlife Reserve is the stronghold of Nepal’s swamp deer population presently 2,300 in number. The translocation expedition was carried out to enhance genetic robustness of the remnant swamp deer population of Bardia National Park, and establish a viable population of the species. An additional 30 swamp deer will be translocated between the two national parks till 2018.</p>
-	          		<p><a href="wildlife-swamp-deer-translocation-video-popup" class="video-link popup-trigger" id=""><span class="glyphicon glyphicon-play"></span>WATCH: Swamp Deer Switching Grounds</a></p>
+	          		<p><a href="wildlife-swamp-deer-translocation-video-popup" class="video-link popup-trigger" id=""><span class="glyphicon glyphicon-play"></span>WATCH VIDEO</a></p>
 	            </div> <!-- /.section-intro -->
 	    	</div>
 		</div>

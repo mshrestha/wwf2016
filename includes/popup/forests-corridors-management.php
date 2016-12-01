@@ -28,7 +28,7 @@
 						    <div class="widget-icon"><img src="img/infographics/habitat_management-01.svg" alt=""></div>
 						    <div class="widget-title">
 						      <div><span id="grasslandNumber" class="numbAni">505</span><span>ha</span></div>
-						      <span class="widget-title-text">ha of grassland managed in buffer zones, critical corridors and bottlenecks</span>
+						      <span class="widget-title-text">of grassland managed in buffer zones, critical corridors and bottlenecks</span>
 						    </div>
 						    <!-- <p>on wildlife crimes and enforcement</p> -->
 						  </div>

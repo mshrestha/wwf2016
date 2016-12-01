@@ -12,7 +12,7 @@
 		            <div class="section-intro content-txt section-absolute section-bottom box light-green-box">
 	                    <h1 class="uppercase">TRACKING LAPCHHEMBA</h1>
 	                    <p>A female snow leopard was successfully collared with GPS technology for the first time in Nepal’s Kangchenjunga Conservation Area on 27 April 2016. Named Lapchhemba after a Tibetan Buddhist deity with a snow leopard as her pet, she joins two male snow leopards who were collared in the protected area in November 2013 and May 2015. Data received from Lapchhemba will enable conservationists to study her behavior and ecology vis-à-vis her male counterparts. As an encouraging finding, post-release, Lapchhemba was found to cross the border into China which emphasizes the importance of strengthening transboundary habitat linkages with India and China.</p>
-	                	<p><a href="wildlife-snow-leopard-collaring-video-popup" class="video-link popup-trigger" id=""><span class="glyphicon glyphicon-play"></span>WATCH: Lapchhemba-Nepal's first GPS-collared female snow leopard</a></p>
+	                	<p><a href="wildlife-snow-leopard-collaring-video-popup" class="video-link popup-trigger" id=""><span class="glyphicon glyphicon-play"></span>WATCH VIDEO</a></p>
 		            </div> <!-- /.section-intro -->
 	    	</div>
 		</div>
