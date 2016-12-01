@@ -106,6 +106,23 @@ $(document).ready(function() {
 		swiper.enableKeyboardControl();
 	});
 
+
+	function stop_video(video) {
+		$(video + ' .popup-trigger').click(function() {
+			//stop all playing video
+			$(video + ' iframe').attr(
+				'src', $(video + ' iframe').attr('src')
+				);
+		});
+	}
+	stop_video('#communications-earth-hour-video-popup');
+	stop_video('#communications-mountain-day-video-popup');
+	stop_video('#water-sustainable-agriculture-video-popup');
+	stop_video('#wildlife-rhino-translocation-video-popup');
+	stop_video('#wildlife-snow-leopard-collaring-video-popup');
+	stop_video('#wildlife-swamp-deer-translocation-video-popup');
+	stop_video('#wildlife-zero-poaching-video-popup');
+
 	// click on dashboard images
 	// slide_menu_click_trigger('message');
 	// slide_menu_click_trigger('wildlife');

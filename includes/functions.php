@@ -92,7 +92,7 @@ function video_row_class() {
 }
 
 function video_popup($video_id, $video_link, $bg_color='') {
-  echo '<div id="' . $video_id . '-video-popup" class="popup-wrap" style="height: 100%; width: 100%;top: 0; left: 0; z-index: 999;">';
+  echo '<div id="' . $video_id . '-video-popup" class="popup-wrap video-popup" style="height: 100%; width: 100%;top: 0; left: 0; z-index: 999;">';
         popup_navigation_close_video($video_id . '-popup');//close icon with
     echo '<div class="article-section video-section-full '.$bg_color.'">
               <div class="section-intro content-txt video-content rm-bg" style="overflow: hidden; margin-top: 70px; max-width: 100%;">
