@@ -537,7 +537,7 @@ body.popupAcitve .swiper-slide-active{
 	}
 	
 }
-@media(max-width : 480px) {
+@media(max-width: 480px){
 	div#contact-info-wrap{
 		right: auto;
 		left: 0;
