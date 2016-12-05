@@ -481,6 +481,8 @@ body.popupAcitve .swiper-slide-active{
     top: -28px;
 }
 /*responsive*/
+/* Extra Small Devices, Phones */ 
+
 @media(max-width:767px){
 	.swiper-slide{
 		height: calc(100% - 90px);
@@ -534,6 +536,12 @@ body.popupAcitve .swiper-slide-active{
 	    right: 0px;
 	}
 	
+}
+@media(max-width : 480px) {
+	div#contact-info-wrap{
+		right: auto;
+		left: 0;
+	}
 }
 .no-touch .welcome-video{
 	display: block;
